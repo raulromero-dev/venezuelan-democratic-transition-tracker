@@ -3,7 +3,6 @@ import type { Metadata } from "next"
 import { Space_Grotesk } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
-import { AuthCheck } from "@/components/auth-check"
 import "./globals.css"
 
 const spaceGrotesk = Space_Grotesk({
@@ -13,32 +12,17 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Mofeta: CS Ops",
-  description: "Mofeta: CS Ops.",
-  generator: "v0.app",
-  icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
-  },
+  title: "Venezuelan Transition Tracker",
+  description: "Open intelligence platform measuring democratic and economic progress in Venezuela.",
   openGraph: {
-    title: "Mofeta: CS Ops.",
-    description: "Mofeta: CS Ops.",
-    images: [
-      {
-        url: "/logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Mofeta Logo",
-      },
-    ],
+    title: "Venezuelan Transition Tracker",
+    description: "Open intelligence platform measuring democratic and economic progress in Venezuela.",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Mofeta: CS Ops.",
-    description: "Mofeta: CS Ops.",
-    images: ["/logo.png"],
+    title: "Venezuelan Transition Tracker",
+    description: "Open intelligence platform measuring democratic and economic progress in Venezuela.",
   },
 }
 
@@ -55,9 +39,7 @@ export default function RootLayout({
       </head>
       <body className={`${spaceGrotesk.variable} antialiased font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
-          <AuthCheck>
-            <div className="flex flex-col min-h-screen w-full bg-background text-foreground">{children}</div>
-          </AuthCheck>
+          <div className="flex flex-col min-h-screen w-full bg-background text-foreground">{children}</div>
         </ThemeProvider>
         <Analytics />
       </body>

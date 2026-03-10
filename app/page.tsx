@@ -41,15 +41,6 @@ export default function LandingPage() {
       <main className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 py-24">
         {/* Hero */}
         <div className="text-center mb-16 max-w-3xl">
-          {/* Logo */}
-          <div className="flex justify-center mb-8">
-            <img
-              src="/miranda-center-logo.png"
-              alt="Miranda Center"
-              className="h-16 w-auto opacity-90"
-            />
-          </div>
-
           <p className="text-[10px] font-mono text-zinc-500 tracking-[0.4em] uppercase mb-4">
             DEMOCRATIC &amp; ECONOMIC DEVELOPMENT
           </p>
@@ -124,11 +115,7 @@ export default function LandingPage() {
         <div className="mt-16 text-center">
           <div className="flex items-center justify-center gap-3 mb-3">
             <div className="w-12 h-px bg-gradient-to-r from-transparent to-white/10" />
-            <img
-              src="/images/image.png"
-              alt="Mofeta"
-              className="h-5 w-auto opacity-40"
-            />
+            <div className="w-1.5 h-1.5 bg-white/30" />
             <div className="w-12 h-px bg-gradient-to-l from-transparent to-white/10" />
           </div>
           <p className="text-[9px] font-mono text-zinc-700 tracking-[0.2em] uppercase">
