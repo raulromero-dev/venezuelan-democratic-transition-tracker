@@ -387,25 +387,6 @@ We use a **tiered LLM approach** optimized for cost and capability:
 | Text embeddings | OpenAI text-embedding-3-small | Industry-standard embeddings for topic clustering and similarity |
 | Cross-referencing & report generation | Claude Sonnet | Complex reasoning for comparing claims against evidence |
 
-### Data Collection Strategy
-
-All data collection follows a principle of **redundancy and cross-validation**:
-
-- No single data source is trusted in isolation
-- Automated fact-checking pipelines verify claims before they enter any index
-- Satellite data provides ground truth that is resistant to manipulation
-- Multiple independent methodologies are fused where possible (e.g., four methods for oil industry monitoring)
-
-### Resilience to Censorship
-
-The platform is designed to be **resilient to the censorship it monitors**:
-
-- Satellite data cannot be blocked by the Venezuelan government
-- AIS maritime data is collected internationally
-- Media monitoring captures content before it can be deleted
-- The platform itself is hosted on international infrastructure
-- All code and methodologies are open source, preventing suppression
-
 ---
 
 ## Dissemination & Open Source Strategy
