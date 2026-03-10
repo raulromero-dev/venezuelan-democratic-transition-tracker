@@ -1,5 +1,4 @@
 @import "tailwindcss";
-/* Removed tw-animate-css import that was causing @utility delay-* error */
 
 @custom-variant dark (&:is(.dark *));
 
@@ -75,7 +74,8 @@
 }
 
 @theme inline {
-  --font-sans: "Space Grotesk", system-ui, sans-serif;
+  --font-sans: "Google Sans", system-ui, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
   --font-mono: "Space Grotesk", system-ui, sans-serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -124,32 +124,68 @@
   }
 }
 
-/* Glassmorphism effects for Palantir aesthetic */
-.glass {
+/* Glassmorphism — dark mode */
+.dark .glass {
   background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.glass-strong {
+.dark .glass-strong {
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-/* Added liquid glass card style per brand guidelines */
-.glass-card {
+.dark .glass-card {
   @apply relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-sm overflow-hidden;
 }
 
-.glass-card::before {
+.dark .glass-card::before {
   content: "";
   @apply absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent;
 }
 
-/* Added scan animation per brand guidelines */
+/* Glassmorphism — light mode */
+.glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.glass-card {
+  @apply relative bg-black/[0.02] backdrop-blur-xl border border-black/[0.06] rounded-sm overflow-hidden;
+}
+
+.glass-card::before {
+  content: "";
+  @apply absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-black/10 to-transparent;
+}
+
+/* Tricolor accent gradient — Venezuelan flag colors */
+.tricolor-line {
+  background: linear-gradient(90deg, #FFCC00, #00247D, #CF142B);
+}
+
+.tricolor-glow {
+  background: linear-gradient(90deg, rgba(255, 204, 0, 0.08), rgba(0, 36, 125, 0.08), rgba(207, 20, 43, 0.08));
+}
+
+.dark .tricolor-glow {
+  background: linear-gradient(90deg, rgba(255, 204, 0, 0.06), rgba(0, 36, 125, 0.06), rgba(207, 20, 43, 0.06));
+}
+
+/* Scan animation */
 @keyframes scan {
   0% {
     top: 0;
@@ -168,11 +204,13 @@
   animation: scan 3s ease-in-out infinite;
 }
 
-/* Add styling for font-mono elements to differentiate them */
+/* Space Grotesk for mono/display contexts */
 .font-mono {
+  font-family: var(--font-display);
   font-weight: 300;
   letter-spacing: 0.05em;
 }
 
-/* Updated muted-foreground to use Zinc 500 per brand guidelines */
-/* Monochrome palette: Black #000000, White #FFFFFF, Zinc 900 #18181B, Zinc 500 #71717A */
+.font-display {
+  font-family: var(--font-display);
+}
