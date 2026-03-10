@@ -10,8 +10,16 @@ export function AuthCheck({ children }: { children: React.ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
 
+  const publicRoutes = ["/", "/login"]
+
   useEffect(() => {
     const checkAuth = async () => {
+      if (publicRoutes.includes(pathname)) {
+        setIsAuthenticated(true)
+        setIsLoading(false)
+        return
+      }
+
       try {
         const response = await fetch("/api/auth/verify")
         const data = await response.json()
@@ -19,14 +27,14 @@ export function AuthCheck({ children }: { children: React.ReactNode }) {
         setIsAuthenticated(data.authenticated)
         setIsLoading(false)
 
-        if (!data.authenticated && pathname !== "/login") {
+        if (!data.authenticated && !publicRoutes.includes(pathname)) {
           router.push("/login")
         }
       } catch (error) {
         console.error("[v0] Auth check failed:", error)
         setIsAuthenticated(false)
         setIsLoading(false)
-        if (pathname !== "/login") {
+        if (!publicRoutes.includes(pathname)) {
           router.push("/login")
         }
       }
@@ -43,7 +51,7 @@ export function AuthCheck({ children }: { children: React.ReactNode }) {
     )
   }
 
-  if (!isAuthenticated && pathname !== "/login") {
+  if (!isAuthenticated && !publicRoutes.includes(pathname)) {
     return null
   }
 
