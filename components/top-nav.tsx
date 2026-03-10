@@ -19,7 +19,7 @@ export function TopNav() {
       bg-white/70 border-black/[0.06]"
     >
       {/* Tricolor line at very top */}
-      <div className="absolute inset-x-0 top-0 h-[2px] tricolor-line opacity-60" />
+      <div className="absolute inset-x-0 top-0 h-[3px] tricolor-line opacity-60" />
 
       <div className="w-full px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">

@@ -4,18 +4,18 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 const sections = [
   {
-    label: "EXISTING WORK",
-    href: "/existing-work",
-    description: "Congressional stance mapping, global intelligence monitoring, and real-time OSINT feeds built during Operation Southern Spear.",
-    tags: ["US OFFICIALS", "GLOBAL INTEL", "OSINT FEEDS"],
-    status: "LIVE",
-  },
-  {
     label: "DEMO",
     href: "/demo",
     description: "Preview of the three-pillar measurement system: press freedom index, protest monitoring, and economic activity tracking.",
     tags: ["PRESS FREEDOM", "PROTESTS", "ECONOMIC INDEX"],
     status: "COMING SOON",
+  },
+  {
+    label: "EXISTING WORK",
+    href: "/existing-work",
+    description: "Congressional stance mapping, global intelligence monitoring, and real-time OSINT feeds built during Operation Southern Spear.",
+    tags: ["US OFFICIALS", "GLOBAL INTEL", "OSINT FEEDS"],
+    status: "LIVE",
   },
 ]
 
@@ -23,7 +23,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Tricolor accent line at very top */}
-      <div className="fixed top-0 left-0 right-0 h-[2px] tricolor-line z-50 opacity-60" />
+      <div className="fixed top-0 left-0 right-0 h-[3px] tricolor-line z-50 opacity-60" />
 
       {/* Theme toggle */}
       <div className="fixed top-4 right-6 z-50">
@@ -49,14 +49,14 @@ export default function LandingPage() {
           <p className="text-[10px] font-display text-muted-foreground tracking-[0.4em] uppercase mb-4">
             DEMOCRATIC &amp; ECONOMIC DEVELOPMENT
           </p>
-          <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-4 font-display">
+          <h1 className="text-4xl md:text-6xl font-light tracking-tighter mb-4 font-display">
             Venezuelan Transition
             <br />
             <span className="text-muted-foreground">Tracker</span>
           </h1>
 
           {/* Tricolor divider */}
-          <div className="w-32 h-px tricolor-line mx-auto mb-6 opacity-40" />
+          <div className="w-32 h-[2px] tricolor-line mx-auto mb-6 opacity-40" />
 
           <p className="text-sm text-muted-foreground font-light max-w-lg mx-auto leading-relaxed">
             Open intelligence platform measuring democratic and economic progress across freedom of the press, liberty to organize, and economic activity.

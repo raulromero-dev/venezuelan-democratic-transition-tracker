@@ -34,7 +34,7 @@ export default function ExistingWorkPage() {
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       {/* Tricolor accent line */}
-      <div className="fixed top-0 left-0 right-0 h-[2px] tricolor-line z-[60] opacity-60" />
+      <div className="fixed top-0 left-0 right-0 h-[3px] tricolor-line z-[60] opacity-60" />
 
       <TopNav />
 
@@ -85,8 +85,8 @@ export default function ExistingWorkPage() {
           ))}
         </div>
 
-        {/* Content */}
-        <div className="min-h-[800px]">
+        {/* Content — feed components are dark-mode only, so we force dark context */}
+        <div className="min-h-[800px] dark bg-black text-white p-4 border dark:border-white/[0.06] border-black/[0.06]">
           {activeTab === "us-officials" && (
             <div className="space-y-4">
               {/* Sub-tabs */}
@@ -97,8 +97,8 @@ export default function ExistingWorkPage() {
                     onClick={() => setUsSubTab(sub.id)}
                     className={`text-[10px] font-display tracking-[0.15em] uppercase px-3 py-1.5 border transition-all cursor-pointer ${
                       usSubTab === sub.id
-                        ? "text-foreground dark:bg-white/10 bg-black/[0.04] dark:border-white/20 border-black/10"
-                        : "text-muted-foreground dark:border-white/[0.06] border-black/[0.06] hover:text-foreground/70"
+                        ? "text-white bg-white/10 border-white/20"
+                        : "text-zinc-500 border-white/[0.06] hover:text-white/70"
                     }`}
                   >
                     {sub.label}

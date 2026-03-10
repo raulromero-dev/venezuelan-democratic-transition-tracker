@@ -24,7 +24,7 @@ export default function DemoPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Tricolor accent line */}
-      <div className="fixed top-0 left-0 right-0 h-[2px] tricolor-line z-50 opacity-60" />
+      <div className="fixed top-0 left-0 right-0 h-[3px] tricolor-line z-50 opacity-60" />
 
       {/* Theme toggle */}
       <div className="fixed top-4 right-6 z-50">
