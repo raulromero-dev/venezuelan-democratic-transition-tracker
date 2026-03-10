@@ -101,6 +101,36 @@ This application is a specialized intelligence dashboard designed to monitor, tr
 - `lib/db/media-articles.ts` — Database operations
 - `lib/rss/google-news.ts` — Google News RSS parser
 
+### 5. Pillar 1: Freedom of the Press — YouTube Audio & Transcription Pipeline
+
+**Objective:** Crawl Venezuelan TV channels on YouTube, extract audio, and transcribe broadcasts to text. This is the data ingestion layer for the Freedom of the Press Index, which will later perform semantic analysis to measure press freedom.
+
+**Key capabilities:**
+- YouTube playlist/channel crawling via yt-dlp
+- Audio extraction (MP3, 64kbps mono)
+- Local transcription using mlx-whisper (Apple Silicon, no API costs)
+- Date range and "last N videos" filtering
+- Supabase state tracking to avoid re-processing
+- CLI-based pipeline (not serverless — handles large file downloads)
+
+**Key files:**
+- `press-freedom/crawl.ts` — Main CLI entry point
+- `press-freedom/channels.ts` — YouTube source configuration
+- `press-freedom/types.ts` — Shared TypeScript interfaces
+- `press-freedom/lib/youtube-downloader.ts` — yt-dlp wrapper for listing and downloading
+- `press-freedom/lib/transcriber.ts` — mlx-whisper wrapper for transcription
+- `press-freedom/lib/db.ts` — Standalone Supabase client for state tracking
+- `scripts/030-create-pillar1-videos.sql` — Database migration
+
+**Usage:**
+```bash
+npx tsx press-freedom/crawl.ts --last 5
+npx tsx press-freedom/crawl.ts --from 20260101 --to 20260301
+npx tsx press-freedom/crawl.ts --skip-download   # transcribe existing audio only
+```
+
+**System dependencies:** `yt-dlp` (`brew install yt-dlp`), `mlx-whisper` (`pip install mlx-whisper`), `ffmpeg`
+
 ---
 
 ## Shared Infrastructure
