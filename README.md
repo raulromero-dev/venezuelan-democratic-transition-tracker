@@ -283,31 +283,31 @@ This pillar contains three sub-components:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    SATELLITE & REMOTE SENSING                    │
-│                                                                  │
+│                    SATELLITE & REMOTE SENSING                   │
+│                                                                 │
 │  VIIRS Nightlights ──→ Henderson Regression ──→ Economic Light  │
-│  (Monthly)              (State Level)            Index           │
-│                                                                  │
+│  (Monthly)              (State Level)            Index          │
+│                                                                 │
 │  VIIRS NightFire ────→ Flare Trend Analysis ─┐                  │
 │  NASA EMIT ──────────→ Methane Trend ────────┤                  │
 │  AIS Maritime ───────→ Tanker Traffic ───────┼──→ Oil Industry  │
 │  High-Res Imagery ───→ Facility Monitoring ──┘    Trajectory    │
-│                                                   Monitoring     │
-│                                                                  │
-│  Claude Sonnet ──────→ Cross-reference official claims vs        │
-│                         satellite/AIS signals over time          │
-│                         → Longitudinal verification reports      │
+│                                                   Monitoring    │
+│                                                                 │
+│  Claude Sonnet ──────→ Cross-reference official claims vs       │
+│                         satellite/AIS signals over time         │
+│                         → Longitudinal verification repors      │
 └─────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────┐
-│                      INFLATION TRACKING                          │
-│                                                                  │
+│                      INFLATION TRACKING                         │
+│                                                                 │
 │  Individual Surveys ──→ Expenditure Shares ──→ Basket Weights   │
-│  (~30 individuals/mo)                                            │
-│                                                                  │
+│  (~30 individuals/mo)                                           │
+│                                                                 │
 │  Web Scraping ────────→ Price Data ──────────→ CPI Calculation  │
 │  (Food, Utilities,                               (MoM changes)  │
-│   Consumer Goods)                                                │
+│   Consumer Goods)                                               │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -357,8 +357,7 @@ Aggregates news coverage from 100+ outlets across English, Spanish, Venezuelan, 
 | AI (Stance Analysis) | OpenAI GPT-5.1 with web search | Congressional and diplomatic stance analysis |
 | AI (Relevance) | OpenAI text-embedding-3-small | Semantic relevance scoring |
 | Social Media | X API (Basic tier) | Real-time tweet monitoring |
-| Auth | Custom JWT-based auth | Dashboard access control |
-| Font | Space Grotesk | Typography |
+
 
 ### What Carries Forward
 
