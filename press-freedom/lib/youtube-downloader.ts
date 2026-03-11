@@ -6,10 +6,10 @@ import type { CrawlOptions, VideoMeta } from "../types"
 
 const DATA_DIR = path.join(__dirname, "..", "data")
 
-function exec(cmd: string, args: string[]): Promise<string> {
+function exec(cmd: string, args: string[], allowPartialFailure = false): Promise<string> {
   return new Promise((resolve, reject) => {
     execFile(cmd, args, { maxBuffer: 50 * 1024 * 1024 }, (error, stdout, stderr) => {
-      if (error) {
+      if (error && (!allowPartialFailure || !stdout.trim())) {
         reject(new Error(`${cmd} failed: ${error.message}\nstderr: ${stderr}`))
       } else {
         resolve(stdout)
@@ -43,7 +43,7 @@ export async function listVideos(
     ? `https://www.youtube.com/playlist?list=${sourceId}`
     : `https://www.youtube.com/channel/${sourceId}/videos`
 
-  const args = ["--dump-json", "--skip-download", "--no-warnings"]
+  const args = ["--dump-json", "--skip-download", "--no-warnings", "--ignore-errors"]
 
   if (options.fromDate) {
     args.push("--dateafter", options.fromDate)
@@ -58,13 +58,22 @@ export async function listVideos(
   args.push(url)
 
   console.log(`[press-freedom] Fetching video list from ${sourceType}: ${sourceId}`)
-  const output = await exec("yt-dlp", args)
+  const output = await exec("yt-dlp", args, true)
 
   const videos: VideoMeta[] = []
+  let skippedLive = 0
   for (const line of output.trim().split("\n")) {
     if (!line) continue
     try {
       const entry = JSON.parse(line)
+
+      // Skip live streams and scheduled events
+      if (entry.is_live || (entry.live_status && entry.live_status !== "not_live" && entry.live_status !== "was_live")) {
+        skippedLive++
+        console.log(`[press-freedom] Skipping live/scheduled event: ${entry.title || entry.id}`)
+        continue
+      }
+
       videos.push({
         videoId: entry.id,
         sourceId,
@@ -73,8 +82,12 @@ export async function listVideos(
         duration: entry.duration || 0,
       })
     } catch {
-      // Skip malformed JSON lines
+      // Skip malformed JSON lines (including yt-dlp error output)
     }
+  }
+
+  if (skippedLive > 0) {
+    console.log(`[press-freedom] Skipped ${skippedLive} live/scheduled events`)
   }
 
   console.log(`[press-freedom] Found ${videos.length} videos`)
