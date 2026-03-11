@@ -122,6 +122,66 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Previous Work Section */}
+      <section className="px-6 py-24 md:py-32 border-t border-border">
+        <div className="max-w-4xl mx-auto">
+          {/* Section Header */}
+          <p className="text-[10px] font-display tracking-[0.3em] uppercase text-muted-foreground mb-6 text-center">
+            Previous Work
+          </p>
+          
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light font-sans text-center mb-6 text-balance leading-tight">
+            Built on real-world impact.
+          </h2>
+          
+          <p className="text-base md:text-lg text-muted-foreground font-light leading-relaxed text-center max-w-2xl mx-auto mb-16">
+            The Miranda Center's OSINT dashboard was shared with Venezuelan opposition leadership during Operation Southern Spear, informing engagements with US diplomatic and intelligence personnel.
+          </p>
+
+          {/* Single Card Link */}
+          <Link 
+            href="/existing-work"
+            className="group block max-w-2xl mx-auto"
+          >
+            <div className="relative p-8 md:p-12 border border-border rounded-3xl transition-all duration-300 hover:border-foreground/20 hover:bg-foreground/[0.02] overflow-hidden">
+              {/* Abstract Dashboard Representation */}
+              <div className="flex gap-3 mb-8">
+                <div className="h-2 w-16 bg-muted-foreground/20 rounded-full" />
+                <div className="h-2 w-24 bg-muted-foreground/10 rounded-full" />
+                <div className="h-2 w-12 bg-muted-foreground/15 rounded-full" />
+              </div>
+              
+              <div className="grid grid-cols-3 gap-4 mb-8">
+                <div className="aspect-video bg-muted rounded-xl" />
+                <div className="aspect-video bg-muted rounded-xl" />
+                <div className="aspect-video bg-muted rounded-xl" />
+              </div>
+
+              <div className="flex items-center justify-between">
+                <div>
+                  <h3 className="text-lg md:text-xl font-light font-sans mb-1">
+                    Mofeta OSINT Dashboard
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Intelligence infrastructure for the Venezuelan transition
+                  </p>
+                </div>
+                <div className="w-10 h-10 rounded-full border border-border flex items-center justify-center transition-all duration-300 group-hover:border-foreground/30 group-hover:bg-foreground/5">
+                  <svg 
+                    className="w-4 h-4 text-muted-foreground transition-transform duration-300 group-hover:translate-x-0.5" 
+                    fill="none" 
+                    viewBox="0 0 24 24" 
+                    stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="px-6 py-8 border-t border-border">
         <div className="max-w-7xl mx-auto text-center">
