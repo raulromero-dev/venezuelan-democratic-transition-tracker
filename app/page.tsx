@@ -1,146 +1,135 @@
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 import { ThemeToggle } from "@/components/theme-toggle"
-
-const sections = [
-  {
-    label: "DEMO",
-    href: "/demo",
-    description: "Preview of the three-pillar measurement system: press freedom index, protest monitoring, and economic activity tracking.",
-    tags: ["PRESS FREEDOM", "PROTESTS", "ECONOMIC INDEX"],
-    status: "COMING SOON",
-  },
-  {
-    label: "EXISTING WORK",
-    href: "/existing-work",
-    description: "Congressional stance mapping, global intelligence monitoring, and real-time OSINT feeds built during Operation Southern Spear.",
-    tags: ["US OFFICIALS", "GLOBAL INTEL", "OSINT FEEDS"],
-    status: "LIVE",
-  },
-]
 
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Tricolor accent line at very top */}
-      <div className="fixed top-0 left-0 right-0 h-[3px] tricolor-line z-50 opacity-60" />
+      {/* Glass Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="glass rounded-full px-6 py-3 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <div className="w-6 h-[2px] tricolor-line rounded-full" />
+              <span className="text-[10px] font-display tracking-[0.3em] uppercase text-muted-foreground">
+                MIRANDA CENTER
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <ThemeToggle />
+              <Link
+                href="/demo"
+                className="px-5 py-2 bg-foreground text-background text-[11px] font-display tracking-[0.15em] uppercase hover:bg-foreground/90 transition-colors duration-300 rounded-full"
+              >
+                View Demo
+              </Link>
+            </div>
+          </div>
+        </div>
+      </header>
 
-      {/* Theme toggle */}
-      <div className="fixed top-4 right-6 z-50">
-        <ThemeToggle />
-      </div>
-
-      {/* Grain overlay — dark only */}
-      <div
-        className="fixed inset-0 opacity-[0.015] pointer-events-none z-40 dark:block hidden"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
-        }}
-      />
-
-      {/* Scan line animation — dark only */}
-      <div className="fixed inset-0 pointer-events-none z-30 overflow-hidden dark:block hidden">
-        <div className="absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent animate-scan" />
-      </div>
-
-      <main className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 py-24">
-        {/* Hero */}
-        <div className="text-center mb-16 max-w-3xl">
-          <p className="text-[10px] font-display text-muted-foreground tracking-[0.4em] uppercase mb-4">
-            DEMOCRATIC &amp; ECONOMIC DEVELOPMENT
-          </p>
-          <h1 className="text-4xl md:text-6xl font-light tracking-tighter mb-4 font-display">
-            Venezuelan Transition
+      {/* Hero Section */}
+      <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20">
+        {/* Hero Text */}
+        <div className="text-center max-w-4xl mb-12">
+          <h1 className="text-6xl md:text-8xl lg:text-9xl font-light tracking-tight mb-8 font-sans text-balance leading-[0.95]">
+            Venezuelan
             <br />
-            <span className="text-muted-foreground">Tracker</span>
+            Transition Tracker.
           </h1>
 
-          {/* Tricolor divider */}
-          <div className="w-32 h-[2px] tricolor-line mx-auto mb-6 opacity-40" />
-
-          <p className="text-sm text-muted-foreground font-light max-w-lg mx-auto leading-relaxed">
-            Open intelligence platform measuring democratic and economic progress across freedom of the press, liberty to organize, and economic activity.
+          <p className="text-lg md:text-xl text-muted-foreground font-light max-w-lg mx-auto leading-relaxed">
+            Open intelligence for democracy.
           </p>
         </div>
 
-        {/* Section Cards */}
-        <div className="w-full max-w-3xl grid grid-cols-1 md:grid-cols-2 gap-6">
-          {sections.map((section) => (
-            <Link
-              key={section.href}
-              href={section.href}
-              className="group relative overflow-hidden transition-all duration-300 backdrop-blur-xl border
-                dark:bg-white/[0.03] dark:border-white/[0.08] dark:hover:bg-white/[0.06] dark:hover:border-white/[0.15] dark:hover:shadow-[0_0_30px_rgba(255,255,255,0.03)]
-                bg-white/80 border-black/[0.06] hover:bg-white hover:border-black/[0.12] hover:shadow-[0_4px_24px_rgba(0,0,0,0.06)]"
-            >
-              {/* Top reflection */}
-              <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent dark:via-white/20 via-black/[0.06] to-transparent" />
-
-              {/* Tricolor glow on hover */}
-              <div className="absolute inset-x-0 top-0 h-24 tricolor-glow opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
-              {/* Corner brackets */}
-              <div className="absolute top-0 left-0 w-10 h-10">
-                <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r dark:from-white/20 from-black/10 to-transparent" />
-                <div className="absolute top-0 left-0 w-px h-full bg-gradient-to-b dark:from-white/20 from-black/10 to-transparent" />
-              </div>
-              <div className="absolute bottom-0 right-0 w-10 h-10">
-                <div className="absolute bottom-0 right-0 w-full h-px bg-gradient-to-l dark:from-white/20 from-black/10 to-transparent" />
-                <div className="absolute bottom-0 right-0 w-px h-full bg-gradient-to-t dark:from-white/20 from-black/10 to-transparent" />
-              </div>
-
-              <div className="relative z-10 p-8 flex flex-col h-full min-h-[260px]">
-                <div className="flex items-center justify-between mb-4">
-                  <p className="text-[10px] font-display text-muted-foreground tracking-[0.3em] uppercase">
-                    {section.label}
-                  </p>
-                  <span className={`text-[8px] font-display tracking-[0.2em] uppercase px-2 py-0.5 border ${
-                    section.status === "LIVE"
-                      ? "dark:text-emerald-400 dark:border-emerald-400/20 text-emerald-600 border-emerald-600/20"
-                      : "text-muted-foreground dark:border-white/10 border-black/10"
-                  }`}>
-                    {section.status}
-                  </span>
-                </div>
-
-                <p className="text-[13px] text-muted-foreground font-light leading-relaxed mb-8 flex-1">
-                  {section.description}
-                </p>
-
-                {/* Tags */}
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {section.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-[9px] font-display tracking-[0.15em] text-muted-foreground/60 border dark:border-white/[0.06] border-black/[0.06] px-2 py-0.5"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-
-                {/* Enter link */}
-                <div className="flex items-center gap-2 text-muted-foreground group-hover:text-foreground transition-colors">
-                  <div className="h-px flex-1 dark:bg-white/[0.06] bg-black/[0.06] dark:group-hover:bg-white/[0.12] group-hover:bg-black/[0.12] transition-colors" />
-                  <span className="text-[10px] font-display tracking-[0.2em] uppercase">Enter</span>
-                  <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
-                </div>
-              </div>
-            </Link>
-          ))}
+        {/* Macaw Image - Main Element */}
+        <div className="relative w-72 h-48 md:w-96 md:h-64 lg:w-[500px] lg:h-[320px] transition-transform duration-500 hover:scale-[1.02]">
+          <Image
+            src="/images/macaw.svg"
+            alt="Macaw - Symbol of Venezuelan freedom"
+            fill
+            className="object-contain"
+            priority
+          />
         </div>
+      </section>
 
-        {/* Footer attribution */}
-        <div className="mt-20 text-center">
-          <div className="w-16 h-px tricolor-line mx-auto mb-4 opacity-30" />
-          <p className="text-[9px] font-display text-muted-foreground/50 tracking-[0.2em] uppercase">
-            Built by Mofeta &amp; The Miranda Center
+      {/* Pillars Section */}
+      <section className="px-6 py-24 md:py-32">
+        <div className="max-w-6xl mx-auto">
+          {/* Section Description */}
+          <p className="text-lg md:text-xl text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto text-center mb-20">
+            Tracking Venezuela's democratic transition through measurable indices, leveraging human data and artificial intelligence.
           </p>
-          <p className="text-[9px] font-display text-muted-foreground/30 mt-1">
-            &copy; {new Date().getFullYear()} Miranda Center
+
+          {/* Three Pillars */}
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Pillar 1: Freedom of the Press */}
+            <div className="group">
+              <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
+                <Image
+                  src="/images/pillar-1.jpg"
+                  alt="Freedom of the Press - Journalist running with camera equipment"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-3">
+                Freedom of the Press
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Track criticism of the regime and presence of opposition leaders in Venezuelan media.
+              </p>
+            </div>
+
+            {/* Pillar 2: Freedom of Assembly */}
+            <div className="group">
+              <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
+                <Image
+                  src="/images/pillar-2.jpg"
+                  alt="Freedom of Assembly - Protest response"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-3">
+                Freedom of Assembly
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Track protests and government response to opposition gatherings.
+              </p>
+            </div>
+
+            {/* Pillar 3: Economic Development */}
+            <div className="group">
+              <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
+                <Image
+                  src="/images/pillar-3.jpg"
+                  alt="Economic Development - Oil refinery"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-3">
+                Economic Development
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Inflation, economic growth, and oil industry development monitoring.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="px-6 py-8 border-t border-border">
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-[9px] font-display text-muted-foreground/40 tracking-[0.2em] uppercase">
+            Mofeta &amp; The Miranda Center
           </p>
         </div>
-      </main>
+      </footer>
     </div>
   )
 }

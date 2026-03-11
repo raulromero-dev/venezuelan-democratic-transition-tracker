@@ -126,10 +126,10 @@
 
 /* Glassmorphism — dark mode */
 .dark .glass {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .dark .glass-strong {
@@ -150,10 +150,10 @@
 
 /* Glassmorphism — light mode */
 .glass {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .glass-strong {
@@ -213,4 +213,13 @@
 
 .font-display {
   font-family: var(--font-display);
+}
+
+/* Macaw image - adapts to light/dark mode */
+.macaw-adaptive {
+  mix-blend-mode: multiply;
+}
+
+.dark .macaw-adaptive {
+  mix-blend-mode: screen;
 }
