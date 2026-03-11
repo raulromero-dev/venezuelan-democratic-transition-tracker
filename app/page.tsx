@@ -69,8 +69,8 @@ export default function LandingPage() {
             <div className="group">
               <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
                 <Image
-                  src="/images/pillar-press.jpg"
-                  alt="Freedom of the Press - Media monitoring"
+                  src="/images/pillar-1.jpg"
+                  alt="Freedom of the Press - Journalist running with camera equipment"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -87,8 +87,8 @@ export default function LandingPage() {
             <div className="group">
               <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
                 <Image
-                  src="/images/pillar-assembly.jpg"
-                  alt="Freedom of Assembly - Public gatherings"
+                  src="/images/pillar-2.jpg"
+                  alt="Freedom of Assembly - Protest response"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -105,8 +105,8 @@ export default function LandingPage() {
             <div className="group">
               <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
                 <Image
-                  src="/images/pillar-economy.jpg"
-                  alt="Economic Development - Industry monitoring"
+                  src="/images/pillar-3.jpg"
+                  alt="Economic Development - Oil refinery"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
