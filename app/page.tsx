@@ -42,34 +42,18 @@ export default function LandingPage() {
           <source src="/video/mofeta-miranda.mp4" type="video/mp4" />
         </video>
         
-        {/* Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/30" />
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-black/50" />
 
         {/* Content */}
         <div className="relative z-10 text-center px-6 max-w-5xl">
-          <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-light tracking-tight mb-8 font-sans text-white leading-[1.05]">
+          <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-light tracking-tight font-sans text-white leading-[1.05]">
             Venezuelan
             <br />
             Transition
             <br />
             Tracker
           </h1>
-
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
-            <Link
-              href="/demo"
-              className="px-8 py-4 bg-white/90 text-black text-sm font-display tracking-[0.1em] uppercase hover:bg-white transition-colors duration-300 rounded-full"
-            >
-              View Demo
-            </Link>
-            <Link
-              href="#about"
-              className="px-8 py-4 text-white text-sm font-display tracking-[0.1em] uppercase hover:text-white/80 transition-colors duration-300 border-b border-white/50 hover:border-white"
-            >
-              Learn more
-            </Link>
-          </div>
         </div>
       </section>
 
