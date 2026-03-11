@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function LandingPage() {
@@ -56,53 +55,70 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* Pillars Section */}
       <section className="px-6 py-24 md:py-32">
-        <div className="max-w-4xl mx-auto text-center mb-16">
-          <p className="text-lg md:text-xl text-muted-foreground font-light leading-relaxed max-w-2xl mx-auto">
-            Transparent and reproducible indices measuring Venezuela's democratic and economic trajectory across three pillars: freedom of the press, freedom to organize, and economic activity.
+        <div className="max-w-6xl mx-auto">
+          {/* Section Description */}
+          <p className="text-lg md:text-xl text-muted-foreground font-light leading-relaxed max-w-3xl mx-auto text-center mb-20">
+            Tracking Venezuela's democratic transition through measurable indices, leveraging human data and artificial intelligence.
           </p>
-        </div>
 
-        {/* Two Panels */}
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
-          {/* Demo Panel */}
-          <Link 
-            href="/demo" 
-            className="group p-8 md:p-10 border border-border hover:border-foreground/30 transition-all duration-300 hover:bg-foreground/[0.02] rounded-3xl"
-          >
-            <div className="flex items-start justify-between mb-6">
-              <h3 className="text-xs font-display tracking-[0.2em] uppercase text-muted-foreground">
-                Demo
+          {/* Three Pillars */}
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Pillar 1: Freedom of the Press */}
+            <div className="group">
+              <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
+                <Image
+                  src="/images/pillar-press.jpg"
+                  alt="Freedom of the Press - Media monitoring"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-3">
+                Freedom of the Press
               </h3>
-              <ArrowRight className="w-4 h-4 text-muted-foreground transition-transform duration-300 group-hover:translate-x-1" />
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Track criticism of the regime and presence of opposition leaders in Venezuelan media.
+              </p>
             </div>
-            <h2 className="text-2xl md:text-3xl font-light font-sans mb-4">
-              Explore the Tracker
-            </h2>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              Interactive demonstration of the three pillars: media criticism index, assembly freedom tracking, and economic indicators.
-            </p>
-          </Link>
 
-          {/* Existing Work Panel */}
-          <Link 
-            href="/existing-work" 
-            className="group p-8 md:p-10 border border-border hover:border-foreground/30 transition-all duration-300 hover:bg-foreground/[0.02] rounded-3xl"
-          >
-            <div className="flex items-start justify-between mb-6">
-              <h3 className="text-xs font-display tracking-[0.2em] uppercase text-muted-foreground">
-                Previous Work
+            {/* Pillar 2: Freedom of Assembly */}
+            <div className="group">
+              <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
+                <Image
+                  src="/images/pillar-assembly.jpg"
+                  alt="Freedom of Assembly - Public gatherings"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-3">
+                Freedom of Assembly
               </h3>
-              <ArrowRight className="w-4 h-4 text-muted-foreground transition-transform duration-300 group-hover:translate-x-1" />
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Track protests and government response to opposition gatherings.
+              </p>
             </div>
-            <h2 className="text-2xl md:text-3xl font-light font-sans mb-4">
-              OSINT Dashboard
-            </h2>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              The intelligence dashboard shared with Venezuelan opposition leadership during Operation Southern Spear.
-            </p>
-          </Link>
+
+            {/* Pillar 3: Economic Development */}
+            <div className="group">
+              <div className="relative aspect-[4/5] mb-6 rounded-3xl overflow-hidden bg-muted">
+                <Image
+                  src="/images/pillar-economy.jpg"
+                  alt="Economic Development - Industry monitoring"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-3">
+                Economic Development
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Inflation, economic growth, and oil industry development monitoring.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
