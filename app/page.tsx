@@ -29,31 +29,36 @@ export default function LandingPage() {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6">
-        <div className="text-center max-w-5xl">
-          <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-light tracking-tight mb-6 font-sans text-balance leading-[1]">
-            Venezuelan Transition Tracker
+      {/* Video Hero Section */}
+      <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+        {/* Video Background */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/video/mofeta-miranda.mp4" type="video/mp4" />
+        </video>
+        
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-black/50" />
+
+        {/* Content */}
+        <div className="relative z-10 text-center px-6 max-w-5xl">
+          <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-light tracking-tight font-sans text-white leading-[1.05]">
+            Venezuelan
+            <br />
+            Transition
+            <br />
+            Tracker
           </h1>
-
-          <p className="text-lg md:text-xl text-muted-foreground font-light max-w-md mx-auto leading-relaxed mb-16">
-            Open intelligence for democracy.
-          </p>
-
-          <div className="relative w-64 h-44 md:w-80 md:h-56 lg:w-[420px] lg:h-[280px] mx-auto">
-            <Image
-              src="/images/macaw.svg"
-              alt="Macaw - Symbol of Venezuelan freedom"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
         </div>
       </section>
 
       {/* Why This Exists - Asymmetric Layout */}
-      <section className="px-6 py-32 md:py-48">
+      <section id="about" className="px-6 py-32 md:py-48 scroll-mt-20">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
             <p className="text-sm text-muted-foreground">

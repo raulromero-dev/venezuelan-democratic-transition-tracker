@@ -33,72 +33,55 @@ export default function ExistingWorkPage() {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
-      {/* Tricolor accent line */}
-      <div className="fixed top-0 left-0 right-0 h-[3px] tricolor-line z-[60] opacity-60" />
-
       <TopNav />
 
-      {/* Grain overlay — dark only */}
-      <div
-        className="fixed inset-0 opacity-[0.015] pointer-events-none z-40 dark:block hidden"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
-        }}
-      />
-
-      <main className="flex-1 pt-24 pb-8 px-6 w-full space-y-6 relative z-10">
+      <main className="flex-1 pt-28 pb-12 px-6 w-full space-y-8 relative z-10">
         {/* Header */}
-        <div className="relative overflow-hidden backdrop-blur-xl border
-          dark:bg-zinc-950/70 dark:border-white/10
-          bg-white/80 border-black/[0.06]
-          p-6"
-        >
-          {/* Top reflection */}
-          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent dark:via-white/20 via-black/[0.06] to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-br dark:from-white/5 from-black/[0.01] via-transparent to-transparent pointer-events-none" />
-
-          <div className="relative z-10">
-            <p className="text-[10px] font-display text-muted-foreground tracking-[0.3em] uppercase mb-2">EXISTING INFRASTRUCTURE</p>
-            <h1 className="text-3xl font-light tracking-tight font-display">Existing Work</h1>
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
+            <p className="text-sm text-muted-foreground">
+              Previous work
+            </p>
+            <div>
+              <h1 className="text-3xl md:text-4xl font-light tracking-tight font-sans mb-2">Existing Work</h1>
+              <p className="text-sm text-muted-foreground">OSINT infrastructure shared with Venezuelan opposition leadership</p>
+            </div>
           </div>
         </div>
 
         {/* Main Tabs */}
-        <div className="flex gap-6 overflow-x-auto pb-2">
-          {tabs.map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className="relative cursor-pointer group whitespace-nowrap"
-            >
-              <span
-                className={`text-[11px] font-display tracking-[0.15em] transition-colors ${
-                  activeTab === tab.id ? "text-foreground" : "text-muted-foreground group-hover:text-foreground/70"
+        <div className="max-w-7xl mx-auto">
+          <div className="flex gap-4 overflow-x-auto pb-2">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`px-4 py-2 text-[10px] font-display tracking-[0.15em] uppercase rounded-full border transition-all cursor-pointer ${
+                  activeTab === tab.id 
+                    ? "bg-foreground text-background border-foreground" 
+                    : "text-muted-foreground border-border hover:border-foreground/30"
                 }`}
               >
                 {tab.label}
-              </span>
-              {activeTab === tab.id && (
-                <div className="absolute -bottom-2 left-0 right-0 h-0.5 tricolor-line opacity-60 skew-x-[-12deg]" />
-              )}
-            </button>
-          ))}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Content — feed components are dark-mode only, so we force dark context */}
-        <div className="min-h-[800px] dark bg-black text-white p-4 border dark:border-white/[0.06] border-black/[0.06]">
+        <div className="max-w-7xl mx-auto min-h-[800px] dark bg-black text-white p-6 rounded-2xl border border-white/[0.06]">
           {activeTab === "us-officials" && (
             <div className="space-y-4">
               {/* Sub-tabs */}
-              <div className="flex gap-4 overflow-x-auto">
+              <div className="flex gap-3 overflow-x-auto">
                 {usOfficialsTabs.map((sub) => (
                   <button
                     key={sub.id}
                     onClick={() => setUsSubTab(sub.id)}
-                    className={`text-[10px] font-display tracking-[0.15em] uppercase px-3 py-1.5 border transition-all cursor-pointer ${
+                    className={`text-[10px] font-display tracking-[0.15em] uppercase px-4 py-2 rounded-full border transition-all cursor-pointer ${
                       usSubTab === sub.id
-                        ? "text-white bg-white/10 border-white/20"
-                        : "text-zinc-500 border-white/[0.06] hover:text-white/70"
+                        ? "text-black bg-white border-white"
+                        : "text-zinc-400 border-white/10 hover:border-white/30"
                     }`}
                   >
                     {sub.label}
