@@ -6,23 +6,25 @@ import { ThemeToggle } from "@/components/theme-toggle"
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Transparent Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 px-6 py-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-[2px] tricolor-line" />
-            <span className="text-[10px] font-display tracking-[0.3em] uppercase text-muted-foreground">
-              MIRANDA CENTER
-            </span>
-          </div>
-          <div className="flex items-center gap-4">
-            <ThemeToggle />
-            <Link
-              href="/demo"
-              className="px-5 py-2.5 bg-foreground text-background text-[11px] font-display tracking-[0.15em] uppercase hover:bg-foreground/90 transition-colors duration-300"
-            >
-              View Demo
-            </Link>
+      {/* Glass Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="glass rounded-full px-6 py-3 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <div className="w-6 h-[2px] tricolor-line rounded-full" />
+              <span className="text-[10px] font-display tracking-[0.3em] uppercase text-muted-foreground">
+                MIRANDA CENTER
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <ThemeToggle />
+              <Link
+                href="/demo"
+                className="px-5 py-2 bg-foreground text-background text-[11px] font-display tracking-[0.15em] uppercase hover:bg-foreground/90 transition-colors duration-300 rounded-full"
+              >
+                View Demo
+              </Link>
+            </div>
           </div>
         </div>
       </header>
@@ -45,7 +47,7 @@ export default function LandingPage() {
         {/* Macaw Image - Main Element */}
         <div className="relative w-72 h-48 md:w-96 md:h-64 lg:w-[500px] lg:h-[320px] transition-transform duration-500 hover:scale-[1.02]">
           <Image
-            src="/images/macaw_2.png"
+            src="/images/macaw_transparent.png"
             alt="Macaw - Symbol of Venezuelan freedom"
             fill
             className="object-contain"
@@ -67,7 +69,7 @@ export default function LandingPage() {
           {/* Demo Panel */}
           <Link 
             href="/demo" 
-            className="group p-8 md:p-10 border border-border hover:border-foreground/30 transition-all duration-300 hover:bg-foreground/[0.02]"
+            className="group p-8 md:p-10 border border-border hover:border-foreground/30 transition-all duration-300 hover:bg-foreground/[0.02] rounded-3xl"
           >
             <div className="flex items-start justify-between mb-6">
               <h3 className="text-xs font-display tracking-[0.2em] uppercase text-muted-foreground">
@@ -86,7 +88,7 @@ export default function LandingPage() {
           {/* Existing Work Panel */}
           <Link 
             href="/existing-work" 
-            className="group p-8 md:p-10 border border-border hover:border-foreground/30 transition-all duration-300 hover:bg-foreground/[0.02]"
+            className="group p-8 md:p-10 border border-border hover:border-foreground/30 transition-all duration-300 hover:bg-foreground/[0.02] rounded-3xl"
           >
             <div className="flex items-start justify-between mb-6">
               <h3 className="text-xs font-display tracking-[0.2em] uppercase text-muted-foreground">
