@@ -47,10 +47,10 @@ export default function LandingPage() {
         {/* Macaw Image - Main Element */}
         <div className="relative w-72 h-48 md:w-96 md:h-64 lg:w-[500px] lg:h-[320px] transition-transform duration-500 hover:scale-[1.02]">
           <Image
-            src="/images/macaw_transparent.png"
+            src="/images/macaw_hero.png"
             alt="Macaw - Symbol of Venezuelan freedom"
             fill
-            className="object-contain"
+            className="object-contain macaw-adaptive"
             priority
           />
         </div>
