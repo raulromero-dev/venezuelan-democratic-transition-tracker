@@ -7,7 +7,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background text-foreground relative overflow-hidden">
       {/* Transparent Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 px-6 py-5">
+      <header className="fixed top-0 left-0 right-0 z-50 px-6 py-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-6 h-[2px] tricolor-line" />
@@ -15,54 +15,42 @@ export default function LandingPage() {
               MIRANDA CENTER
             </span>
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4">
             <ThemeToggle />
             <Link
               href="/existing-work"
-              className="text-[11px] font-display tracking-[0.2em] uppercase text-foreground hover:text-muted-foreground transition-colors flex items-center gap-2"
+              className="px-5 py-2.5 bg-foreground text-background text-[11px] font-display tracking-[0.15em] uppercase hover:bg-foreground/90 transition-colors"
             >
               Enter
-              <ArrowRight className="w-3 h-3" />
             </Link>
           </div>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6">
-        {/* Macaw Image */}
-        <div className="relative w-64 h-64 md:w-80 md:h-80 mb-8">
-          <Image
-            src="/images/macaw.png"
-            alt="Macaw - Symbol of Venezuelan freedom"
-            fill
-            className="object-contain drop-shadow-2xl"
-            priority
-          />
-        </div>
-
+      <main className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6 pt-20">
         {/* Hero Text */}
-        <div className="text-center max-w-2xl">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight mb-6 font-display text-balance">
+        <div className="text-center max-w-4xl mb-12">
+          <h1 className="text-6xl md:text-8xl lg:text-9xl font-light tracking-tight mb-8 font-serif text-balance leading-[0.95]">
             Venezuelan
             <br />
-            <span className="text-muted-foreground">Transition Tracker</span>
+            Transition Tracker.
           </h1>
 
-          <p className="text-sm md:text-base text-muted-foreground font-light max-w-md mx-auto leading-relaxed mb-10">
-            Open intelligence tracking Venezuela's path to democracy.
+          <p className="text-lg md:text-xl text-muted-foreground font-light max-w-lg mx-auto leading-relaxed">
+            Open intelligence for democracy.
           </p>
+        </div>
 
-          {/* CTA Button */}
-          <Link
-            href="/existing-work"
-            className="inline-flex items-center gap-3 px-8 py-4 border border-foreground/20 hover:border-foreground/40 hover:bg-foreground/5 transition-all duration-300 group"
-          >
-            <span className="text-[11px] font-display tracking-[0.25em] uppercase">
-              View Intelligence
-            </span>
-            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-          </Link>
+        {/* Macaw Image - Main Element */}
+        <div className="relative w-72 h-48 md:w-96 md:h-64 lg:w-[500px] lg:h-[320px]">
+          <Image
+            src="/images/macaw_2.png"
+            alt="Macaw - Symbol of Venezuelan freedom"
+            fill
+            className="object-contain"
+            priority
+          />
         </div>
 
         {/* Footer attribution */}
