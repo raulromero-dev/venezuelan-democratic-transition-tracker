@@ -52,7 +52,7 @@ export default function DemoPage() {
                 Three-pillar measurement system.
               </h1>
               <p className="text-base md:text-lg text-muted-foreground font-light leading-relaxed">
-                The transition tracker will independently measure Venezuela&apos;s democratic and economic trajectory. This demo is under active development.
+                The transition tracker independently measures Venezuela&apos;s democratic and economic trajectory across three dimensions. This demo focuses on a subsection of Pillar 1 (Freedom of the Press), examining news segments from Venevisi&oacute;n&mdash;a major private television network&mdash;to assess the scope and independence of their political coverage.
               </p>
             </div>
           </div>
@@ -97,8 +97,22 @@ export default function DemoPage() {
               <h2 className="text-2xl md:text-3xl font-light font-sans leading-[1.15] mb-4">
                 Freedom of the Press
               </h2>
-              <p className="text-base text-muted-foreground font-light leading-relaxed">
+              <p className="text-base text-muted-foreground font-light leading-relaxed mb-8">
                 Analysis of 28 Venevisi&oacute;n broadcasts (Feb 25&ndash;Mar 10, 2026) processed through automated transcript classification. 530 news segments scored for political sentiment, entity coverage, and narrative framing.
+              </p>
+
+              {/* Sample broadcast */}
+              <div className="rounded-xl overflow-hidden border border-border aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/1Q2Oda4pmWo"
+                  title="Venevisi&oacute;n broadcast sample"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+              <p className="text-xs text-muted-foreground mt-3">
+                Sample broadcast: Venevisi&oacute;n Noticias, one of the 28 segments analyzed in this study.
               </p>
             </div>
           </div>
