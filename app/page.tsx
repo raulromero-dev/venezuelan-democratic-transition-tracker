@@ -48,11 +48,9 @@ export default function LandingPage() {
         {/* Content */}
         <div className="relative z-10 text-center px-6 max-w-5xl">
           <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-light tracking-tight font-sans text-white leading-[1.05]">
-            Venezuelan
+            Eyes on
             <br />
-            Transition
-            <br />
-            Tracker
+            Venezuela
           </h1>
         </div>
       </section>
