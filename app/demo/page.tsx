@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowLeft, Newspaper, Users, TrendingUp } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { SentimentChart, MentionsChart, UsRelationsChart } from "@/components/pillar1-charts"
 
 const pillars = [
   {
@@ -82,6 +83,92 @@ export default function DemoPage() {
                   </span>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Pillar 1: Freedom of the Press */}
+        <div className="max-w-7xl mx-auto mt-32 mb-24">
+          <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
+            <p className="text-sm text-muted-foreground">
+              Pillar 1
+            </p>
+            <div className="max-w-2xl">
+              <h2 className="text-2xl md:text-3xl font-light font-sans leading-[1.15] mb-4">
+                Freedom of the Press
+              </h2>
+              <p className="text-base text-muted-foreground font-light leading-relaxed">
+                Analysis of 28 Venevisi&oacute;n broadcasts (Feb 25&ndash;Mar 10, 2026) processed through automated transcript classification. 530 news segments scored for political sentiment, entity coverage, and narrative framing.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Sentiment Analysis */}
+        <div className="max-w-7xl mx-auto mb-24">
+          <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
+            <div>
+              <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
+                01
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Sentiment
+              </p>
+            </div>
+            <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
+                Government vs. Opposition Coverage Tone
+              </h3>
+              <p className="text-sm text-muted-foreground mb-8">
+                Daily average sentiment scores across all broadcasts. Government coverage consistently trends positive while opposition coverage remains near neutral.
+              </p>
+              <SentimentChart />
+            </div>
+          </div>
+        </div>
+
+        {/* Mentions Tracker */}
+        <div className="max-w-7xl mx-auto mb-24">
+          <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
+            <div>
+              <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
+                02
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Mentions
+              </p>
+            </div>
+            <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
+                Political Figure Mention Frequency
+              </h3>
+              <p className="text-sm text-muted-foreground mb-8">
+                Tracking how often key political figures appear across Venevisi&oacute;n&apos;s daily programming.
+              </p>
+              <MentionsChart />
+            </div>
+          </div>
+        </div>
+
+        {/* US Relations */}
+        <div className="max-w-7xl mx-auto mb-24">
+          <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
+            <div>
+              <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
+                03
+              </p>
+              <p className="text-sm text-muted-foreground">
+                US Relations
+              </p>
+            </div>
+            <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
+              <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
+                US-Venezuela Coverage Narrative
+              </h3>
+              <p className="text-sm text-muted-foreground mb-8">
+                Tone analysis of US-Venezuela relations coverage, with key narrative segments highlighted.
+              </p>
+              <UsRelationsChart />
             </div>
           </div>
         </div>
