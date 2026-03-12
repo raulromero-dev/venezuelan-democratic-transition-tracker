@@ -1,0 +1,226 @@
+[
+  {
+    "date": "2026-02-25",
+    "avgTone": 0.188,
+    "relevantChunkCount": 4,
+    "topSegments": [
+      {
+        "summary": "Two segments report on aviation infrastructure improvements following US TSA inspections and expectations for resumed direct flights to the US by Q2 2026, and municipal authorities in Maracaibo enforce official transport fare regulations against illegal increases by drivers.",
+        "tone": 0.6
+      },
+      {
+        "summary": "The US Treasury Department authorized limited Venezuelan crude oil sales to Cuba through private sector mechanisms with sanctions relief for licensed companies. Additionally, Delcy Rodríguez held diplomatic discussions with Italian Foreign Minister Antonio Tajani regarding detained persons and investment opportunities, while human rights organizations reported only six releases under the recently passed amnesty law in Lara state.",
+        "tone": 0.35
+      },
+      {
+        "summary": "The segment discusses how Venezuela's recently passed amnesty law could affect over 300,000 Venezuelans with pending asylum claims in the US, explaining the legal implications and asylum requirements. It also covers US government requests to tech companies for data on users critical of ICE immigration enforcement.",
+        "tone": -0.2
+      }
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "avgTone": 0.3,
+    "relevantChunkCount": 5,
+    "topSegments": [
+      {
+        "summary": "The National Assembly under Jorge Rodríguez announces resignations of the Attorney General and Ombudsman, approves a law regulating the Red Cross, facilitates migrant returns, and announces vehicle documentation operations. The segment also reports US sanctions relaxation on Venezuelan crude oil sales to Cuba.",
+        "tone": 0.6
+      },
+      {
+        "summary": "Interim president Delcy Rodríguez appeals to President Trump to lift sanctions against Venezuela, framing the countries as friends and partners. The segment also covers energy cooperation with Shell and planned bilateral meetings with Colombia and the US.",
+        "tone": 0.5
+      },
+      {
+        "summary": "US Secretary of State Marco Rubio articulates Washington's position on Venezuela, acknowledging positive government measures including prisoner releases, the closure of La Helicoide prison, and an amnesty law, while emphasizing that free elections are an indispensable condition for the next phase of bilateral relations.",
+        "tone": 0.4
+      }
+    ]
+  },
+  {
+    "date": "2026-02-27",
+    "avgTone": 0.115,
+    "relevantChunkCount": 13,
+    "topSegments": [
+      {
+        "summary": "The segment extensively covers Venezuela-US diplomatic engagement, including President Delcy Rodríguez's meeting with Trump administration officials, energy cooperation agreements, and petroleum production projections. It also reports on amnesty law implementations, exonerations of political prisoners, and commemorations of the 1989 Caracazo.",
+        "tone": 0.7
+      },
+      {
+        "summary": "Opposition figure Enrique Márquez reports on his visit to the US Congress, describing positive conversations about Venezuela's political situation and expressing willingness to unite with other opposition leaders. Márquez emphasizes US support for Venezuela's future while indicating he has not yet coordinated with other opposition figures but remains open to collaboration.",
+        "tone": 0.65
+      },
+      {
+        "summary": "The segment discusses ongoing salary negotiations in Venezuela, including statements from union leader Francisco Torrealba about technical commissions evaluating wage increases, and endorsements from interim president Delcy Rodríguez and the US Secretary of Energy regarding the necessity of salary adjustments tied to oil industry recovery.",
+        "tone": 0.6
+      }
+    ]
+  },
+  {
+    "date": "2026-02-28",
+    "avgTone": 0.433,
+    "relevantChunkCount": 3,
+    "topSegments": [
+      {
+        "summary": "Coverage of opposition political figure Enrique Márquez's visit to the US Capitol and White House during Trump's State of the Union address, with emphasis on US-Venezuela diplomatic coordination and positive assessments of recent Venezuelan political reforms including prisoner releases and amnesty law.",
+        "tone": 0.7
+      },
+      {
+        "summary": "The segment covers Delcy Rodríguez's meetings on health and energy cooperation, opposition criticism of government appointments, and Donald Trump's State of the Union address highlighting increased US-Venezuela oil trade and the release of Venezuelan opposition figure Enrique Márquez.",
+        "tone": 0.6
+      },
+      {
+        "summary": "The segment reports on detained journalists Jonathan Carrillo and Pedro Urribarri, with human rights organizations demanding their immediate release, citing political persecution under the hate speech law. The remainder covers economic and infrastructure topics including stock market growth, airport security improvements, and airline operations.",
+        "tone": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "avgTone": -0.1,
+    "relevantChunkCount": 3,
+    "topSegments": [
+      {
+        "summary": "The segment reports on Venezuelan government actions including the amnesty law implementation, military prisoner releases (31 according to Jorge Arreaza), and the National Assembly's process for selecting a new Attorney General and Ombudsman, with applications opening March 2-9, 2026. The bulk of the segment shifts to extensive international coverage of US-Israel military operations against Iran.",
+        "tone": -0.3
+      },
+      {
+        "summary": "Analysis of how the Strait of Hormuz closure impacts Venezuelan oil prices and revenues, with potential benefits from direct sales to US refineries. The segment also briefly reports Trump's comments on Venezuela's political transition.",
+        "tone": 0
+      },
+      {
+        "summary": "The segment covers international geopolitical developments, specifically the death of Iranian Supreme Leader Ali Khamenei in a joint Israeli-US military operation and subsequent regional tensions, along with Venevisión's 65th anniversary celebration.",
+        "tone": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "avgTone": 0.2,
+    "relevantChunkCount": 4,
+    "topSegments": [
+      {
+        "summary": "The segment reports on Venezuela's economic projections under interim president Delcy Rodríguez, focusing on petroleum sector recovery, ExxonMobil's potential return, and agricultural growth, while positioning Venezuela as a reliable energy supplier to the US amid geopolitical tensions.",
+        "tone": 0.7
+      },
+      {
+        "summary": "An opposition political figure (Alviares) makes his first public appearance after release from detention, calling for freedom of all detainees and early elections as conditions for democratic progress. He expresses support for US-Venezuela relations and foreign investment while demanding judicial guarantees.",
+        "tone": 0.7
+      },
+      {
+        "summary": "The segment covers international diplomatic developments, including Melania Trump's UN speech on artificial intelligence and child protection amid US-Israel operations in Iran, and Venezuelan interim president Delcy Rodríguez's diplomatic engagement with Qatar regarding Middle East peace efforts. The report also analyzes escalating Middle East tensions, petroleum market impacts, and the strategic implications of the Strait of Hormuz closure.",
+        "tone": -0.4
+      }
+    ]
+  },
+  {
+    "date": "2026-03-04",
+    "avgTone": 0.391,
+    "relevantChunkCount": 11,
+    "topSegments": [
+      {
+        "summary": "US Interior Secretary Duke Burgum arrives in Venezuela to meet with interim government authorities and discuss investment projects in critical minerals and energy transition. The segment frames the visit as part of a strategic White House plan to stabilize the region and enhance bilateral commercial exchange.",
+        "tone": 0.7
+      },
+      {
+        "summary": "The Central Bank of Venezuela reports 8.66% GDP growth in 2025 with 19 consecutive quarters of economic expansion, while interim president Delcy Rodríguez discusses growth projections for 2026 and the Venezuelan Energy and Oil Federation expects US investment results within six months.",
+        "tone": 0.7
+      },
+      {
+        "summary": "Venezuela's Vice Minister for Europe and North America Oliver Blanco welcomed US Secretary of Interior Doug Bergen, framing the visit as initiating a new phase of mutual respect and constructive dialogue between the nations under interim president Delcy Rodríguez's authority. The US delegation includes business representatives interested in strengthening energy and mining exchanges.",
+        "tone": 0.7
+      }
+    ]
+  },
+  {
+    "date": "2026-03-05",
+    "avgTone": 0.497,
+    "relevantChunkCount": 16,
+    "topSegments": [
+      {
+        "summary": "A high-level US Cabinet official visits Venezuela to negotiate resource extraction agreements, particularly focusing on rare earth minerals and oil production. The segment frames the visit positively, emphasizing US-Venezuelan cooperation and praising interim president Delcy Rodríguez's role in facilitating these agreements.",
+        "tone": 0.8
+      },
+      {
+        "summary": "Coverage of a US Interior Department delegation's visit to Venezuela, highlighting business opportunities in mining and hydrocarbon sectors and praising diplomatic engagement between the Trump administration and interim president Delcy Rodríguez.",
+        "tone": 0.8
+      },
+      {
+        "summary": "US Interior Secretary Don Burgum concludes visit to Venezuela with government meetings, signing energy cooperation agreements. Multiple segments highlight US-Venezuela diplomatic engagement and energy sector investment opportunities.",
+        "tone": 0.8
+      }
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "avgTone": 0.483,
+    "relevantChunkCount": 20,
+    "topSegments": [
+      {
+        "summary": "The segment reports on the reopening of US and Venezuelan embassies as a major diplomatic breakthrough, with analysts and National Assembly officials praising the move as economically beneficial and crucial for restoring legal security for foreign investment and resolving administrative issues for Venezuelans abroad.",
+        "tone": 0.8
+      },
+      {
+        "summary": "The segment reports on the formal re-establishment of US-Venezuela diplomatic relations, with the US recognizing Delcy Rodríguez as interim president and announcing embassy reopenings. It also covers the amnesty law processing and related government initiatives for political reconciliation.",
+        "tone": 0.7
+      },
+      {
+        "summary": "Analysis of restored US-Venezuela diplomatic relations as a historic milestone, highlighting practical benefits for Venezuelan migrants, oil sector agreements with Shell and ExxonMobil, and potential economic normalization with international financial institutions.",
+        "tone": 0.7
+      }
+    ]
+  },
+  {
+    "date": "2026-03-07",
+    "avgTone": 0.5,
+    "relevantChunkCount": 2,
+    "topSegments": [
+      {
+        "summary": "Interim President Delcy Rodríguez met with US Interior Secretary Doug Bourbon to discuss energy and mining cooperation between Venezuela and the United States, with emphasis on investment opportunities and the Trump administration's three-phase bilateral plan. Major US companies including ExxonMobil are reportedly evaluating return to Venezuela under favorable investment conditions.",
+        "tone": 0.8
+      },
+      {
+        "summary": "Legal analysis of Venezuela's amnesty law timeline clarification, with families of political prisoners demanding faster implementation and greater inclusivity in the amnesty process. The segment also briefly mentions US President Trump encouraging American oil companies to invest in Venezuelan hydrocarbon sector.",
+        "tone": 0.2
+      }
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "avgTone": 0.307,
+    "relevantChunkCount": 7,
+    "topSegments": [
+      {
+        "summary": "The segment reports on the arrival of the first shipment of Venezuelan gold (approximately $100 million) to the United States as part of bilateral cooperation on critical minerals, announced by US Interior Secretary Doug Berman. Foreign Minister Iván Gil also calls on Chile's incoming president to exercise greater historical responsibility and avoid xenophobic rhetoric targeting Venezuelans.",
+        "tone": 0.7
+      },
+      {
+        "summary": "The segment reports on US-Venezuela economic cooperation, including a $100 million gold shipment from Venezuela to the US and a $1 billion commercial agreement with state company Minervén following Interior Secretary Doug Morgan's visit to meet interim president Delcy Rodríguez. The coverage emphasizes Trump's praise for Rodríguez's professionalism and the concrete results of bilateral cooperation.",
+        "tone": 0.7
+      },
+      {
+        "summary": "The segment covers security concerns in agricultural production, discusses the amnesty law as incomplete (lacking political rehabilitation provisions), and reports on opposition figures praising US-Venezuela diplomatic normalization and urging accelerated prisoner releases under the amnesty law.",
+        "tone": 0.7
+      }
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "avgTone": 0.34,
+    "relevantChunkCount": 5,
+    "topSegments": [
+      {
+        "summary": "Oil and gas price fluctuations driven by Middle East tensions and Iran-US military operations, with analysis of Venezuela's increased petroleum revenue from strategic partnership with the United States. Trump highlights successful Venezuelan oil extraction and processing in US refineries as part of a mutually beneficial alliance.",
+        "tone": 0.8
+      },
+      {
+        "summary": "Trump administration shifts US strategic focus toward Venezuelan oil resources as Repsol announces major investment plans in Venezuela and the US; interim president Delcy Rodríguez prepares binational meeting with Colombian president Gustavo Petro.",
+        "tone": 0.6
+      },
+      {
+        "summary": "Donald Trump announces temporary suspension of petroleum sanctions to stabilize global oil prices and ensure crude supply, with implications for Venezuela's energy sector and potential foreign investment by Repsol. The segment also reports on G7 coordination on energy markets and US Treasury measures affecting Russian and Venezuelan oil operations.",
+        "tone": 0.3
+      }
+    ]
+  }
+]

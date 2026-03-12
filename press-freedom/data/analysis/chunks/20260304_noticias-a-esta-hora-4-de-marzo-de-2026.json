@@ -1,0 +1,532 @@
+{
+  "filename": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026.txt",
+  "date": "2026-03-04",
+  "showType": "a-esta-hora",
+  "totalChunks": 27,
+  "politicalChunks": 10,
+  "chunks": [
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_0",
+      "chunkIndex": 0,
+      "text": "de la ciudad de Venezuela. Agenda de trabajo llegó a Venezuela el secretario de interior de Estados Unidos, Duke Burgos. Nueva modalidad, Saime anunció que familiares directos podrán retirar pasaportes de parientes bajo ciertas condiciones. Dinamismo productivo, Banco Central de Venezuela reportó crecimiento de 7.07% del Producto Interno Bruto. Vigilancia sanitaria, activan cerco epidemiológico preventivo en Lara ante riesgo regional de fiebre amarilla. Reactivación de vuelos, Países Bajos estima que entre mayo y junio abrirán frontera entre Aruba y Venezuela. Quinto día de conflicto, Reino Unido reporta nuevo ataque contra un portacontenedores en el estrecho de Ormus. Bien amigos, son las 12 en punto. Bienvenidos a Emisión Meridiana de Noticias Benevisión.\nComo siempre, un gusto darles la más cordial bienvenida. Milagro Zambrano, qué gusto trabajar contigo. Hola, hola mi querido Néstor. Bueno, ya de inmediato vamos a comenzar a hacer este recorrido informativo en esta hora en Noticias Benevisión, Emisión Meridiana.\nEstamos listos y arrancamos.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.3,
+      "oppositionSentiment": 0,
+      "primaryTopic": "government-policy",
+      "topicSummary": "News brief covering multiple government initiatives including US Interior Secretary Duke Burgos's visit to Venezuela, passport renewal procedures via SAIME, reported GDP growth of 7.07%, and public health measures against yellow fever in Lara state.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": [
+          "Duke Burgos"
+        ]
+      },
+      "usRelationsTone": 0.2
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_1",
+      "chunkIndex": 1,
+      "text": "Les contamos que el secretario interior de Estados Unidos y presidente del Consejo Nacional de Dominio Energético, Duke Burgum, llegó a Venezuela hace pocos minutos para reunirse con autoridades encargadas nacionales y establecer contacto con empresas estadounidenses y venezolanas. A su llegada fue recibido por una delegación de autoridades, incluyendo a la encargada de negocios de la misión diplomática de Estados Unidos para Venezuela, Laura Dugu, y el viceministro para Europa y América del Norte, Oliver Blanco, quienes encabezaron el protocolo de bienvenida. Se espera que durante su estancia avalúen nuevos proyectos de inversión en el área de minerales críticos fundamentales para la transición energética global. Este despliegue forma parte de integral del plan estratégico de la Casa Blanca para estabilizar la región y así, bueno, potenciar el intercambio comercial en beneficio de ambas naciones. Ahora, ¿quién es Duke Bergen? Secretario de Interior de Estados Unidos. Es un empresario tecnológico y político republicano que, entre 2016 y 2024, fue gobernador del estado de Dakota del Norte, un estado clave para la producción petrolera en Estados Unidos. Durante su gestión impulsó políticas vinculadas al desarrollo energético, la innovación tecnológica y el crecimiento económico regional. Para 2025, asumió como secretario del interior de Estados Unidos el primero de febrero durante la administración del presidente de ese país, Donald Trump. Hay que mencionar que el Departamento de Interior es la institución encargada de administrar las tierras federales, los recursos naturales y varios programas relacionados con energía y minería en territorio estadounidense. Y con respecto a esta información, Néstor y amigos, vamos a a establecer un contacto telefónico con nuestro compañero Rafael Aníbal Camacho, quien se encuentra ya en el Palacio de Miraflores, esperando la llegada del funcionario estadounidense Duke Burgum.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "US Interior Secretary Duke Burgum arrives in Venezuela to meet with interim government authorities and discuss investment projects in critical minerals and energy transition. The segment frames the visit as part of a strategic White House plan to stabilize the region and enhance bilateral commercial exchange.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 1,
+        "donaldTrump": 1,
+        "otherUsOfficials": [
+          "Duke Burgum"
+        ]
+      },
+      "usRelationsTone": 0.7
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_2",
+      "chunkIndex": 2,
+      "text": "Así que, bueno, vamos a escuchar qué nos tiene adelante, Rafael. Amigos de Noticias, a Benevisión nos encontramos en el Palacio de Miraflores, a la espera de la llegada del secretario de Interior de los Estados Unidos, quien viene a Venezuela a reunirse con la presidenta encargada, Delcy Rodríguez. Se tiene previsto que, por supuesto, firmen algunos acuerdos en materia de financiamiento energético. Es lo que hemos podido conocer acá en el Palacio Presidencial. Por supuesto, manténgase en sintonía de Noticias a Benevisión, que esta es una información que está en pleno desarrollo. Y seguiremos llevándole a ustedes los detalles a través de las emisiones de Noticias a Benevisión y, por supuesto, a través de nuestras redes sociales. Muchísimas gracias a Rafael Aníbal Camacho. Bueno, estaremos muy pendientes del desarrollo de desinformación. Milagros, vamos con otras noticias, porque la Academia Nacional de Medicina respalda el llamado de vacunación realizado por autoridades nacionales ante el brote de fiebre amarilla en Venezuela.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.3,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "A US Interior Secretary is visiting Venezuela to meet with interim president Delcy Rodríguez at Miraflores Palace, with expected agreements on energy financing. The segment also briefly mentions the National Academy of Medicine supporting national vaccination efforts against a yellow fever outbreak.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": [
+          "US Interior Secretary"
+        ]
+      },
+      "usRelationsTone": 0.4
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_3",
+      "chunkIndex": 3,
+      "text": "William Sánchez nos ofrece los detalles. William, buenas tardes, te escuchamos. Sí, gracias por el contacto que establecemos a esta hora. Justamente, la Academia Nacional de Medicina se ha pronunciado en tres oportunidades con respecto a la vacunación contra la fiebre amarilla. Y en esta oportunidad yo me encuentro con el doctor Uníades Urbina, el presidente de la Academia, que nos va a comentar un poco al respecto de que ustedes se adhieren a este llamado que hace el gobierno nacional y también el Ministerio de Salud. Sí, totalmente. Afortunadamente, ya el Ministerio Popular de la Salud empezó a producir información en cuanto al brote que hay en la región y en Venezuela sobre fiebre amarilla. Y, por supuesto, nos adherimos al llamado que hace desde el ministerio a que vayamos a vacunarnos. Tenemos información extraoficial, por supuesto, que hay vacunas suficientes. Se debe vacunar a las personas desde un año de edad hasta los 59 años. Entonces, por favor, vaya a vacunarse. Algo importante, se pone una sola vacuna en la vida. No hay que hacer refuerzo. Si usted no tiene el cartoncito amarillo, que es la evidencia internacional que usted está vacunado, vaya a su centro de vacunación porque ahí tiene que aparecer el lote de la vacuna que le pusieron y si va a viajar dentro del país o para un país que amerite el certificado internacional de vacunación, tiene que tener al menos 10 días de haberse colocado la vacuna para poder decir que está protegido. Gracias, doctor. Buenas, las palabras del doctor Núñez Urbina, presidente de la Cámara Nacional de Medicina. Recordemos que también entre las recomendaciones que surgen, si usted va a viajar a uno de estos estados endémicos, debe utilizar ropa manga larga, también cubrir las ventanas con mallas para evitar que usted cuente con la transmisión de la fiebre amarilla. Es toda la información que tenemos para compartirles por el momento y con ella regresó el pase al estudio. Adelante. Gracias, William. Bueno, información importante que se debe tomar en cuenta. También ahora nos vamos a Lara, que se convierte en uno de esos cuatro estados de Venezuela en activar un cerco epidemiológico preventivo contra la fiebre amarilla. Tras brotes registrados en varios países de Sudamérica, las autoridades regionales desplegaron un operativo especial de vacunación que cuenta con el respaldo técnico de la Organización Panamericana de la Salud.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0.2,
+      "oppositionSentiment": 0,
+      "primaryTopic": "health",
+      "topicSummary": "The National Academy of Medicine endorses the government's yellow fever vaccination campaign in response to regional outbreaks. Health authorities are implementing vaccination programs and epidemiological measures in affected states with support from the Pan American Health Organization.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_4",
+      "chunkIndex": 4,
+      "text": "Nuestra compañera Génesis Colmenares nos tiene más detalles de esta información. Gracias por el contacto. Efectivamente, las brigadas de vacunación de Lara se desplegaron en los municipios Simón Planas, Iribarren y Palavecino, comenzando por la parroquia Cabudare. De acuerdo a la directora regional de epidemiología, Marilín Rojas, estas brigadas estarán trabajando en los centros de salud, mientras que con la incorporación del denominado Plan Luciérnaga, se garantizará el abordaje directo en las comunidades. Aseguró que el proceso de inmunización es diario y en horario extendido durante la vigencia del operativo que, según el gobierno nacional, se extenderá por todo el país durante el dos mil veintiséis. Rojas llamó a la población larense, especialmente a quienes nunca se han vacunado con edades entre uno y cincuenta y nueve años, a vacunarse. Reiteró que una sola dosis es suficiente para protegerse de por vida. Por su parte, la Autoridad Única de Salud de Lara, el Ispec Manzanilla de Valesillos, informó que las instituciones del gobierno de Lara y las alcaldías no estatimarán en apoyos de todo tipo para este operativo de afianzamiento. El operativo incluye además protocolos de control ambiental para la eliminación de criaderos del zancudo transmisor y un llamado a la cooperación de las comunidades en la eliminación de criaderos de larvas del insecto. Con esta información retornamos el contacto a los estudios.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0.3,
+      "oppositionSentiment": 0,
+      "primaryTopic": "health",
+      "topicSummary": "Vaccination brigades deployed across Lara state municipalities offering immunization services in health centers and communities as part of a nationwide 2026 immunization campaign. Regional health authorities call for vaccination of unvaccinated populations aged 1-59 and coordinate environmental control measures to eliminate mosquito breeding sites.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_5",
+      "chunkIndex": 5,
+      "text": "Reporto para ustedes Génesis Colmenares desde el estado Lara. Muchísimas gracias a Génesis Colmenares desde Lara. Bueno, y ante la alerta de fiebre amarilla en el estado Aragua, también han activado cercos epidemiológicos en puntos estratégicos de la entidad. Para conocer cómo avanza la vacunación en el centro del país, vamos a establecer un contacto con nuestra compañera Alejandra Triana. Gracias por este contacto. Aquí en el estado Aragua, las autoridades se mantienen desplegadas en una jornada de vacunación contra la fiebre amarilla, específicamente en la ciudad socialista Los Aviadores. El desarrollo del operativo prioriza la protección contra la fiebre amarilla, a su vez, que busca completar esquemas con vacunas como toxoide, hepatitis B, pentavalente y polio dirigido a ciudadanos con edades comprendidas entre 1 y 59 años para fortalecer la barrera epidemiológica y el bienestar de la comunidad. Esto tras la confirmación por parte del gobierno nacional de varios casos registrados en el país.\nEsta es la información que manejamos hasta ahora desde el estado Aragua. Continúen con más de Noticias Benevisión.\nGracias, Alejandra, por el reporte.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "health",
+      "topicSummary": "Venezuelan health authorities are conducting yellow fever vaccination campaigns in Aragua state, including immunizations against multiple diseases (toxoid, hepatitis B, pentavalent vaccine, polio) for citizens aged 1-59 years in response to confirmed cases.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_6",
+      "chunkIndex": 6,
+      "text": "Bueno, y ahora cambiamos de tema y pasamos a revisar temas económicos y con eso lo hacemos también con el Banco Central de Venezuela, que informó que el Producto Interno Bruto registró un crecimiento de 8.66% en 2025 y de esta manera y de acuerdo al ente financiero suman ya 19 trimestres continuos en los que la economía venezolana registra un mayor nivel de actividad económica. Mediante un comunicado del Banco Central de Venezuela detalló que en los últimos cuatro meses del año la actividad patrolera creció 13.41%, mientras que la no petrolera alcanzó un crecimiento de 5.30%. Agregó que las áreas donde se registraron mayores expansiones fueron las de construcción, minería, alojamiento y servicios de comida, comercio y reparaciones de vehículos, transporte y almacenamiento, así como la manufactura. Por otra parte, la presidenta encargada, Adelcy Rodríguez, informó que conversó con la presidenta del Banco Central de Venezuela, Laura Guerra, y prevén que se mantendrán las proyecciones de crecimiento del PIB durante este 2026. Tenemos otras informaciones. La Federación Empresarial Venezolana de Energía y Petróleo proyecta que los primeros resultados de inversiones estadounidenses en el país podrían verse en un plazo de seis meses. Además, aseguran que siguen de cerca el avance de la apertura petrolera, así como el reforzamiento de la flota venezolana para el transporte de crudo. Para ello, hacemos un contacto con Julio Sergio Marcano para conocer más detalles de la información. Julio Sergio, buenas tardes, te escuchamos. Gracias, buenas tardes para ustedes también. El contacto lo hacemos desde la Bahía de Barcelona, donde es muy común ver a buques en rumbo o esperando su turno para ingresar a la terminal de José en el complejo petroquímico José Antonio Anzuategui. Y es que justamente acá en esta entidad, de acuerdo a la Federación Venezolana de Energía y Petróleo, Anzuategui tiene la capacidad de producir al menos 1.5 millones de barriles diarios, por supuesto, trabajando a su máxima capacidad y con todas las inversiones y los acuerdos comerciales correctos que deben hacerse. Además, el presidente de la Federación Venezolana de Energía y Petróleo, Ángelo Díaz Acera, asegura que los primeros resultados de estas posibles inversiones o estas inversiones de empresas norteamericanas en el país podrían verse reflejados en un plazo de acá a seis meses. Escuchemos. Yo no quiero dar un tiempo exacto, pero yo estimo la Federación con todos sus trabajos que se ha hecho. Nosotros estimamos que a mediados de año ya vas a ver las producciones en el vado. Se está trabajando sobre eso de poner en funcionamiento una flota importante, tanto nacional como de afuera. Con las inversiones necesarias, solamente Anzuategui, sin poner monaga, estimamos sobre el millón y medio de barriles. Solamente Anzuategui. Y eso es una suma muy importante solamente para este estado. Bien, además se pudo conocer información que ya era señalada por agencias internacionales con relación al reforzamiento que hace la flota venezolana para el comercio de crudos. Se espera que pronto lleguen a esta terminal, a esta bahía, dos nuevos supertanqueros con una capacidad incluso para transportar dos millones de barriles de petróleo, lo que por supuesto va a impactar positivamente el comercio de crudo venezolano hacia otros países de la región y de otros hemisferios. Es la información que hacemos a esta hora y que vamos a ampliar, por supuesto, en las siguientes emisiones de Noticias Venevision.\nDe momento continúen con más de la emisión meridiana. Regresamos con ustedes al estudio. Gracias, Julio.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "economy",
+      "topicSummary": "The Central Bank of Venezuela reports 8.66% GDP growth in 2025 with 19 consecutive quarters of economic expansion, while interim president Delcy Rodríguez discusses growth projections for 2026 and the Venezuelan Energy and Oil Federation expects US investment results within six months.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": 0.7
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_7",
+      "chunkIndex": 7,
+      "text": "Sergio, bueno, y continuamos con más porque productores del sector agropecuario consideran que la intervención petrolera apalancará el crecimiento de la industria alimentaria. Randolfo Blanco nos tiene todos los detalles. En el marco del evento Perspectivas Agropecuarias que se llevó a cabo en Valencia, los productores y empresarios proyectaron un crecimiento mayor al que se venía registrando. Aseguraron que en muchos rubros ya se ha alcanzado cubrir la demanda nacional. Harinas precocidas de maíz en el mercado 100%. En Venezuela anteriormente competían alrededor de unas 10, 12 marcas. Hoy en día hay registradas en el SAP 400 marcas de harinas precocidas de maíz venezolanas. Lo de más del 60% de la pasta hecha en Venezuela, el café 100%, de la carne de pollo 100% nacional, los huevos 100% nacional, los embutidos 100% nacional. En el caso del azúcar hay un crecimiento sostenido. El experto petrolero y presidente Petro Pime explicó que la modificación de la ley de hidrocarburos no solo impactará en la industria petrolera. Dicha ley contempla el abordaje de toda la cadena productiva. Esa ley te da la libertad económica requerida para poder abordar lo que son los recursos necesarios para desarrollar esta actividad. Y esta actividad es aguas arriba de la parte agropecuaria. Es decir, si tú necesitas movilizar las maquinarias, necesitas el combustible, eso es diésel. El diésel viene de los hidrocarburos y si vas a fertilizar, necesitas del gas, pasarlo por la petroquímica y fertilizar el campo. Destacaron que al ser el estado Carabobo el de mayor grado de industrialización del país, la reactivación de este sector es inminente. En Carabobo, Randolfo Blanco, Noticias Benevisión.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "economy",
+      "topicSummary": "Agricultural producers express optimism about economic growth prospects, citing improvements in domestic food production across multiple sectors and highlighting how modifications to Venezuela's hydrocarbon law could boost agricultural development by providing necessary resources like fuel and fertilizers.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_8",
+      "chunkIndex": 8,
+      "text": "Tenemos más información. El viceministro para Europa y América del Norte, Oliver Blanco, dio la bienvenida a Venezuela al secretario de Interior de Estados Unidos, Doug Bergen. El representante diplomático venezolano explicó que este encuentro se realiza en nombre de la presidenta encargada, Delcy Rodríguez, para iniciar una nueva etapa de respeto mutuo entre ambas naciones. Para el viceministro, esta visita abre oportunidades para consolidar una relación basada en el diálogo constructivo y la cooperación. El representante estadounidense llegó acompañado de empresarios interesados en que se fortalezca el intercambio energético y minero entre Venezuela y Estados Unidos.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "Venezuela's Vice Minister for Europe and North America Oliver Blanco welcomed US Secretary of Interior Doug Bergen, framing the visit as initiating a new phase of mutual respect and constructive dialogue between the nations under interim president Delcy Rodríguez's authority. The US delegation includes business representatives interested in strengthening energy and mining exchanges.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": [
+          "Doug Bergen"
+        ]
+      },
+      "usRelationsTone": 0.7
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_9",
+      "chunkIndex": 9,
+      "text": "Bueno, y ahora pasamos a revisar temas de la conexión aérea entre Aruba y Venezuela, porque esta podría reactivarse entre mayo y junio. Así lo informó Carmen González, jefa de la misión de Países Bajos. González destacó que esta medida es fundamental para fortalecer los lazos históricos, culturales, sociales y familiares que unen a Venezuela con las islas de Aruba, Bonaire y Curacao, las conocidas ABC y el Reino Unido. Según la diplomática, esperan que el primer ministro de Aruba tome una decisión formal en las próximas semanas. Bueno, y en este mismo contexto y ante una eventual conectividad aérea entre Estados Unidos y Venezuela, el ex presidente de la Asociación de Líneas Aéreas de Venezuela, ALAV, Humberto Figuera, solicitó igualdad de condiciones para que aviones nacionales vuelen también a Norteamérica. Diana Vásquez contó del reporte a esta hora. Gracias, buenas tardes. Y es que Humberto Figuera, ex presidente de ALAV, pidió evitar reeditar lo que a su juicio son los errores del pasado. Dijo que no se debe priorizar las aerolíneas norteamericanas por encima de las venezolanas para que ambas puedan competir en igualdad de condiciones en el territorio nacional. Y dijo también que debe darse pleno cumplimiento al acuerdo de Chicago suscrito en el año 1953 que contempla el derecho aeronáutico internacional. Escuchemos. Yo me permito invitar a todos los miembros del sector turismo, de todas las asociaciones turísticas. Yo creo que debemos apoyar a la ENAC para que se sienta acompañado en los momentos en que tiene que sentarse a discutir con sus pares norteamericanos, con la Autoridad Aeronáutica Norteamericana, la designación de aerolíneas norteamericanas por la hora de Venezuela y la designación de líneas aéreas venezolanas de autorización de las líneas, de la Autoridad Aeronáutica Norteamericana para que nuestras líneas puedan operar a Venezuela. Es muy importante porque la operación de las líneas aéreas venezolanas va a redundar en beneficio de la economía, en la reactivación de la economía, va a reanudar en la creación de empleos, va a reanudar en la ocupación de habitaciones de hotel, en la reactivación de sitios turísticos. Además, el ex titular de ALAF confía en que Venezuela próximamente supere todas las supervisiones a las que está siendo sometido el Aeropuerto Internacional de Maiketía por parte de la Administración de Seguridad de Transporte de Estados Unidos, que busca precisamente garantizar que todas las medidas de seguridad internacionales que son estrictas sean cumplidas para el retorno de la conectividad aérea entre el país norteamericano y Venezuela. Con esta información retornamos con ustedes al estudio. Bien, muchísimas gracias Diana. Milagros. Bueno, y a juicio de la Coordinadora de Vente Venezuela en portuguesa, María Oropesa, las autoridades deben realizar un seguimiento a las causas judiciales de los excarcelados, enfatizando que el cierre de los expedientes es necesario para que se demuestre una verdadera voluntad política de justicia en el país. Escuchemos lo que dijo.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.05,
+      "oppositionSentiment": 0.15,
+      "primaryTopic": "us-relations",
+      "topicSummary": "Segment covers potential reactivation of air connectivity between Venezuela and Aruba (May-June), and discusses conditions for US-Venezuela airline operations. An aviation industry representative calls for equal treatment of Venezuelan airlines in negotiations with US authorities, while an opposition figure comments on judicial follow-up for released detainees under the amnesty framework.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": 0
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_10",
+      "chunkIndex": 10,
+      "text": "El sobreseguimiento de las causas, porque la gran mayoría de los presos políticos y de los que hemos sido excarcelados tenemos causas con delitos inventados. Pueden hacer sobreseguimiento, es decir, cierren todos esos expedientes y allí estarían demostrando voluntad política para comenzar a hacer justicia en este país. Oropesa señala que la ley de amnistía es excluyente para algunos sectores. No es ninguna ley y es bastante excluyente. La ley de amnistía viene de agnesia, es decir, de olvido. Pero para que haya un olvido debe haber un reconocimiento de que hice daño y voy a olvidar esto para que tú puedas vivir un proceso pleno en paz y con justicia. Y eso no es lo que se está viendo desde la ley. Por ejemplo, hoy muchos de nosotros tenemos medidas cautelares aún. En mi caso tengo prohibición de salida del país y régimen de presentación cada 30 días. La dirigente política también aseveró que para que pueda haber un verdadero cambio en la nación los privados de libertad deben ser liberados y los exiliados deben regresar al país. Bueno, y preste mucha atención. El Servicio Administrativo de Identificación, Migración y Extranjería, SAI me informó que en caso de no poder retirar personalmente el pasaporte solicitado se podrá autorizar a un familiar directo para recoger el documento exclusivamente en la oficina principal Simón Bolívar, ubicada en Plaza Caracas. De acuerdo al organismo, el proceso requiere que el solicitante demuestre un vínculo familiar comprobable permitiendo la gestión a padres, madres, tíos, abuelos, cónyuges e hijos mayores de edad para aplicar a esta modalidad. El familiar deberá presentar una solicitud formal acompañada de una planilla que debe descargarse previamente desde el portal web oficial del ente. Una vez procesada la petición en taquilla, el pasaporte será entregado en un lapso de 72 horas hábiles. Las autoridades destacaron que esta opción no es de libre acceso para conocidos o gestores, sino una medida excepcional para facilitar el trámite a los usuarios con impedimentos comprobados. Hasta el momento, la institución no ha detallado si el parentesco de hermanos será incluido en las próximas fases del plan, pero enfatizó que la verificación de datos filiatorios será rigurosa para garantizar la seguridad del documento de identidad. Bueno, y pasamos a revisar otras informaciones, porque personal médico y educadores en el estado Marina solicitan una revisión urgente de sus sueldos y salarios. Giancarlo García nos tiene todos los detalles. Buenas tardes, Giancarlo. Así es, compañeros, como lo acaban de informar, pues básicamente el gremio médico y de educación en el estado de Varinas exigen una revisión urgente del salario ante lo que califican como una situación insostenible para los profesionales de la salud y de la educación. Nosotros queremos visibilizar el problema del salario. Representantes del sector aseguran que actualmente los ingresos no cubren necesidades básicas, lo que ha generado migración de talento humano y desmotivación en el ejercicio profesional.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": -0.35,
+      "oppositionSentiment": 0.45,
+      "primaryTopic": "labor",
+      "topicSummary": "Political opposition figure critiques the amnesty law as exclusionary and insufficient, arguing for dismissal of fabricated charges and the liberation of political prisoners; medical and education workers in Varinas state demand urgent salary review, citing unsustainable conditions.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_11",
+      "chunkIndex": 11,
+      "text": "Señalan además que no se discute el contrato colectivo desde hace más de una década, afectando no solo el sueldo base, sino beneficios laborales fundamentales. El artículo 91 de nuestra constitución que señala que todos los años debe revisarse y ajustarse el salario mínimo, tenemos cuatro años sin que eso se realice y se cumplen el mismo 12 de marzo esos cuatro años. Los educadores y médicos insisten en que la actualización salarial es una prioridad para garantizar condiciones dignas, tanto para los trabajadores como para el sistema de salud y de educación.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": -0.3,
+      "oppositionSentiment": 0,
+      "primaryTopic": "labor",
+      "topicSummary": "Educators and healthcare workers demand salary updates and collective contract negotiations, citing four years without minimum wage adjustments as required by Article 91 of the constitution. The segment highlights government non-compliance with constitutional obligations regarding worker compensation.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_12",
+      "chunkIndex": 12,
+      "text": "Desde el estado de Varinas, Giancarlo García, Noticias Benevisión. Bien, muchísimas gracias a Giancarlo García. Milagros. Bueno, hoy se cumple el quinto día del conflicto de Estados Unidos e Israel contra Irán. Es así, según informó la agencia pública Fundación de los Mártires y Asuntos de los Veteranos de Irán, el saldo de las víctimas mortales se ubica en 1,045 fallecidos, mientras los bombardeos se mantienen sobre las principales ciudades del país persa y el despliegue militar actual sobrepasa en intensidad cualquier enfrentamiento previo en la región. Así es, la Fuerza Aérea Israelí inició ataques a gran escala contra infraestructuras estratégicas entre Irán, Shiraz e Isfahan. Los bombardeos alcanzaron centros de mando de la Guardia Revolucionaria y aeródromos clave como el Menjabad y el Buchej, donde se reporta la destrucción de aeronaves. Bueno, también el ejército israelí confirmó ejecutar 1,600 incursiones aéreas y lanzar 4,000 municiones en solo cuatro días, una intensidad de fuego superior a la guerra de junio de 2025. Paralelamente al frente norte se ha también reactivado con bombardeos masivos en el sur del Líbano en las últimas olas. Así es, milagros. Y tras una orden de evacuación inmediata hacia el norte del río Litani, Israel golpeó oposiciones de Hezbollah en respuesta al lanzamiento de misiles y dirigidos contra el área metropolitana de Tel Aviv. Y el ministro de defensa israelí, Israel Katz, justificó la nueva incursión terrestre en el país vecino como una medida para prevenir ataques en las comunidades fronterizas. Mientras tanto, la población civil en Irán enfrenta una interrupción casi total de Internet y severas restricciones de acceso, lo que mantiene todas las cifras de víctimas bajo un carácter provisional, mientras el estruendo de los casas continúa dominando el cielo de la capital iraní.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "international",
+      "topicSummary": "The segment reports on an ongoing military conflict between the United States, Israel, and Iran, with details on casualty figures, bombing campaigns, and military operations across multiple regions.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_13",
+      "chunkIndex": 13,
+      "text": "Bien, esto es un pequeño resumen, pero también les contamos que la Agencia Británica de Operaciones Comerciales Marítimas registró un tercer ataque en menos de 24 horas contra un portacontenedores frente a las costas de Oman en el Estrecho de Hormuz. Un proyectil de origen desconocido impactó la línea de flotación de un buque desatando un incendio en la sala de máquinas. Bueno, y según el informe de la organización británica, la tripulación abandonó la embarcación y todos sus miembros han sido localizados a salvo y hasta ahora, bueno, no se registran daños ambientales en las proximidades de Oman. Bueno, este es el tercer reporte de actividad hostil registrado durante la jornada en el Golfo Pérsico. Sí, previamente también se informó de una fuerte explosión muy cerca de otro buque al este de Mascate y un ataque adicional en las cercanías de los Emiratos Árabes. Las autoridades, milagros amigos de Noticias Benevisión, autoridades navales, mantienen una investigación abierta sobre estos incidentes coordinados que amenazan la estabilidad del comercio marítimo mundial.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "British maritime authorities report a third attack on a container ship in the Strait of Hormuz within 24 hours, with projectiles of unknown origin causing fires and prompting crew evacuations. Multiple coordinated hostile incidents in the Persian Gulf are under investigation by naval authorities.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_14",
+      "chunkIndex": 14,
+      "text": "El mando militar de Irán también, hay que precisar que aseguró recientemente que prenderán fuego a cualquier embarcación que intente cruzar justamente el estrecho de Ormuz, que es el que ustedes ven a través de nuestras pantallas, cumpliendo así con la amenaza de bloqueo total de esa zona que ha mantenido sin duda alguna la atención del mundo desde que está este conflicto en el Medio Oriente. Así es, y continuando con este contexto, milagros, la ofensiva conjunta entre Estados Unidos e Israel sobre territorio iraní destaca por su despliegue de una nueva arquitectura bélica. Sí, según los expertos militares explican que el uso de armamento de última generación y aeronaves furtivas que permiten alcanzar una supremacía aérea sin precedentes en la región. Vamos a ver detalles de este arsenal tecnológico. Según analistas, el ataque se centró en el uso de las denominadas bombas bunker, busters o antibunker, diseñadas específicamente para penetrar estructuras subterráneas reforzadas, empleadas en esta ocasión contra residencias estratégicas de la cúpula iraní. Sí, y a este despliegue también se le suma el uso intensivo de misiles Tomahawk, considerados el caballito de batalla de las fuerzas estadounidenses, junto a una novedad en el campo de batalla, los drones tipo Lucas. Estos dispositivos, valorados en unos 35 mil dólares, son drones de bajo costo, inspirados en modelos previos y utilizados para neutralizar unidades antiaéreas enemigas. También cuentan con la presencia operativa de caza furtivo 22 Raptor en territorio israelí. Bueno, una aeronave prácticamente indetectable para los radares convencionales, cuya llegada a Israel refuerza entonces la capacidad de ataques sorpresas. Es así, con una flota estimada de 200 aviones, la coalición logró golpear mil objetivos en apenas dos días, debilitando drásticamente los sistemas de defensa de Irán. Bueno, y ante la escalada también de las operaciones militares, Irán cuenta con un despliegue de casi un millón de efectivos y el arsenal de misiles más extenso de la región. Según datos del Instituto Internacional de Estudios Estratégicos, el país posee una fuerza de 610 mil militares activos, respaldados por unos 350 mil combatientes de la reserva. Sí, hay que considerar también que tienen una población que supera los 89 millones de habitantes. La nación persa ocupa también el puesto número 16 en el ranking global de potencia militar en este 2026. Y aunque Estados Unidos se mantiene como la primera potencia militar del mundo, Irán es reconocido por poseer el arsenal de misiles más grande de Oriente Medio, una herramienta clave para su defensa territorial. Bueno, nosotros seguiremos haciendo seguimiento y presentándole todos los detalles. Por ahora también hay un detalle que se conocía en las últimas horas, y es que Francia también se movilizaba para sumarse a esto en protección un poco de Chipre, y por eso el Char de Gaulle estaba movilizándose hacia la zona. Así es. Por supuesto, los detalles también vamos a conocerlos con otros fundamentos, que nos trae justamente nuestra compañera Estefanía Llamalvo al regreso en lo que pasa en el mundo. Bueno, vamos entonces al corte, quédense con nosotros y ya venimos. Ya volvemos. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. El Mediterráneo Oriental y la situación no causó víctimas ni daños así lo informó el gobierno turco. El organismo internacional de energía atómica reiterado hoy que no hay actualmente riesgo de una fuga radiactiva en Irán donde dos instalaciones o sus inmediaciones han sido alcanzadas por los bombardeos de Estados Unidos e Israel.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Coverage of military conflict between US-Israel coalition and Iran in the Middle East, including details on military capabilities, weapons systems, and regional developments. No Venezuelan political content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_15",
+      "chunkIndex": 15,
+      "text": "La agencia de la ONU indicó que según el análisis de las imágenes satelitales más recientes disponibles no observa daños en las instalaciones que contienen material nuclear en Irán y por lo tanto se han visto en el el organismo señaló que no existe riesgo de liberación radiológica en este momento. Indicó que se han detectado daños en dos edificios cerca de la instalación nuclear en Isfahan y afirma que no se han identificado nuevos impactos en la planta de Nantanz más allá de los daños en la cercanía de la entrada de los que ya informó ayer. El organismo ya adelantó este martes que no esperaba consecuencias radiológicas por esos daños. Y revisamos cómo se encuentran los mercados internacionales. Tenemos que Wall Street abrió en verde este miércoles y su principal indicador el Dow Jones de industriales subía 0,10% tras dos días de importantes caídas por el conflicto en Irán. En el caso de Europa las grandes bolsas del viejo continente rebotan entre 1 y 2% tras dos sesiones de fuertes caídas. Mientras que las principales bolsas asiáticas continuaron la tendencia a la baja a raíz del conflicto en Medio Oriente con el principal índice de la bolsa de Seúl, el COSPI, liderando las caídas tras desplomarse 12,06%, siendo su peor caída porcentual histórica. Y cerramos con el Papa León XIV, quien imploró la paz para el mundo entero durante su tradicional audiencia general de los miércoles en el Vaticano ante los peregrinos reunidos en la Plaza de San Pedro. Asimismo recordó la misión de la institución. Desde el inicio del conflicto el sumo pontífice ha pedido la paz en todas sus apariciones públicas. Este martes insistió ante periodistas en la necesidad de buscar soluciones diplomáticas sin usar las armas. Hasta aquí las noticias internacionales en lo que pasa en el mundo.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "International news coverage including UN assessment of Iranian nuclear facilities damage, global stock market reactions to Middle East conflict, and Pope Leo XIV's calls for peace.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_16",
+      "chunkIndex": 16,
+      "text": "Milagros Néstor, seguimos con ustedes. Bueno, muchísimas gracias a Estefanía por ese recorrido en lo que pasa en el mundo. Así es, y ahora vamos a hablarles de información migratoria, ya que un partido político en Reino Unido impulsa una ley para llevar a cabo deportaciones masivas y revocar la residencia legal a miles de migrantes. Vamos a dejar que sea nuestra compañera Mayerlin Bravo. Ella está con nosotros acá en el estudio. Nos va a ampliar todas estas informaciones en el segmento migrantes. Buenas tardes, Mayerlin. Bienvenida. Gracias, buenas tardes, Néstor. Milagros. Así es, justo como lo comentan, el partido británico Reform UK, liderado por Nigel Farage y Siah Yusef, proponen un ambicioso y polémico plan para transformar radicalmente la política migratoria del Reino Unido. Se trata de la creación del llamado mando de deportación, una fuerza diseñada para ejecutar expulsiones masivas de inmigrantes y no solo apunta a recién llegados, sino que también busca cambiar las normas vigentes para quienes tienen residencia permanente en el país. El objetivo es claro, ejecutar 288 mil deportaciones anuales y para lograrlo se llevarían a cabo cinco vuelos de expulsión diarios al tiempo que multiplicarían por 10 la capacidad de detención actual, alcanzando los 24 mil arrestos mensuales. Este plan se basa en tres pilares fundamentales. Uno, el blindaje legal, que significa la salida del Reino Unido de la Convención Europea de Derechos Humanos para eliminar así bloqueos judiciales. Dos, retroactividad al eliminar el estatus de residencia permanente por visas de trabajo renovables cada cinco años. Y tres, seguridad nacional al crear una ley que obliga al Estado a la expulsión inmediata de inmigrantes sin intervención de jueces, lo que afectaría así a casi 10 millones de personas. La propuesta se da tras un 2025 donde más de 41 mil solicitantes de asilo cruzaron el canal de la mancha y llegaron a Reino Unido. Y aunque Amnistía Internacional rechaza este plan por considerarlo un sistema basado en el miedo y las redadas agresivas, el partido británico lo defiende alegando una emergencia de seguridad nacional ante lo que califica como una invasión migratoria. Y ahora pasamos al viejo continente donde por primera vez en la historia ciudadanos de Venezuela y Afganistán lideran la lista de peticiones de asilo en la Unión Europea. Según el último balance de organismos migratorios, ambas nacionalidades suman más de 200 mil nuevos expedientes, desplazando así a los sirios tras una década predominando esta lista. Sin embargo, el volumen global de solicitudes de asilo cayeron 19% en 2025, una cifra que da un respiro a los sistemas migratorios del continente europeo. El repunte de Afganistán con 117 mil solicitudes se debe a que la justicia reconoce la persecución de las mujeres bajo el régimen talibán. En cuanto a las 91 mil peticiones de asilo de Venezuela, estas representan un récord histórico, con un incremento de 23% debido al cierre de las fronteras estadounidenses, mientras el desplome de 72% en las solicitudes de los sirios se debe a la caída del gobierno de Bachar al-Assad. Y es que en total Europa recibió 822 mil solicitudes de asilo en un año marcado por cambios geopolíticos que han obligado a las capitales europeas a congelar miles de casos para nuevas evaluaciones de seguridad. Y finalizamos en Estados Unidos, donde a partir de este viernes registrar un vehículo en Texas deja de ser un trámite administrativo para convertirse en un proceso de verificación migratoria, ya que la Junta del Departamento de Vehículos Motorizados aprobó un decreto que obliga a comprobar el estatus legal del usuario para poder obtener o renovar las placas de cualquier carro. Esto significa que la medida impulsada por reportes de irregularidades en el sistema exige ahora a los usuarios presentar documentos como una identificación real o licencia de conducir válida de Texas, un pasaporte estadounidense vigente o la tarjeta de residencia permanente para completar así el registro. Y aunque las autoridades alegan que buscan prevenir casos de fraude en los condados, la medida ya impacta a los concesionarios quienes a pesar de poder seguir vendiendo carros no podrán registrarlos ante el Estado si el comprador no tiene un estatus legal, por lo que deja fuera del sistema a miles de conductores inmigrantes indocumentados quienes ahora no podrán circular de manera legal en Texas. Y con este panorama en materia migratoria volvemos con ustedes, Milagros Néstor. Muchísimas gracias Mayerlin por esa información. Bueno, tenemos otras noticias, Milagros, amigos de Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "International news coverage of migration policies in the UK, EU asylum trends, and US vehicle registration requirements. The segment reports on Reform UK's deportation proposals, record Venezuelan asylum applications in Europe, and Texas' new immigration-linked vehicle registration process.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_17",
+      "chunkIndex": 17,
+      "text": "En el marco de los 26 años del partido Primero Justicia, el dirigente Juan Pablo Guanitpa tuvo un encuentro con representantes de los medios de comunicación. A esta hora vamos a contactar con nuestro compañero Andrés Díaz Hernández desde Los Palos Grandes aquí en Caracas para que nos amplíe toda la información. Andrés. Hola, buenas tardes. Muchísimas gracias por el contacto. Hace minutos finalizaba una conferencia de prensa del dirigente político Juan Pablo Guanitpa, quien ha sido un balance de su situación judicial además de la actualidad política venezolana. Escuchemos. Hoy no solo me presenté, sino que además por fin designé a un defensor privado. Después de que me dan libertad plena, porque el juicio sigue, entonces pude designar al doctor Joel García como mi defensor privado. Un derecho que me fue confiscado desde el momento del inicio del procedimiento judicial. Como también estoy exigiendo que me quiten el bloqueo en el SAIME. Desde hace 10 años yo no puedo sacar documentos de identidad. Yo no tengo pasaporte, sino vencido hace unos 7 años. Obstrucción a la administración de justicia. Terrorismo. Asociación para delinquir. Conspiración con otros países. Ni arma. Y terrorismo. Y terrorismo. Ahí están, esos son. Hay un asunto con la representante de Estados Unidos en Venezuela, que entiendo que todavía no ha recibido su acreditación, y que eso le impide tener reuniones con dirigentes políticos. Un grupo de dirigentes muy importante, están llevando adelante comunicación con todos los factores. La han tenido con el propio Donald Trump, la han tenido con Marco Rubio, y la han tenido con distintos representantes de los Estados Unidos, de otros países de América y de Europa. Nosotros estamos totalmente interrelacionados con la comunidad internacional. Y en todas partes hay un consenso de que Venezuela dilucida su problema a través de un proceso electoral. Guanipa también ha sido una petición de que se revise la situación de los partidos políticos judicializados, así como que se puedan escarcelar a todos los denominados presos políticos. Es la información y regreso con ustedes al estudio. Adelante. Gracias Andrés por la información. Tiempo de hacer una nueva pausa, Néstor. Así es, al regreso, milagros amigos de Noticias Benevisión.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": -0.3,
+      "oppositionSentiment": 0.6,
+      "primaryTopic": "opposition-politics",
+      "topicSummary": "Juan Pablo Guanipa held a press conference marking 26 years of Primero Justicia party, discussing his judicial situation, removal of identity document blocks, and calls for review of judicalized political parties and release of political prisoners. He also highlighted opposition coordination with international actors including US officials.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 2,
+        "lauraDogu": 1,
+        "donaldTrump": 1,
+        "otherUsOfficials": [
+          "Marco Rubio"
+        ]
+      },
+      "usRelationsTone": 0.4
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_18",
+      "chunkIndex": 18,
+      "text": "Ya les vamos a presentar las informaciones deportivas y está con nosotros acá en el estudio Gregorio Rojas al regreso. Ya venimos. Ya volvemos. Gracias. Gracias. Gracias. Gracias. Pequeño. Ganó 4 a 0 la ida y terminó pidiendo la hora ante el Barcelona en el Camp Nou. Vamos a las imágenes del partido. De vuelta de la Copa de su Majestad el Rey, donde el cuadro del Barcelona se adelantó en la primera parte. Vemos el grandioso ambiente del estadio Camp Nou. Al minuto 29, Marc Bernal, el primer tanto del partido. Luego, al quinto minuto de edición tras los 45, debe ser revisado en el Bar esta acción. Penalti sobre Pedri y Rafinha para el 2 a 0 del cuadro catalán. Y al 72, en el segundo tiempo, ya Marc Bernal, 3 a 0. El Barcelona se quedó a punto de otra remontada histórica. Y el Atlético casi, casi, casi muestra de nuevo lo pecho frío que es. Qué lamentable. Sigan dejando el Cholo. Vale. Vámonos al juego de preparación del Team Béisbol Venezuela ante los Astros de Houston. No fue el mejor estreno para el equipo nacional. Cayó tres carreras por una ante el cuadro de los Astros de Houston. Michael García remolcó la primera carrera del compromiso para Venezuela. En el sexto, Houston igualó las acciones con sencillo de Cam Smith a la izquierda, con el que anotó Walker Yannick. Y Carlos Pérez pegó este tablazo con la puerta de una catedral, con un corredor en circulación para concretar la victoria de Houston. Tres carreras por una situación distinta, por ejemplo, a lo que pasó con un rival del grupo dominicana que dio un festival de batazos ayer en el Estadio Quisqueya. Los premios Laureus ya tienen todo listo. 2026 ya conoce a los nominados para los diferentes renglones que premiarán a lo mejor del deporte en 2025 y una venezolana está entre las nominadas. Tony Chitadino nos cuenta más desde Madrid. Tony. Madrid se prepara para recibir a lo mejor del deporte, pues el lunes 20 de abril se estará realizando la 26ª edición de los premios Laureus, que por tercer año consecutivo se estará realizando acá en el Palacio de Sibeles en Madrid y que por tercer año consecutivo, Benevisión estará presente. Para esta edición, Venezuela estará representada por nuestra medallista olímpica Yulimar Rojas, quien figura en la categoría del regreso del año tras perderse los Juegos Olímpicos de París 2024 y ganar el bronce en triple salto en Tokio. Para el deportista masculino del año, la votación se anticipa muy reñida. Repite el ganador de la edición pasada, Mondo Duplantis, además de Ousmane Dembélé, Carlos Alcaraz, Yannick Zinner, Mar Márquez y Tadej Pogacar. En femenino, Aitana Bonmaty pareciera tener el camino despejado para repetir el galardón que logró en 2024 en una categoría que comparte también con cuatro deportistas más, entre ellas la tenista Arina Zabalenka. En tanto, el equipo del año tendrá al Paris Saint Germain y a McLaren como fuertes competidores. El deporte paralímpico también tendrá su espacio y el italiano Simone Barlam vuelve a aparecer entre los candidatos. Los embajadores de los premios Laureus tendrán la tradicional charla con la prensa, la tradicional jornada con los medios de comunicación el sábado 18 y el domingo 19, mientras que el lunes 20 se realizará la gala de estos premios que una vez más promete grandes emociones. Desde Madrid, Tony Cittadino, Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Sports news segment covering football (Barcelona vs Atlético Madrid Copa del Rey match), baseball (Team Venezuela vs Houston Astros), and Laureus Sports Awards 2026 with Venezuelan athlete Yulimar Rojas nominated.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_19",
+      "chunkIndex": 19,
+      "text": "Muchísimas gracias, Tony. Amigos, los invitamos a que nos acompañen esta tarde, 13 y 45 de la tarde en la antesala, cuatro pitazo inicial, Real Sociedad Athletic Club de Bilbao, la semifinal de vuelta de la Copa de su Majestad del Rey por la pantalla de Benevisión, con los comentarios de Josías Castro y de Sergio Mucela en la narración de un servidor Gregorio Rojas. Los esperamos. Hasta aquí los deportes en Noticias Benevisión.\nFuerte abrazo para todos. Pausa. Al regreso, más información en Noticias Benevisión.\nNos vemos en el próximo. Noticias Benevisión.\nNoticias Benevisión.\nNoticias Benevisión.\nNoticias Benevisión.\nNoticias Benevisión.\nNoticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.\nNoticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.\nNoticias Benevisión.\nNoticias Benevisión. Noticias Benevisión.\nNoticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Sports segment promoting upcoming Real Sociedad vs Athletic Club Bilbao Copa del Rey semifinal match broadcast on Venevisión. No political content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_20",
+      "chunkIndex": 20,
+      "text": "Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "This segment contains only repeated broadcast branding with no substantive news content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_21",
+      "chunkIndex": 21,
+      "text": "Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "No substantive content provided. The segment consists only of repeated broadcast network identification headers with no news content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_22",
+      "chunkIndex": 22,
+      "text": "Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.\nNoticias Benevisión. Noticias Benevisión. Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "This segment contains only repeated broadcast branding with no substantive news content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_23",
+      "chunkIndex": 23,
+      "text": "Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.\nNoticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "No substantive news content provided. Segment consists only of repeated broadcast station identifier.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_24",
+      "chunkIndex": 24,
+      "text": "Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "No substantive news content is provided in this segment; it consists only of repeated program title headers.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_25",
+      "chunkIndex": 25,
+      "text": "Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.\nNoticias Benevisión. Noticias Benevisión.\nNoticias Benevisión. Noticias Benevisión.\nNoticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "This segment contains only repeated branding/station identification with no substantive news content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_26",
+      "chunkIndex": 26,
+      "text": "Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión. Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "This segment contains only repeated broadcast station identification and no substantive news content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+[
+  {
+    "date": "2026-02-25",
+    "shows": [
+      {
+        "showType": "estelar",
+        "filename": "20260226_noticias-emision-estelar-25-de-febrero-de-2026.txt",
+        "avgGovSentiment": 0.083,
+        "avgOppSentiment": -0.011,
+        "politicalChunks": 9
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.083,
+      "avgOppositionSentiment": -0.011,
+      "totalPoliticalChunks": 9
+    }
+  },
+  {
+    "date": "2026-02-26",
+    "shows": [
+      {
+        "showType": "matutina",
+        "filename": "20260226_noticias-emision-matutina-26-de-febrero-de-2026.txt",
+        "avgGovSentiment": 0.039,
+        "avgOppSentiment": 0.071,
+        "politicalChunks": 14
+      },
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026.txt",
+        "avgGovSentiment": 0.193,
+        "avgOppSentiment": 0.014,
+        "politicalChunks": 7
+      },
+      {
+        "showType": "estelar",
+        "filename": "20260227_noticias-emision-estelar-26-de-febrero-de-2026.txt",
+        "avgGovSentiment": 0.375,
+        "avgOppSentiment": 0.05,
+        "politicalChunks": 4
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.136,
+      "avgOppositionSentiment": 0.052,
+      "totalPoliticalChunks": 25
+    }
+  },
+  {
+    "date": "2026-02-27",
+    "shows": [
+      {
+        "showType": "matutina",
+        "filename": "20260227_noticias-emision-matutina-27-de-febrero-de-2026.txt",
+        "avgGovSentiment": 0.086,
+        "avgOppSentiment": 0.081,
+        "politicalChunks": 18
+      },
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260227_noticias-venevision-a-esta-hora-27-de-febrero-de-2026.txt",
+        "avgGovSentiment": 0.3,
+        "avgOppSentiment": 0.1,
+        "politicalChunks": 3
+      },
+      {
+        "showType": "estelar",
+        "filename": "20260228_noticias-emision-estelar-27-de-febrero-de-2026.txt",
+        "avgGovSentiment": 0.3,
+        "avgOppSentiment": 0.07,
+        "politicalChunks": 10
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.176,
+      "avgOppositionSentiment": 0.079,
+      "totalPoliticalChunks": 31
+    }
+  },
+  {
+    "date": "2026-02-28",
+    "shows": [
+      {
+        "showType": "fin-de-semana",
+        "filename": "20260228_noticias-venevision-edicion-fin-de-semana-28-de-febrero-de-2026.txt",
+        "avgGovSentiment": 0.36,
+        "avgOppSentiment": 0.02,
+        "politicalChunks": 5
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.36,
+      "avgOppositionSentiment": 0.02,
+      "totalPoliticalChunks": 5
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "shows": [
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260302_noticias-a-esta-hora-2-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.3,
+        "avgOppSentiment": 0,
+        "politicalChunks": 3
+      },
+      {
+        "showType": "matutina",
+        "filename": "20260302_noticias-emision-matutina-2-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.058,
+        "avgOppSentiment": 0,
+        "politicalChunks": 6
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.139,
+      "avgOppositionSentiment": 0,
+      "totalPoliticalChunks": 9
+    }
+  },
+  {
+    "date": "2026-03-03",
+    "shows": [
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260303_noticias-a-esta-hora-3-de-marzo-de-2026.txt",
+        "avgGovSentiment": -0.013,
+        "avgOppSentiment": 0.006,
+        "politicalChunks": 8
+      },
+      {
+        "showType": "matutina",
+        "filename": "20260303_noticias-emision-matutina-3-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.29,
+        "avgOppSentiment": 0,
+        "politicalChunks": 5
+      },
+      {
+        "showType": "estelar",
+        "filename": "20260304_noticias-emision-estelar-3-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.21,
+        "avgOppSentiment": 0.145,
+        "politicalChunks": 10
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.15,
+      "avgOppositionSentiment": 0.065,
+      "totalPoliticalChunks": 23
+    }
+  },
+  {
+    "date": "2026-03-04",
+    "shows": [
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260304_noticias-a-esta-hora-4-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.21,
+        "avgOppSentiment": 0.12,
+        "politicalChunks": 10
+      },
+      {
+        "showType": "matutina",
+        "filename": "20260304_noticias-emision-matutina-4-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.171,
+        "avgOppSentiment": 0.029,
+        "politicalChunks": 7
+      },
+      {
+        "showType": "estelar",
+        "filename": "20260305_noticias-emision-estelar-4-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.538,
+        "avgOppSentiment": 0,
+        "politicalChunks": 4
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.259,
+      "avgOppositionSentiment": 0.067,
+      "totalPoliticalChunks": 21
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "shows": [
+      {
+        "showType": "matutina",
+        "filename": "20260305_noticias-emision-matutina-5-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.294,
+        "avgOppSentiment": 0.047,
+        "politicalChunks": 17
+      },
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260305_noticias-venevision-a-esta-hora-5-marzo-de-2026.txt",
+        "avgGovSentiment": 0.3,
+        "avgOppSentiment": -0.03,
+        "politicalChunks": 5
+      },
+      {
+        "showType": "estelar",
+        "filename": "20260306_noticias-emision-estelar-5-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.265,
+        "avgOppSentiment": 0,
+        "politicalChunks": 10
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.286,
+      "avgOppositionSentiment": 0.02,
+      "totalPoliticalChunks": 32
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "shows": [
+      {
+        "showType": "matutina",
+        "filename": "20260306_noticias-emision-matutina-6-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.392,
+        "avgOppSentiment": 0.017,
+        "politicalChunks": 12
+      },
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260306_noticias-venevision-a-esta-hora-6-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.525,
+        "avgOppSentiment": 0,
+        "politicalChunks": 8
+      },
+      {
+        "showType": "estelar",
+        "filename": "20260307_noticias-emision-estelar-6-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.3,
+        "avgOppSentiment": 0.035,
+        "politicalChunks": 10
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.397,
+      "avgOppositionSentiment": 0.018,
+      "totalPoliticalChunks": 30
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "shows": [
+      {
+        "showType": "fin-de-semana",
+        "filename": "20260307_noticias-venevision-edicion-fin-de-semana-7-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.362,
+        "avgOppSentiment": 0.075,
+        "politicalChunks": 4
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.362,
+      "avgOppositionSentiment": 0.075,
+      "totalPoliticalChunks": 4
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "shows": [
+      {
+        "showType": "matutina",
+        "filename": "20260309_noticias-emision-matutina-9-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.36,
+        "avgOppSentiment": -0.02,
+        "politicalChunks": 5
+      },
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260309_noticias-venevision-a-esta-hora-9-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.3,
+        "avgOppSentiment": 0.2,
+        "politicalChunks": 1
+      },
+      {
+        "showType": "estelar",
+        "filename": "20260310_noticias-emision-estelar-9-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.23,
+        "avgOppSentiment": 0.03,
+        "politicalChunks": 10
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.275,
+      "avgOppositionSentiment": 0.025,
+      "totalPoliticalChunks": 16
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "shows": [
+      {
+        "showType": "a-esta-hora",
+        "filename": "20260310_noticias-venevision-a-esta-hora-10-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.071,
+        "avgOppSentiment": 0.033,
+        "politicalChunks": 12
+      },
+      {
+        "showType": "estelar",
+        "filename": "20260311_noticias-emision-estelar-10-de-marzo-de-2026.txt",
+        "avgGovSentiment": 0.05,
+        "avgOppSentiment": 0.028,
+        "politicalChunks": 9
+      }
+    ],
+    "aggregated": {
+      "avgGovernmentSentiment": 0.062,
+      "avgOppositionSentiment": 0.031,
+      "totalPoliticalChunks": 21
+    }
+  }
+]

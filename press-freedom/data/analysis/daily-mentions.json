@@ -1,0 +1,550 @@
+[
+  {
+    "date": "2026-02-25",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "estelar": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "estelar": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 7,
+        "byShow": {
+          "estelar": 7
+        }
+      },
+      "otherUsOfficials": {
+        "total": 4,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-02-26",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 28,
+        "byShow": {
+          "matutina": 24,
+          "a-esta-hora": 0,
+          "estelar": 4
+        }
+      },
+      "otherUsOfficials": {
+        "total": 4,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-02-27",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 21,
+        "byShow": {
+          "matutina": 9,
+          "a-esta-hora": 10,
+          "estelar": 2
+        }
+      },
+      "otherUsOfficials": {
+        "total": 6,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-02-28",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "fin-de-semana": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "fin-de-semana": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "fin-de-semana": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "fin-de-semana": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 7,
+        "byShow": {
+          "fin-de-semana": 7
+        }
+      },
+      "otherUsOfficials": {
+        "total": 3,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 7,
+        "byShow": {
+          "a-esta-hora": 1,
+          "matutina": 6
+        }
+      },
+      "otherUsOfficials": {
+        "total": 1,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-03-03",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0,
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0,
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0,
+          "estelar": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0,
+          "estelar": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 17,
+        "byShow": {
+          "a-esta-hora": 2,
+          "matutina": 10,
+          "estelar": 5
+        }
+      },
+      "otherUsOfficials": {
+        "total": 2,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-03-04",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0,
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "matutina": 0,
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 6,
+        "byShow": {
+          "a-esta-hora": 2,
+          "matutina": 0,
+          "estelar": 4
+        }
+      },
+      "lauraDogu": {
+        "total": 2,
+        "byShow": {
+          "a-esta-hora": 2,
+          "matutina": 0,
+          "estelar": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 18,
+        "byShow": {
+          "a-esta-hora": 2,
+          "matutina": 12,
+          "estelar": 4
+        }
+      },
+      "otherUsOfficials": {
+        "total": 7,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 15,
+        "byShow": {
+          "matutina": 12,
+          "a-esta-hora": 0,
+          "estelar": 3
+        }
+      },
+      "otherUsOfficials": {
+        "total": 24,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 1,
+        "byShow": {
+          "matutina": 1,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 5,
+        "byShow": {
+          "matutina": 2,
+          "a-esta-hora": 2,
+          "estelar": 1
+        }
+      },
+      "donaldTrump": {
+        "total": 11,
+        "byShow": {
+          "matutina": 9,
+          "a-esta-hora": 0,
+          "estelar": 2
+        }
+      },
+      "otherUsOfficials": {
+        "total": 21,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "fin-de-semana": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "fin-de-semana": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "fin-de-semana": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "fin-de-semana": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 3,
+        "byShow": {
+          "fin-de-semana": 3
+        }
+      },
+      "otherUsOfficials": {
+        "total": 2,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 1,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 1,
+          "estelar": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "matutina": 0,
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 6,
+        "byShow": {
+          "matutina": 3,
+          "a-esta-hora": 0,
+          "estelar": 3
+        }
+      },
+      "otherUsOfficials": {
+        "total": 8,
+        "byShow": {}
+      }
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "entities": {
+      "mariaCorinaMachado": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "edmundoGonzalez": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "juanPabloGuanipa": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "lauraDogu": {
+        "total": 0,
+        "byShow": {
+          "a-esta-hora": 0,
+          "estelar": 0
+        }
+      },
+      "donaldTrump": {
+        "total": 4,
+        "byShow": {
+          "a-esta-hora": 4,
+          "estelar": 0
+        }
+      },
+      "otherUsOfficials": {
+        "total": 4,
+        "byShow": {}
+      }
+    }
+  }
+]

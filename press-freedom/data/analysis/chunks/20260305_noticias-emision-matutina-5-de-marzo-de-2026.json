@@ -1,0 +1,876 @@
+{
+  "filename": "20260305_noticias-emision-matutina-5-de-marzo-de-2026.txt",
+  "date": "2026-03-05",
+  "showType": "matutina",
+  "totalChunks": 45,
+  "politicalChunks": 17,
+  "chunks": [
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_0",
+      "chunkIndex": 0,
+      "text": "de la mañana. Desde Caracas, iniciamos nuestra transmisión matutina desde el estudio seis. El equipo de noticias Venevisión, listo para presentarles las informaciones que marcan la pauta en Venezuela y el mundo.\nBienvenidos. Son las seis de la mañana, muy buenos días, Venezuela, ya estamos listos. De verdad, verdad que estamos muy agradecidos con todos ustedes por esta oportunidad que le han dado al nuevo amanecer de la información con noticias Venevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Standard broadcast opening and greeting from Venevisión's morning news program. No substantive news content or political discussion.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_1",
+      "chunkIndex": 1,
+      "text": "Aquí, cada mañana, la información es la protagonista de tu día. Cada mañana es una nueva oportunidad para construir el futuro con la verdad. Y te acompañamos paso a paso. El secretario de interior de Estados Unidos, Doug Vermont, llegó a Venezuela este cuatro de marzo de dos mil veintiséis. Esta visita marca un punto de inflexión en la estrategia de la administración de Donald Trump para asegurar el control y la explotación de los recursos naturales del país. Esta es la tercera visita de un alto funcionario del gabinete de Trump a Caracas en pocas semanas. Burke se reunió en el Palacio de Miraflores con la presidenta interina Daisy Rodríguez. La misión diplomática estadounidense calificó el encuentro como un paso vital e histórico para la reconstrucción del país bajo un nuevo esquema de cooperación. A diferencia de visitas previas centradas solo en el crudo, Borgon, quien también, quien lidera el Consejo de Dominio Energético Nacional, busca establecer asociaciones para la minería de tierras raras y otros minerales críticos. El objetivo es reducir la dependencia de Estados Unidos frente a China en estas materias primas. El despliegue ocurre en un clima de tensión internacional, siendo Borgon el primer miembro del gabinete en salir de Estados Unidos desde el inicio de la operación furia épica contra Irán el pasado sábado. El secretario viajó acompañado por ejecutivos de 15 empresas mineras y de inversión de Estados Unidos y Canadá, incluyendo gigantes como Pitbull, Orion Resorts. Se espera que durante la jornada del jueves, el día de hoy, se anuncien acuerdos específicos para que empresas estadounidenses retomen el desarrollo petrolero a gran escala, buscando elevar la producción venezolana, actualmente representando el 1% total del mundo, aprovechando sus reservas récord. El presidente de Estados Unidos, Donald Trump, resaltó que las delegaciones de Washington y Caracas han dejado ver su profesionalismo y dedicación. Trump aseguró que la presidenta encargada de Eze Rodríguez está haciendo un buen trabajo junto a representantes norteamericanos. Trump agregó que las negociaciones petroleras con nuestro país están fluyendo de la mejor manera y Rodríguez agradeció la amable disposición del gobierno de Trump para trabajar en una agenda conjunta que fortalezca la cooperación binacional entre Venezuela y Estados Unidos. Respaldó de Trump casi simultáneo. El presidente Trump publicó en sus redes ex y truck social que Dessy Rodríguez está haciendo, como ya les decía, un excelente trabajo y celebró que el petróleo está empezando a fluir bajo esta nueva etapa de relaciones. En otras noticias asociadas a esto, la aerolínea American Airlines anunció que se retomarán rutas a Venezuela, restableciéndose así la conectividad directa de Venezuela y Estados Unidos. Hoy además estaremos analizando el comportamiento del consumidor venezolano y daremos espacio también para otras notas, pues hoy es el día de la ciudad de Maracay que celebra 325 años de fundadas. Todo esto y más lo estaremos analizando en la emisión matutina de Noticias Benevisión.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.7,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "A high-level US Cabinet official visits Venezuela to negotiate resource extraction agreements, particularly focusing on rare earth minerals and oil production. The segment frames the visit positively, emphasizing US-Venezuelan cooperation and praising interim president Delcy Rodríguez's role in facilitating these agreements.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 8,
+        "otherUsOfficials": [
+          "Doug Vermont (Secretary of Interior)",
+          "Burke/Borgon (leads National Energy Domain Council)"
+        ]
+      },
+      "usRelationsTone": 0.8
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_2",
+      "chunkIndex": 2,
+      "text": "Del otro lado del estudio está nuestra compañera Diana e Ibrahim que ellos nos van a dar más detalles de estas y otras informaciones. Así que acompáñenme. Buenos días, Andrina. Buenos días, Diana. Buenos días, Andrina. Buenos días. Yo quiero llegar todos los días con ese ánimo con el que llegas tú acá al estudio. Se supiera que Andrina es la primera que pone la música tempranito para despertar con energía, con toda la disposición de afrontar un nuevo día. Bueno, la gente eso no se lo imagina, pero es así y todos tenemos que estar con ese ánimo y una de las cosas más bellas de estos amaneceres de la información es que la receptividad de Venezuela y el mundo ha sido total. Lo que nos dice que mucha gente, así como nosotros nos despertamos a trabajar y como ustedes muchachos, está despertándose a trabajar por Venezuela y por sus sueños. Miren, la agenda informativa describía varios temas importantes. La visita de esta delegación estadounidense a Venezuela, el intercambio de mensajes a través de las redes sociales, lo que nos da cuenta de un nuevo estilo de diplomacia, que en lugar de comunicados oficiales ahora se escriben a través de las redes sociales. Veíamos como el presidente Trump elogiaba el profesionalismo y la dedicación de Venezuela y también de Alcy Rodríguez hacia lo propio, ¿no? Sí, así es. Ayer vimos la llegada del representante del interior de Estados Unidos, los dog government y justamente él comentaba que esta alianza con Venezuela, esta explotación de los minerales de Venezuela, de hidrocarburos en general, no solamente tiene un sentido económico, sino que va a garantizar la paz en toda la región. Ya lo comentaba Sendrina más temprano que esta alianza con Venezuela hará depender muchísimo menos de naciones como China y es clave en este momento en el que Medio Oriente está sufriendo pues esta crisis que hemos detallado durante toda la semana. Sí, el tema geopolítico es importantísimo en esta agenda, son más de 20 empresas las que visitaron, digamos, Venezuela, acompañaron al secretario del interior de Estados Unidos en esta visita oficial al país. ¿Qué se habló allí? ¿Por qué es importante, digamos, vamos a comenzar por allí? ¿Por qué es importante esta visita? Por todo el encadenamiento industrial que tendrían esas empresas si invierten en Venezuela, como efectivamente parece que lo van a hacer. Tiene que haber mejoramiento, por ejemplo, de los puentes y de los embarcaderos que hay en el Orinoco, en el Caribe. Eso significa, por supuesto, muchos más puestos de trabajo, un encadenamiento industrial que va a involucrar a otros sectores de la economía, no solo el de la minería. También se pudo conocer muy temprano hoy en la mañana por medios internacionales que una de esas empresas que estuvo en esa rueda de negocios que posterior a la reunión que tuvo con la presidenta encargada, Delsi Rodríguez, celebró el secretario de interior de Estados Unidos en un hotel de Caracas.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.7,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "Coverage of a US Interior Department delegation's visit to Venezuela, highlighting business opportunities in mining and hydrocarbon sectors and praising diplomatic engagement between the Trump administration and interim president Delcy Rodríguez.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 1,
+        "otherUsOfficials": [
+          "Interior Department representative/Secretary of Interior"
+        ]
+      },
+      "usRelationsTone": 0.8
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_3",
+      "chunkIndex": 3,
+      "text": "Hubo una rueda de negocios, más de 20 empresas. Una de esas empresas suscribió un acuerdo aproximadamente por mil millones de dólares con Venezuela, con Minervén. Minervén tiene que entregarles aproximadamente mil toneladas de oro para su comercialización. Esa empresa es Trafigura. Trafigura tiene una autorización de la Oficina de Control de Activos Extranjeros del Departamento del Tesoro, de Lofac. Ya comercializa petróleo venezolano. Trafigura, junto con otra empresa estadounidense también de nombre Vitol, han comercializado casi 30 millones de barriles de petróleo desde la mitad de enero hasta la fecha. Como te digo, es, digamos, Diana, Endrina, es una empresa comercializadora de materias primas. Por eso también, este, está, digamos, suscribe este acuerdo para comercializar oro venezolano en los Estados Unidos. Mira, hay varios datos interesantes de lo que ustedes aportan y es que ya no se está circunscribiendo este tipo de negociaciones solamente a la materia petrolera, sino que ahora está abarcando la minería. Me causó muchísima curiosidad cuando a lo largo de todos estos años hemos escuchado tierras raras. ¿Qué son las tierras raras? Este es un elemento fundamental para el desarrollo de nuevas tecnologías y este mercado de tierras raras lo lidera Asia, lo lidera particularmente China y es un material fundamental para el desarrollo de teléfonos inteligentes, para el desarrollo también de armamento y por eso es la particularidad de esto que se denominan tierras raras y lo que está buscando Estados Unidos es no depender exclusivamente de su principal proveedor de tierras raras que es China. Hay otros elementos también curiosos y datos interesantes que resaltar. Tú hablabas de la reactivación del mercado laboral y hay estados, como por ejemplo Anzuátegui, que ya han diseñado plataformas, si no me falla la memoria, creo que una plataforma se llama Atalenti, que está enfocada en ofertar trabajos para todas las personas que quieren incorporarse a este mercado laboral. Entonces hay un nuevo escenario que sin duda alguna no se va a definir tan a corto plazo, pero sí hay unas proyecciones de inversión y unas alianzas estratégicas muy importantes. Parte de lo que estaba sucediendo en el sector petrolero venezolano era que estaba rezagado en cuanto al mercado internacional por no tener acceso a las actualizaciones tecnológicas que podía ofrecer Estados Unidos y por eso se establecieron alianzas con otros países petroleros hasta el momento y esto le costó muchísimo dinero, tiempo a la industria y sobre todo muchísimo le costó al pueblo venezolano este rezago en materia tecnológica. El poder ahora contar con las licencias para que la empresa pueda hacer estas actualizaciones sin duda alguna va a reactivar todo lo que es la industria petrolera. Es así muchachos, para verlo de un modo pragmático y simple. La industria petrolera una vez que se da la nacionalización del petróleo la controla Estados Unidos con su tecnología.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "Discussion of business agreements between Venezuelan state company Minervén and US firms (Trafigura, Vitol) involving gold and petroleum exports, with emphasis on US technology access enabling Venezuelan economic reactivation and diversification into rare earth minerals.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": 0.7
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_4",
+      "chunkIndex": 4,
+      "text": "Luego de todo este proceso de sanciones y bloqueos se tuvo que hacer unas adaptaciones a otro tipo de tecnología china, iraní, rusa y esto causó retrasos y afectó directamente la capacidad productiva de nuestro país. Ahora todas estas condiciones deberían revertirse y dar este salto a la tecnología. Bueno, este jueves justamente estamos hablando de materia económica y parte de esto, Endrina, Ibrahim, justamente tiene que ver con la reactivación de los vuelos de American Airlines entre Estados Unidos y Venezuela. ¿Qué significa esto? Por supuesto que esta sería la ruta directa entre estos dos países, Estados Unidos y Venezuela y han señalado los expertos que el costo estaría alrededor de unos 500 y 700 dólares ida y vuelta. Esto no solamente acerca a las familias que de pronto tienen el deseo de volver a Venezuela, viajar a Estados Unidos, sino que también moviliza un poco el sector económico puesto que el mercado, por ejemplo, puerta a puerta, tiene el apalancamiento en este tipo de vuelos directos. Además, obliga, por supuesto, a otras aerolíneas que anteriormente eran quien ofrecían pues la conectividad hacia Estados Unidos a disminuir un poco los precios que estaban alrededor de unos 1.200 dólares, puesto que ya las personas evidentemente prefieren tomar un vuelo directo a tomar alguno con escalas. Es parte del panorama económico que se ha movilizado durante las últimas horas. Efectivamente, American Airlines va a volar, todavía no se sabe con cuántas frecuencias, no han anunciado digamos formalmente la fecha en que van a regresar a Venezuela, pero se sabe sí que van a volar desde Miami hacia Caracas y hacia Maracaibo con una empresa que es propiedad totalmente de American Airlines que se llama Envoy. Sería esta la aerolínea que estaría llegando a los aeropuertos venezolanos. Esto también se circunscribe en un entorno de ampliación de la conectividad aérea. Durante este mes de marzo, que apenas está comenzando, hay siete líneas aéreas que van a retomar la conectividad desde y hacia Venezuela. No las recuerdo todas. Entre ellas está Wingo, por ejemplo, que empieza a volar desde Medellín hacia Maiketía, hacia Caracas. Está también, por supuesto, Láser, que está retomando vuelos directos desde Caracas hacia Madrid. Por ejemplo, está también Plus Ultra, Estelar. Son siete aerolíneas en total que están retomando la conectividad sin contar American Airlines. En general, para resumirlo, se podría decir que estamos hablando de buenas noticias para los venezolanos en cuanto a oportunidades económicas, en cuanto a conectividad aérea, que como bien lo decías tú, Diana, mucha gente está viendo esta información y dirá, bueno, yo no tengo previsto viajar a Estados Unidos. Esto a mí no me afecta, pero el transporte de carga aérea, sin duda alguna, afecta todo lo que es la cadena de comercialización y los puntos de distribución de venta y se abaratan los costos al no tener que hacerse estas triangulaciones que se tenían que hacer en las rutas aéreas hacia Estados Unidos.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "The segment reports on the resumption of American Airlines flights between the US and Venezuela, along with seven other airlines reestablishing connectivity to Venezuela in March 2026. The coverage frames this as positive economic news resulting from improved US-Venezuela relations, highlighting benefits for families, commerce, and cargo transportation.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": 0.7
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_5",
+      "chunkIndex": 5,
+      "text": "Bueno, vamos a continuar ahora revisando todo lo que es información. Vamos a comenzar a revisar los portales y por supuesto comenzamos con el portal de la casa. La visita del secretario del interior de Estados Unidos a Venezuela es uno de los eventos más titulados en la prensa nacional. Vamos a ver cómo lo tituló Noticias Venevisión.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "A brief transitional segment announcing that coverage will review how Venevisión's news portal reported on a visit by the U.S. Secretary of the Interior to Venezuela, described as one of the most heavily covered events in the national press.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_6",
+      "chunkIndex": 6,
+      "text": "Y fue de la siguiente manera, secretario del interior de Estados Unidos, Doug Berman, dice que empresas de minería desean comenzar a trabajar en Venezuela. Las declaraciones fueron dadas durante su visita a Caracas. Pero vamos a escuchar qué fue exactamente lo que dijo. Las oportunidades de colaboración en una especial sinergia entre los dos países, dos grandes naciones, Venezuela y Estados Unidos, puede ser ilimitada. Venezuela es un país muy pero muy rico que mantiene grandes reservas no solamente de gas y petróleo, sino también de minerales críticos. Y estas oportunidades han quedado muy claras hoy con el acompañamiento de dos docenas de compañías norteamericanas que son las mejores y más fuertes empresas de minería en el mundo. Y por su parte, Delcy Rodríguez pidió celeridad al Parlamento para la ampliación de ley de minas en Venezuela. La presidenta encargada pidió junto al secretario de interior de Estados Unidos, Doug Burgum, dar celeridad a la reforma de la ley de minas que todavía tiene que presentarse al Parlamento venezolano con el objetivo de ampliar el marco legal para poder desarrollar el sector con inversión nacional y extranjera. Vamos a escuchar también parte de sus declaraciones. Hemos intercambiado información sobre los flujos de inversiones para Venezuela, sobre nuevas tecnologías para desarrollar el sector de la minería. Estamos a las puertas de la presentación. Secretario, quería informarle. Estamos a la puerta de la presentación del equipo económico al Parlamento venezolano de una ampliación de la ley de minas, donde cada parte que venga a Venezuela a invertir, gane y que el pueblo de Venezuela gane para la felicidad social de nuestro pueblo, para la atención y la protección social del pueblo de Venezuela y para invertir en infraestructura en el país. Seguimos revisando los titulares más destacados de Noticias Benevisión con lo siguiente.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "US Interior Secretary Doug Burgum visits Caracas with American mining companies to discuss investment opportunities in Venezuela's mineral sector. Interim President Delcy Rodríguez requests Parliament expedite reforms to the mining law to facilitate both national and foreign investment.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": [
+          "Doug Burgum"
+        ]
+      },
+      "usRelationsTone": 0.7
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_7",
+      "chunkIndex": 7,
+      "text": "Ministerio Público y Ministerio de Cultura coordinan acciones para el programa por la paz y la convivencia democrática. Durante el encuentro se evaluaron los distintos aportes que el Ministerio Público puede realizar en el ámbito de sus competencias constitucionales para alcanzar los objetivos de este programa que busca consolidar la tranquilidad nacional a través del diálogo. Otra información que usted podrá leer en el portal de la casa es SAIME habilita retiro de pasaportes por medio de terceros. El SAIME indicó que el procedimiento estará disponible en una primera fase únicamente en la oficina Simón Bolívar en Caracas. Asimismo indicó que una vez se complete la solicitud del documento podrá ser entregado en un plazo máximo de 72 horas hábiles. El portal Noticias Benevisión también reseña la llegada a Venezuela del vuelo 119 con 126 migrantes repatriados desde Estados Unidos.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.3,
+      "oppositionSentiment": 0,
+      "primaryTopic": "government-policy",
+      "topicSummary": "The Public Ministry and Ministry of Culture coordinate actions for the peace and democratic coexistence program, evaluating institutional contributions to consolidate national stability through dialogue. Administrative updates on passport services and migrant repatriation from the US are also reported.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_8",
+      "chunkIndex": 8,
+      "text": "Agregan que autoridades informaron que el vuelo estuvo conformado por 108 hombres y 9 mujeres. Entre ellos se encontraban 3 adolescentes y 6 niños. Revisamos información en materia económica con lo siguiente. Banco Central de Venezuela. La economía venezolana creció 7,07 por ciento al cierre de 2025. Pese al impacto de las sanciones y el bloqueo financiero, el Banco Central de Venezuela destacó que el país ha logrado encadenar 19 periodos de crecimiento económico ininterrumpido, resaltando la resiliencia del sistema frente a factores externos. Seguimos revisando información en materia económica con lo siguiente. Sudeban evalúa con la banca perspectivas de la economía nacional a través de sus redes sociales. El viceministro de Economía Digital, Banca y Seguros, Jimmy Berríos Ojeda, encabezó el primer encuentro formal del año 2026 con los representantes de la banca nacional para analizar el panorama financiero del país y trazar las metas estratégicas que el sector bancario tiene planteado. Vamos a pasar a revisar información internacional en la página de Noticias Benevisión con lo siguiente.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "economy",
+      "topicSummary": "The segment reports that Venezuela's economy grew 7.07% in 2025 despite international sanctions and financial blockade, highlighting 19 consecutive periods of economic growth. Government officials including Vice Minister Jimmy Berríos Ojeda met with banking representatives to discuss the national financial outlook and establish strategic sector goals.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_9",
+      "chunkIndex": 9,
+      "text": "Senado de Estados Unidos rechaza la resolución que pretendía frenar la intervención en Irán con una votación de 47 a favor y 53 en contra. El Senado de Estados Unidos rechazó esta resolución que pretendía frenar la intervención militar ordenada contra Irán por el presidente Donald Trump, quien no solicitó la autorización previa al Congreso para este ataque. Seguimos revisando información internacional con lo siguiente. Ya lo comentábamos más temprano. Estados Unidos autoriza vuelos de American Airlines hacia Venezuela. El Departamento de Transporte de Estados Unidos anunció la aprobación de la solicitud de la aerolínea American Airlines para operar vuelos estadounidenses desde la ciudad de Miami con destino a Caracas y Maracaibo. Recordemos que esta sería su primera reanudación de servicios a Venezuela en más de seis años. Desde el año 2019 no prestaban servicio. Ahora pasamos a revisar información en materia de salud. Organización Mundial de la Salud declara Chile primer país de América oficialmente verificado como libre de lepra. Este logro se alcanza tras más de tres décadas sin registrar casos locales, siendo el segundo país en el mundo en recibir esta certificación. Por tal motivo, las autoridades chilenas reafirmaron su compromiso de mantener una vigilancia activa, a pesar de que los últimos reportes han sido únicamente casos importados. Cerramos nuestro recorrido por el portal de Noticias Benevisión con esta noticia.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "us-relations",
+      "topicSummary": "The segment reports on US Senate rejection of a resolution to halt military intervention in Iran under President Trump's order, and on US authorization of American Airlines flights resuming service to Venezuela after six years, marking normalization of air travel between the two countries.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 1,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": 0
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_10",
+      "chunkIndex": 10,
+      "text": "La inteligencia artificial australiana predice el riesgo de cáncer de mama incluso después de mamografías normales. La herramienta denominada Braix utiliza algoritmos para analizar imágenes y calcular la probabilidad de desarrollar la enfermedad en los siguientes cuatro años. En este sentido, la investigación publicada en The Lancet señala que este método es más preciso que los factores tradicionales como la edad o los antecedentes familiares. De esta manera, se podría pasar de un modelo de examen uniforme a uno personalizado, donde las pacientes con mayor riesgo reciban pruebas adicionales. Bueno, y un dato muy importante que agrega Noticias Benevisión en este sentido es que cada año se diagnostican alrededor de 2.3 casos de cáncer de mama en el mundo.\nEstos son datos de la propia OMS, así que qué interesante justamente, Ibrahim, este avance tecnológico. Nosotros tenemos que invitarlos a suscribirse a nuestro servicio NotiExpress, dejando su nombre y su correo electrónico a través de la página de Noticias Benevisión.\nPodrá sintonizar las emisiones completamente en vivo, pues está conectado con nuestro canal de YouTube y también recibir todas las informaciones a diario en su correo electrónico. Basta de hacer scroll, basta de recorrer páginas enteras buscando información. Noticias Benevisión está conectado directamente con ustedes.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "A segment reporting on Australian artificial intelligence technology (Braix) that predicts breast cancer risk more accurately than traditional methods. The report includes global health statistics from the WHO and promotes the news outlet's subscription service.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_11",
+      "chunkIndex": 11,
+      "text": "Así es, porque estamos dándolo todo en información. Y ahora vamos a iniciar nuestro recorrido con la agencia EFE, que reseña la tensión entre Ecuador y Cuba tras la expulsión de todo el personal diplomático de la isla. El gobierno de Daniel Novoa declaró a los funcionarios como personas no gratas, dándoles 48 horas para abandonar el país. En este sentido, la decisión ocurre justo antes del encuentro del mandatario Donald Trump en Estados Unidos, con quien ha estrechado lazos estratégicos. Por tal motivo, Quito también formalizó el retiro de su embajador en La Habana, marcando una ruptura clave en su política exterior. El siguiente portal que revisamos es el de 20 minutos. Ellos reseñan sobre Irak y su apagón en todo el país en medio de la escalada de violencia en Oriente Próximo. El Ministerio de Electricidad de Irak informó que las autoridades pertinentes están trabajando para determinar cuáles fueron las causas del apagón y restablecer el suministro eléctrico a todas las zonas. Sin embargo, las primeras informaciones apuntan a que el colapso de esta red eléctrica se ha producido como consecuencia de una caída repentina en el suministro de gas a la central eléctrica de Rumayla, ubicada en la gobernación iraquí de Basora. Y precisamente hablando de apagones, vamos a pasar a revisar el portal de 20 minutos con lo siguiente. Millones de personas se quedaron sin electricidad tras gran apagón en el occidente de Cuba. Autoridades informaron que el corte del suministro eléctrico afectó desde la oriental localidad de Pinar del Río hasta la central localidad de Camagüey, subrayando que los equipos continúan trabajando para restablecer la energía. Recordemos que este es el segundo apagón de este tipo que afecta a la región occidental de Cuba en los últimos tres meses. Y cerramos el recorrido a través de los portales internacionales de noticias. También con 20 minutos, también titulan Air France suspenderá sus vuelos a Cuba dos meses y medio por la escasez de carburante. La compañía francesa explicó que toma esa decisión por la escasez de carburante en la isla de Cuba y su impacto para la actividad económica y turística. Su último vuelo saldrá desde el aeropuerto parisino Charles de Gaulle el sábado 28 de marzo en dirección a La Habana. Volvemos a Venezuela y tenemos una celebración que ya les había adelantado y es que Maracay cumple 325 años de haber sido fundada y toda la energía de Maracay está presente acá en el estudio de Noticias Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "News roundup covering international events including Ecuador-Cuba diplomatic tensions, power outages in Iraq and Cuba, Air France flight suspensions, and a local anniversary celebration in Maracay.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 1,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_12",
+      "chunkIndex": 12,
+      "text": "Ustedes se van a sorprender porque estos que están aquí aman de corazón Maracay y ya lo van a ver en tan solo minutos. Pero antes vamos a ver este material que nos ha preparado producción. Adelante. Conocida como la ciudad jardín de Venezuela, Maracay capital del estado Aragua se despliega entre abundante vegetación. Sus árboles frondosos no solo adornan avenidas sino que custodian el paso de quienes recorren esta tierra privilegiada donde la naturaleza y el asfalto se funden en una experiencia única. También se caracteriza por ser cuna de la aviación civil y militar del país. Ella es la ciudad de Icaratín, la cuna de la aviación y lleva clavada en cal y canto, la maestra es a César Girón. Hacia 1594 Maracay crecía como resultado del tránsito y asentamiento de grupos familiares alrededor de los primeros atos. Pero fue el 5 de marzo de 1701 que fue elevada a parroquia eclesiástica y tomada esta fecha como la de su fundación. Ubicada en la región centro-norte y con una extensión de 280 kilómetros cuadrados, Maracay influye significativamente en el desarrollo económico del país. Con nueve zonas industriales, destacan las de San Vicente I, San Vicente II y la hamaca, transformando el esfuerzo en progreso. La presencia del añil, que se convierte en uno de los primeros productos en la segunda mitad del siglo XVIII para la exportación. Más allá inclusive o haciendo competencia con el café y el cacao, que eran los productos fundamentales como lo es hoy el petróleo. Y entonces Maracay se convierte en ese epicentro económico de todo el país. Juan Vicente Gómez tuvo una influencia importante en la transformación de la ciudad, convirtiéndola en la capital de hecho de Venezuela entre 1908 y 1935, vistiéndola de gala con infraestructuras modernas y majestuosas, como la Plaza Bolívar más grande de Latinoamérica. El mausoleo de Juan Vicente Gómez se encuentra en estas tierras. El emblemático teatro de la ópera, la Catedral de San José, la Casa de los Arcos y la maestranza César Girón, forman parte del patrimonio arquitectónico, orgullo de los maracayeros y de quienes llegaron para quedarse. Maracay es lo más bello que tiene el Estado de Aragua. Su gente, Tomás. Me ha abrazado bastante la ciudad, me he sentido ya parte de ella. Llena de patrimonios, llena de heroísmo. El Museo Aeronáutico es único en su estilo. Allí descansa la vaca sagrada, el avión que marcó el fin de una era al trasladar a Marcos Pérez Jiménez hacia el exilio. En el centro de la ciudad se encuentra el Santuario de la Madre María de San José, lugar que resguarda el cuerpo incorrupto de la primera beata venezolana, visitado cada año por miles de devotos. El zoológico Las Delicias, pionero con más de un siglo de historia, es un lugar de esparcimiento y preservación de la fauna. Entre sus tesoros naturales se encuentra el imponente Parque Henry Pitier, el primer parque nacional de Venezuela e importante refugio para la biodiversidad. Maracay es la entrada hacia las hermosas y cálidas playas de Choroní, a su vez que al sur fija su mirada hacia el lago de Valencia. El nombre de la ciudad guarda un eco ancestral. Proviene de la lengua caribe maracayá, que significa pequeño tigre. De esa esencia surge la dinastía de los Tigres de Aragua, uno de los equipos más exitosos de béisbol profesional venezolano, que ha esculpido figuras legendarias como David Concepción y Miguel Cabrera. Maracay no es solo una capital, es el punto de encuentro entre la historia, la industria y la naturaleza. Una joya inigualable en el corazón de Aragua que celebra sus 325 años. Maracay era yo quiero ser tu confesor y quiero ser tu convivente. Es sabrosa esa música y yo pido que para los 326 años, todo el equipo de Noticias Venece, cuando sean los 326, Emily, del próximo año que nos lleven a nosotros para allá, porque este año hemos traído un poquito de maracay que sabe a Noticias Venevisión, tiene ese sabor maracayero y Alejandra Triana nos preparó este material y por supuesto le dijimos, Alejandra te tienes que venir para que compartas todo esto.\nY acompañando a Alejandra está María Guarapano, la viralísima que lleva a Maracay en el corazón, tanto así que se puso la franela que dice Maracay 325 aniversario. Y el tigrito de Noticias Venevisión, Gregorio Rojas.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Venevisión celebrates Maracay's 325th anniversary with a feature segment highlighting the city's history, architecture, natural landmarks, cultural heritage, and economic importance to Venezuela.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_13",
+      "chunkIndex": 13,
+      "text": "La otra vez en la celebración estábamos diciendo faltó el tigrito, ayer en el noticiero tú estuviste, entonces ya nosotros tenemos nuestro propio tigre aquí, ¿no? Bueno, qué gusto poder acompañarlos, un día que es muy especial para todos, los maracayeros, porque comienzan 10 días, comienzan 15 días muy especiales, el día de hoy comienza una fiesta para Maracay que se extiende hasta el 19 de marzo, que es el día del Santo Patrón San José. Maracay cambió su historia hace 100 años, cambió su historia y fue prácticamente el punto de auge de Maracay hace 100 años cuando bajo el general Juan Vicente Gómez Maracay cambia su forma de ser y cambia su origen. Muchos lo llamaban despectivamente un bebeero de caballos, en efecto Maracay así fue. Y Maracay creció hace 100 años a ser la cuna de la aviación, a ser muchas cosas maravillosas que hoy día la convierten en referencia para todo el país. La ciudad jardín. Tú sabes que hay una gaita que dice háblame de Maracay, yo les digo a ustedes hoy háblame de Maracay, Alejandra. Bueno, de Maracay hay muchísimo que hablar, mucha historia también, muchos sitios que visitar, un parque nacional, Henry Pitier, también súper emblemático, en la parte religiosa pues el santuario de la Madre María de San José, y bueno, aquí vamos a conocer todos esos sitios. Alejandra, yo tengo una compañera que ella ama Caracas, pero que no puede esperar que sea viernes para ir manejar dos horas a Maracay, una hora y media dependiendo de cuánto sea. Esa soy yo. No quiero decir, pero es esto que está por acá, que además está muy orgullosa de su ciudad como todos ustedes, y además nosotros felices de tener talento de Maracay siempre, que lo llevan pues en el corazón a esta ciudad. Me tiene una invitación pendiente, ustedes no saben, porque tengo que atravesar Maracay para poder llegar a Choroní. Ella quiere y ama y sueña y muere por Choroní. Yo soy una maracayera que ama Caracas, pero que disfruta plenamente la tranquilidad que te brinda Maracay. No sé si estamos de acuerdo todos. Totalmente. Maracay es preciosísima, además tiene sitios muy emblemáticos, ya lo decía Diana, para irnos a las costas por el Henry Pitiera, juro hay que pasar por Maracay. Yo una de las cosas que más amo de mi estado sin duda son las playas Choroní, Cata, Okumare, Cuyagua, Cática, la Ciénaga, o sea, son muchos destinos turísticos que tiene el estado y propiamente de Maracay. Tiene una tranquilidad que de verdad yo me quedo con ella cuando necesito desconectarme de esta ciudad, que es preciosa y la amo, pero que es muy, una locurita estar en Caracas.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Two TV personalities discuss the city of Maracay and its attractions, including its history, landmarks like Henry Pitier National Park, beaches, and religious sites, as part of celebrating the festivities leading up to Saint Joseph's Day (March 19).",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_14",
+      "chunkIndex": 14,
+      "text": "Entonces cuando necesito desconectarme sin duda, agarro mi carro, vámonos una hora y media, una horita a Maracay, ya llegamos y nos desconectamos y nos conectamos también con esa tranquilidad y con esa paz que nos brinda la ciudad Jardín, que sin duda estoy muy orgullosa de ser maracayera y de ser haragüeña. Mira, Gregorio hace un comentario bien interesante, que fue esa referencia histórica, Gregorio, de que se le llamaba que era un bebedero de caballos y luego se comenzó a desarrollar, muchos no lo saben o quizás sí, si estudiaron bien historia, que Maracay fue, digamos, de facto durante un tiempo la capital de Venezuela porque Juan Vicente Gómez despachaba desde allí. Se estaba haciendo el gobierno, sí. Que no quería casi venir a Caracas porque le encantaba Maracay. ¿Qué crees tú que vio Juan Vicente Gómez en Maracay para no querer salir de allí? Maracay había una, de por sí, era un lugar muy tranquilo, pero hay algo fundamental que lo dice la misma ciudad, la ciudad te cuenta de su propia historia. En el, donde está la redoma de San Jacinto, uno de los sitios más emblemáticos de la ciudad, hay un monumento de un jaguar en la punta de la avenida Bolívar y dice, es precisamente lo que comentaba Alejandra, Maracay es en la voz india, Maracay es tigre, es jaguar, por eso los tigres de Aragua, y dice en el monumento, dice Maracay encrucijada de camino. Yo creo que Gómez vio eso, porque Maracay, para mucha gente, incluso de fuera de Maracay, Maracay ha significado mucho, Maracay también le dicen la piedra de Amolar Vegueros, porque hay mucha gente que viene de Apure, mucha gente que viene de Huarico a Maracay, y forma y mejoró la calidad de su familia en Maracay. Es decir, mucha gente que venía del llano y le dio la oportunidad a sus hijos, y por ende a sus nietos, de mejorar sus condiciones de vida, de mejorar sus condiciones profesionales. Y Maracay es el punto de encuentro de quienes vienen de Occidente, de quienes vienen de Oriente, es como ese punto medio al norte del país en donde todos los caminos se encuentran, y por eso es que Gómez tal vez vio una posición estratégica en Maracay, que no era tan cerrada para ingresar como Caracas. Los caminos a Caracas en esa época no eran, o eran más complicados para llegar a Caracas que Maracay. Maracay está a los pies del Henry Pitiera, a los pies de la cordillera de la costa, con un acceso mucho más fácil desde Occidente, un acceso mucho más fácil desde los Llanos, y tal vez el general Gómez, por supuesto ahora quien tenga otro argumento, de tantos maracayeros que conocen incluso mejor la historia que uno, que podrán decir, esto vio Gómez en Maracay. Pero la tranquilidad de Maracay, como dice María, esa calma que se respira, ese verdor propio de Maracay, algo extraordinario.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "A travel and tourism segment discussing the history and attractions of Maracay, Venezuela, including its historical significance during Juan Vicente Gómez's presidency and its role as a central crossroads in the country.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_15",
+      "chunkIndex": 15,
+      "text": "Bueno, tú nos enamoras de Maracay porque siempre le hablas bellezas. Cuando Gregorio dice, me voy a Maracay, me voy a mi casa, también dice como María, me desconecto. Ustedes nacieron allí, ¿verdad? Sí, claro. Alejandra es como repatriada en Maracay. Alejandra. He sido adoptada. Que ha sido adoptada. Ajá. Cuéntame, ¿qué te enamora de Maracay? ¿A dónde tenemos que ir cuando vayamos a Maracay? Porque tú sabes que yo siempre hago mi lista de pendientes. Yo sé que cuando voy a Maracay, siempre me paro a comer cochino frito en un punto, que esa gente segurito nos están viendo, y saben que cuando volvamos nos van a recibir con cochino frito. Pero además de esto, Alejandra, ¿qué se puede hacer en Maracay? Bueno, hay mucho que ver, mucho para hacer. Yo estoy enamorada de Maracay, siento que me adoptó de la mejor manera. Ya tengo tres años, casi tres años como corresponsal allí. Y bueno, Maracay tiene un poco de todo, hasta diferentes climas. Si quieres playas, tienes playas. Si quieres un clima más frío, tenemos la Colonia Tobar. Si quieres sitios históricos, el centro de Maracay es perfecto para esto. Y bueno, la Plaza Bolívar, la Plaza Bolívar más grande de Latinoamérica. Entonces, bueno, muchos sitios para visitar, para conocer. Sobre todo también lo que más me gusta de Maracay y bueno, del Estado de Aragua en general, son todos estos espacios naturales. Sí. Ahora, justamente Alejandra, todos los ciudadanos de los estados en los aniversarios, en los cumpleaños de su ciudad, tienen anhelos para estas ciudades. Gracias. ¿Cuál es el regalo que necesita Maracay el día de hoy? ¿Qué le regalamos a Maracay? ¿Qué pedimos para Maracay en este 325 aniversario? Bueno, Maracay es una ciudad que ha venido creciendo, que se ha venido desarrollando más de lo que ya, de como estaba concebida, ¿no? De hecho, estamos viendo algunos cambios en el sentido de que se están haciendo rehabilitaciones en la ciudad, rescatando sitios históricos. Sí. Y, por supuesto, la maestranza, que es uno de ellos, todavía no está terminada, pero está encaminada. La catedral fue una de ellas. La catedral recientemente también fue rehabilitada. Entonces, la cara, de por sí Maracay es bella, pero siento que está mejorando. Bueno, y una cosa que nos hace ver algo bellísimo, sin duda alguna, de esto han escrito los poetas, las canciones, es el amor. Y Alejandra Triana se vino con su amorcito para acá, que él es Randolfo Blanco, también nuestro corresponsal en la entidad, y nos puede hablar un poco. Bueno, tú estás allí al ladito, en esa línea limítrofe que se difumina cuando uno va en carretera y uno no sabe distinguir si está en Carabobo o Yaragua. ¿Qué es lo que más te gusta de Maracay? Bueno, si supieras que, bueno, yo también fui corresponsal en Carabobo por un buen tiempo. Cuando mis inicios ya en el canal, yo estaba como corresponsal de Carabobo, Aragua, Huarico, Cogeve y Contorita.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "A morning show segment featuring television correspondents discussing the attractions and beauty of Maracay city on its 325th anniversary, including local landmarks, natural spaces, and recent infrastructure rehabilitation projects.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_16",
+      "chunkIndex": 16,
+      "text": "¡Guau! No, bueno, Maracay definitivamente, bueno, entre las cosas que me gusta es que también tiene como que la raíz de lo que viene siendo mi tierra natal, que es Maracaibo. Ajá. Maracaibo, ¿no? Pero adicionalmente, la gente de Maracay, debo decir que... Sí, síguenos contando entonces, Randolfo. Que adicionalmente, debo decir que la gente de Maracay es definitivamente muy espléndida en cuanto al trato, en cuanto a la relación. Cuando yo llegaba, por ejemplo, me tocaba cubrir en Carabobo y después me tocaba cubrir en Maracay, definitivamente, y bueno, me disculpan los de Carabobo, porque en verdad ellos me han recibido muy bien, pero definitivamente la gente de Maracay es mucho más dada, mucho más amistosa, mucho más abierta, y eso es algo que hay que reconocer desde ese punto de vista. Claro que sí. Bueno, para nuestros votos, María y Gregorio. ¡Randolfo! Randolfo, te debo decir algo. Admiro profundamente tu trabajo, tu presencia, la conexión que generas con la información. Eres un excelente corresponsal y de verdad, verdad, te felicito. Aprovecho esta oportunidad para hacerlo públicamente porque así hay que hacer las cosas. Gracias, gracias, gracias. Mira, hablando de Maracay, también tienen lugares espectaculares para ir a pasear en familia. Hay un hotel muy emblemático donde uno va con los chamos y uno pasa el día feliz. También está por las delicias, un lugar donde uno se come una sopa que yo les puedo contar que es uno de los mejores hervidos. No sé de los Maracay que yo. Bueno, ustedes no saben, los fines de semana yo no me quedo acostada en la casa, ustedes lo saben. No, no hay forma de quedarse aburrido en Maracay un fin de semana, María. No hay forma de estar aburrido en Maracay. Eso es lógico, las delicias, las ballenas, el castaño. Para hacer ejercicio también tenemos, si quieres playas, pues te vas a las playas. Si quieres hacer ejercicio, como ya lo mencionaba, te vas a las ballenas y das un trote o te vas al cerro del Hotel Maracay también. Los aviadores. Los aviadores. Los aviadores. O sea, muchos lugares turísticos para estar en familia. Si quieres, pues quizás un domingo para ir a la Eucaristía, vas a la Catedral, que también está preciosa. Ya lo decía Alejandra, San Jacinto. O sea, son muchos los lugares que tiene Maracay para ofrecer. Hay muchas personas que dicen Maracay solamente tiene la Torre Sindoni, la torre más alta de Maracay. Yo me atrevería a decir que tiene mucho más. Los invito a que vayan a Maracay. Vaya, vaya, vaya. Y corrobore lo que dice Randolph. Bueno, y lo que decían, y lo que decían, por ejemplo, había una cuña muy famosa que decía, y la colonia Tobal. Es decir, aunque no es Maracay, pero lo que es el Estado de Aragua, la cantidad de variedades en cuanto a clima, en cuanto a lugares, en cuanto a espacios, en cuanto a sitios donde ir, en verdad hay que reconocer.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "A television segment featuring casual conversation between news anchors and correspondent Randolfo about tourist attractions, restaurants, and recreational activities in Maracay and Aragua State. The discussion focuses on local landmarks, family-friendly destinations, and the friendliness of the local people.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_17",
+      "chunkIndex": 17,
+      "text": "Bueno, ya se nos está agotando el tiempo. Es jueves, para muchos juernes, porque ya desde hoy se empieza a planificar lo que va a ser el fin de semana. Yo quiero que brevemente ustedes me digan, si yo me voy el sábado a Maracay, Ibrahim, Diana, si nos ponemos de acuerdo los tres y nos vamos con nuestra familia, ¿qué tenemos que hacer en Maracay, Gregorio, brevemente? Sí. Dependiendo de la hora, o te vas y te comes unas empanadas a Maracay, o vas y comes cachapa y cochino frito que te guste en Maracay. Te puedes ir, obviamente paras en Maracay, te vas a ir a la playa, las playas están muy cerca, Akumar está a una hora nada más de Maracay, es regresar, es quedarte en Maracay, es salir de noche en Las Delicias, es salir de noche en la Avenida Sucre, es salir de noche a las ballenas. Maracay tiene para vivirse de todo un poquito, un ratico, en cada momento del fin de semana, y ojo, está ampliamente recomendado, no es nada más el paradero para ir a la playa, es regresar de la playa, estar en Maracay y salir de noche a Maracay. Correcto. Me gusta. Alejandra. Bueno, puede ser el sábado en la playa, domingo, zoológico Las Delicias, es un sitio espectacular para visitar con los chamos, pudiera ser una opción también chévere. Y bueno, hay con los leones blancos. Ah, sí. ¿Qué dices tú? Que en Maracay hay unos leones blancos. De tu babá. Ay, sí, sí. Yo me conmoví mucho cuando se murió uno de ellos, que estaba recién nacido en el zoológico. Sí, pero lo característico de que son unos leones blancos y que pudieron procrearse dentro de este espacio, y que bueno, lamentablemente algunos de ellos fallecieron, pero... Están dentro de los programas de reproducción y de conservación de la especie, porque están en peligro de extinción, y bueno, el zoológico es pionero en eso, en el país. María, un plan para Natalia, porque tal vez tu plan va a ser para más jóvenes. Plan perfecto. Qué plan. ¿Cuál es el plan perfecto en Maracay? Plan perfecto para la familia. La semana pasada dijeron que se iban a La Guaira, este fin de semana nos vamos a Maracay, al estado de Bragua. Los invito. No, no, no, no, no. Allá vamos a llegar, mamita. Mira, nos vamos el viernes con Natalia, con la familia, nos vamos el viernes, nos vamos a Las Delicias, comemos delicioso. Me voy con Natalia y rumbeamos por Las Delicias, que está cool también. Luego el sábado nos vamos bien tempranito para la playa, regresamos, vamos al zoológico, paseamos de nuevo por Las Delicias, por Las Ballenas, por el casco histórico de Maracay, el Teatro de la Ópera, que está preciosísimo, y no lo habíamos mencionado, la Plaza Bolívar, la más grande de Latinoamérica.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Television hosts discuss weekend travel plans and tourist attractions in Maracay, Venezuela, including beaches, restaurants, the zoo, and cultural sites.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_18",
+      "chunkIndex": 18,
+      "text": "El domingo finalizamos, el domingo viendo a la Eucaristía, a mí me encanta ir los domingos a misa, y ya pues el domingo retornamos para el lunes estar aquí listos, con el amanecer de la información. Y Uraín, ¿qué te parece este plato? Yo quiero ir a comer el cachapa y el cochino frito. Tú te anotas conmigo. Me tienes que decir dónde vas conmigo. Yo no sé dónde es. No, no, yo, ahorita te vamos a decir, porque no podemos hacer publicidad aquí, pero la gente de las cachapas y el cochino frito, estoy segura que nos están viendo y nos están mandando en este momento mensajes. Diana, ¿qué te parece este plan para Ivana? No, perfecto, ya lo comentaba, estoy pensando en mudarme, ya me convencieron para ir a Maracay y devolverme tempranito todos los... Nos vamos saliendo. Nos vamos de aquí, sí, exactamente. Y bueno, qué honor tenerlos acá, ustedes representantes de Maracay, cuna de la aviación de nuestro país, nuestra ciudad jardín, y bueno, qué bonito que tengamos además algunos de los paisajes más emblemáticos de esa ciudad, atrás acá en grande, para que ustedes no solamente escuchen a los maracayeros, sino que también puedan ver con qué se van a encontrar en Maracay. Mira eso, mira eso, qué belleza. Qué precioso. Bueno, y con esta información y llenos del sabor a Maracay, felicitando y saludando a toda esa tierra en la celebración de sus 325 años. Vamos a hacer nuestra primera pausa. Ustedes preparen su maleta si se van a Maracay y vengan de vuelta porque esta pausa es chiquitica y tenemos más de Noticias Benevisión para ustedes.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Morning show hosts engage in casual conversation about attending church, discussing local cuisine (cachapas and fried pork), and celebrating Maracay's 325th anniversary with promotional comments about the city's landmarks and attractions.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_19",
+      "chunkIndex": 19,
+      "text": "Ya venimos. Mira, qué verdad. Tierra bonita, tierra bonita, tierra caliente, hay caliente, un romance en Maracay, es algo bien diferente y candente. Tierra bonita, hay bonita, tierra caliente, un paseo por las delicias, te relaja y te pone... Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "A music or entertainment segment featuring a song about romantic travel destinations in Venezuela. No political content is present.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_20",
+      "chunkIndex": 20,
+      "text": "Benevisión. Muchísimas gracias por tu reporte Raquel. Y durante la noche de este miércoles se reportó la excarcelación del exalcalde del Tigre en el estado Anzuategui Ernesto Parakeima. Julio Sergio Marcano nos tiene los detalles sobre esto. La información fue confirmada por sus familiares en las que se han hecho en el caso de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la ley de la delitos de obstrucción al libre comercio y acto arbitrario. Justamente hace un mes sus familiares denunciaron condiciones precarias en el lugar donde Parakeima cumplía arresto domiciliario y divulgaron fotografías del grillete electrónico que mantenía en su tobillo. En el estado de Anzuategui, Julio Sergio Marcano, Noticias Benevisión. Gracias por tu reporte Julio Sergio. El ministro de Educación Héctor Rodríguez en su visita al estado Apure recalcó que el gobierno nacional estima llegar a 7 millones de niños escuelos. Sofía Piñero nos amplía. Instruyó a los circuitos comunales mapear los territorios para incluir a los niños y adolescentes que han abandonado sus estudios o no han iniciado su escolarización. Cuando empezó el año escolar 2024-2025 teníamos 5 millones y medio de niños en edad escolar en escuela. Hoy tenemos más de 6 millones, es decir, en un año logramos conseguir medio millón de niños. Nuestra meta es llegar a 7 millones y ahí tenemos un reto grande. Esos 900 mil y pico que nos faltan son sobre todo niños y niñas de preescolar o maternal. Por dos razones. Hay familias que prefieren tener al niño en edad maternal y preescolar en la casa. Eso no está mal si la familia va a atender al niño. Si el niño se va a quedar solo o se va a quedar todo el día en una pantalla, no está bien. La autoridad nacional informó que en Venezuela se construirán más de 5.300 nuevas aulas de preescolar y maternal. Tenemos poca oferta pública de preescolar y maternal. Por eso tenemos que ampliar la matrícula de oferta pública y hemos tomado la decisión de abrir por cada comuna una aula nueva de preescolar y maternal. Es decir, a nivel nacional vamos a abrir 5.338 aulas. Nos corresponde a Apure abrir 182 nuevas aulas de maternal y preescolar. Apure tiene una de las asistencias a clases más altas del país, de asistencia escolar. Los quiero felicitar. El ministro Héctor Rodríguez también precisó que se culminarán obras de rehabilitación en el estado que estaban suspendidas por las inundaciones del invierno pasado. Desde el estado Apure, Sofía Piñero. Noticias, Benevisión. Seis de la mañana con 53 minutos. A esta hora hacemos una nueva pausa. Al regreso tenemos mucho más para ustedes. Quédense allí que ya venimos. Gracias. Gracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias.\nGracias. Gracias.\nGracias. Gracias.\nGracias. Gracias.\nGracias.\nGracias. Gracias.\nGracias.\nGracias.\nGracias.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.35,
+      "oppositionSentiment": 0,
+      "primaryTopic": "government-policy",
+      "topicSummary": "The segment reports on two government initiatives: the release of former mayor Ernesto Parakeima under the amnesty law, and Education Minister Héctor Rodríguez's announcement of plans to expand school enrollment to 7 million children and construct over 5,300 new pre-K and maternal classrooms.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_21",
+      "chunkIndex": 21,
+      "text": "Nuestra encuesta del día no será la excepción. Es la siguiente. Después de pagar lo esencial, ¿en qué gastas el dinero que sobra? Les ofrecemos las siguientes opciones. La opción A, salidas a comer. Opción B, cine o teatro. Opción C, paseos, playa o montaña. Y opción D, lo ahorro. Recuerde que usted puede escanear el código QR que lo llevará directamente a nuestra cuenta de Instagram. Y allí podrá encontrar las opciones y participar.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "A daily audience poll asking viewers how they spend discretionary income after essential expenses, with options including dining out, entertainment, recreation, or savings.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_22",
+      "chunkIndex": 22,
+      "text": "¿Qué consejos de la economía económica nos tiene preparados? ¿Qué consejos de la economía económica nos tiene preparados? ¿Qué consejos de la economía económica nos tiene preparados? ¿Qué consejos de la economía económica nos tiene preparados? ¿Qué consejos de la economía económica nos tiene preparados? Bueno, vamos a leer cada uno de sus comentarios. Ya nosotros aquí hemos hecho nuestra propia encuesta y ya tenemos los resultados, pero los vamos a revelar más adelante. Y es momento de revisar qué consejos justamente en materia económica nos tiene preparados nuestro compañero José Gabriel Arapé en su sección Cuentas Claras. ¿Qué consejos de la economía económica nos tiene preparados? Si ganas en Bolívares y sientes que el dinero no dura nada, esto es para ti. No vamos a hablar de milagros, vamos a hablar de decisiones prácticas que sí se pueden aplicar. Esto es Cuentas Claras, porque no importa lo que te dediques, siempre vas a tener que manejar dinero. Y cuando ganas en Bolívares, manejarlo bien marca la diferencia. El problema financiero real detrás es no tener una estrategia. Vamos con varios consejos simples y reales. Primer consejo, adelanta consumo necesario, pero con cuidado. Si sabes que vas a necesitar comida o artículos básicos durante el mes, compra eso apenas cobres. Puede ayudarte a evitar aumentos. Pero ojo, adelantar consumo no es comprar de más. No es llenar el carrito por ansiedad, es cubrir lo necesario. No gastar hoy lo que no ibas a gastar igual. Segundo consejo, agrupa los pagos en los días de cobro. Apenas recibes el dinero, paga lo importante. Servicios, alquiler, mercado y compromisos fijos. Esto te permite saber desde el inicio cuánto dinero tienes realmente disponible. Cuando dejas pagos para después, el dinero se ve en gastos pequeños y termina ajustando donde no deberías. Tercer consejo, reduce el gasto diario. El cafecito, la recarga, el delivery, el pasaje extra. Uno solo no hace daño. El problema es cuando se repiten todos los días. El dinero casi nunca desaparece por un gasto grande, sino por muchos pequeños que no controlaste. Cuarto consejo, usa el bolívar rápido, pero con intención. Dejar el dinero quieto sin plan hace que pierda valor. Pero gastarlo sin pensar hace que pierda sentido. Decide antes de gastar. Que se paga y que se posterga. Quinto consejo, divide el mes en etapas. No gastes como si el mes se acabara la primera semana. Piensa tu dinero para el inicio, mitad y final de mes. Eso evita llegar a los últimos días resolviendo. Sexto consejo, apóyate en herramientas sencillas. Puedes usar aplicaciones como gestor de gastos. Que te permiten anotar los gastos y ver con claridad en que se va tu dinero semana a semana. No necesitas una plantilla complicada para comenzar. Y si en algún momento logras guardar algo de bolívares si quieres proteger ese dinero, existen alternativas. En Venezuela está la bolsa de valores de Caracas.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "A financial advice segment offering practical tips for managing personal finances when earning in bolivars, including strategies for budgeting, reducing daily expenses, and using financial tools.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_23",
+      "chunkIndex": 23,
+      "text": "Que es el mercado donde se compran y venden acciones, bonos y otros instrumentos financieros de empresas que cotizan en el país. Además existen los fondos mutuales de inversión. Que funcionan juntando el dinero de muchas personas para invertir de forma diversificada. Y reducir el riesgo de poner todo en un solo lugar. Eso sí, siempre es importante informarte bien antes de invertir. Entender los riesgos y empezar con montos que puedas manejar con tranquilidad. Ganar en bolívares exige más orden. No se trata de aguantar. Se trata de decidir mejor. Porque el orden y la información son tu mejor defensa. Esto es Cuentas Claras. Nos vemos en el siguiente. Bueno, excelentes consejos y sobre todo vivir en orden. El cuarto consejo yo creo que todos lo seguimos. Que es gastar el bolívar rápido. Pero en realidad se trata de poder comprender qué es lo que está sucediendo. Comprender todos los perfiles del mercado. Y hay un tema que en lo particular me apasiona. Porque tuve la oportunidad de ser docente en el área de posgrado en la Universidad Católica. Y justamente daba esta materia comportamiento del consumidor. Y hoy vamos a hablar con Alexander Cabrera, CEO del grupo Atenas Consultor. Y vamos a estar hablando para poder entender a ese venezolano. El perfil del consumidor venezolano. Muy buenos días y gracias por darle la oportunidad a este amanecer de la información. Bienvenido. Y me da súper contento estar aquí. Pero sí, el consumidor venezolano es un consumidor totalmente diferente. Nosotros tomamos como base 2008. Esa Venezuela Saudita. ¿Se acuerdan de esa Venezuela de ese 2008? El Tabara Todamedo. ¿Se acuerdan de eso? Bueno. Vamos como base del 2008. Ya ese venezolano de ahí ya no es el mismo venezolano de hoy. En el 2008 existía una gran clase media. Hoy ya no existe esa gran clase media. Hoy existen tres grandes grupos de consumidores. Un 7% de los hogares venezolanos se comportan como si vivieran en Costa Rica. Pura vida. Quiero sal del Himalaya. No me importa el precio. Quiero innovación. Y hay un 29% que se comporta como la clase media colombiana. Quiero una relación precio-rendimiento. Es nosotros los que estudiamos cada vez que vamos a hacer una compra. Y hay un 64% de los hogares venezolanos que solo no importa el precio. ¿Cuál es el gran reto hoy para entender ese consumidor? Antes en el 2008 yo tenía un solo portafolio y ese portafolio iba a esa gran clase media. Hoy no. Hoy yo debo tener un portafolio para ese 7. Debo tener un portafolio para ese 29. Y debo tener un portafolio para ese 64. Ese es el gran reto que tenemos hoy. Ojo, partiendo de que tenemos que empezar a trabajar con algo que se llama la expectativa. Recuerden que lo que llevamos de este año son 8 semanas. Y la expectativa tenemos que empezar a trabajar porque tu expectativa el 31 de diciembre del año pasado era totalmente la expectativa de hoy en día.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "A financial education segment discussing stock markets, mutual funds, and investment advice, followed by an interview analyzing consumer behavior profiles in Venezuela based on purchasing power and economic segmentation.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_24",
+      "chunkIndex": 24,
+      "text": "Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más de tiempo. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más más. Y debo tener un poco más. Y debo tener un poco más. Ahora hay otra realidad. La realidad es que el mercado venezolano. A nivel de consumo. Es un mercado de 18 mil millones de dólares. Pero cuando la expectativa está baja. El venezolano lo que hace es. Proteger a la familia. Y el 60 por ciento de tu gasto. Está en proteínas. Huevos, carnes, pollo. Y cesta básica. ¿Qué pasa cuando el índice de confianza empieza a crecer? Tú empiezas a experimentar nuevas nuevas cosas. Bueno ya no voy a gastar tanto en proteínas. Sino ahora voy a una cadena. Y voy a probar un nuevo champú. Por eso que tenemos que estar preparados. En poder administrar este tipo de expectativas. Porque definitivamente el mercado venezolano. Hoy con una expectativa alta. El consumidor venezolano empieza a apostar a nuevas cosas. Ahora el consumidor venezolano. Tiene la difícil decisión. De justamente priorizar. Lo que señalas. Alimentación. Servicios básicos. Y tener el consejo. Que justamente nos daba José Gabriel Arape. Economista. Gastar los bolívares rápidos. Porque entendemos la inflación. Que tenemos acá en Venezuela. No vale lo mismo el día de hoy. El bolívar a mañana. Entonces tenemos esta dualidad. En el patrón de consumo. Exactamente. Si gastar inmediatamente lo que tenemos. O tratar de ahorrar. Por si hay algún tipo de variación. El día de mañana.\n¿Cómo manejar esto?\nDefinitivamente el consumidor venezolano. Hoy las transacciones en Venezuela. El 98% de las transacciones. Son en bolívares. Eso lo que dice. Rápidamente. Yo agarro a mis bolívares. Los voy a cambiar rápidamente.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "economy",
+      "topicSummary": "Discussion of Venezuelan consumer market dynamics, household spending patterns, and inflation concerns. The segment analyzes how consumer confidence affects purchasing behavior and the dilemma between immediate spending versus saving given currency instability.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_25",
+      "chunkIndex": 25,
+      "text": "El problema no es ese. El problema está. De que hoy de un billete de 100. Cosa que no pasaba antes. De un billete de 100. 60 dólares. Se están yendo. En servicios. Gasolina. Educación. Aseo. Electricidad. Cosas que antes. Ese valor era muy pequeño. En el 2008. Y casi todo ese valor. Yo lo llevaba a alimentación. Entonces hoy. El internet. Telecomunicaciones. Todo eso. La gasolina. Todo ese tipo de factores. Que está incrementando. ¿A quién le quito? Alimentación. Por eso es que hoy. El consumidor. Rápidamente. Tú ves que. Dejó de ser. Ese consumidor. De que. Planificaba una gran compra. Una gran compra mensual. Ahora nosotros somos consumidores. Del día a día. Somos consumidores de reposición. Porque yo agarrar. Esos bolívares. Rápidamente. Voy a la bodeguita. Al supermercado. Y gasto. En ese concepto de reposición. Endrina. Y Uraín. Que mucha gente afuera. Se pregunta. ¿Cómo lo hace el venezolano? No consiguen muchas explicaciones. Para. Entender. ¿Cómo es que no dejamos de. Hacer ciertas cosas.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": -0.35,
+      "oppositionSentiment": 0,
+      "primaryTopic": "economy",
+      "topicSummary": "A commentator discusses the deteriorating purchasing power of Venezuelan currency, explaining how a 100-bolivar note now equals only 60 dollars and how citizens have shifted from planned monthly shopping to daily subsistence purchasing across essential services including food, gasoline, electricity, and education.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_26",
+      "chunkIndex": 26,
+      "text": "Continuamos con nuestra vida. Pagamos. El 60 por ciento. De los servicios. De la alimentación. De todo. ¿Cómo lo hace el venezolano? Mira. Para que tengas una idea. Muy interesante. Esa pregunta. Porque. Eh. Vemos en la historia. En los últimos cinco o seis años. El mayor pico de consumo. Que. Habíamos tenido. En los últimos tres años. Fue el 28 de julio. Del 2024. Elección. Periodo electoral. Ahí fue. Casi esa semana. Se vendieron casi. Veinticinco millones de unidades. Hoy. El nuevo nivel de consumo. Fue el 3 de enero. Que se llegaron a 28 millones de unidades. La gran pregunta. Que le hacemos a la gente. Es. Pero ya va. ¿Cómo. Como podemos tener. ¿Cómo tienes ese capital. Para poder llegar a ese pico de consumo? Y el 86 por ciento de la gente. Lo que nos respondió fue. Quemamos ahorros. Y cada quien. Dentro de su estrato. Hoy quemaron. Hay personas que quemaron 20 dólares. Otros quemaron mil. Otros quemaron 200. Pero. ¿Qué está pasando hoy? Que si. Hay muchas familias venezolanas. Que. Se protegen. Llevando a la dolarización. Su moneda. Y lo tienen. El mejor banco del mundo. Que es el colchon bank. En ese colchon bank. Ahí lo tienen guardadito. Eh. Para poder ese consumidor. De una otra manera. Responder a esos picos de consumo. Alexander. Muy brevemente. Porque ya casi se nos está acabando. El tiempo de la entrevista. También quisiera conocer. La. La otra parte de esto. Hemos hablado mucho. De los consumidores. Señalabas una cifra interesantísima. Sesenta por ciento. Más de sesenta por ciento. De los venezolanos. Manda el bolsillo. Así es. Es decir. No hay fidelidad de marca. ¿Cómo están haciendo las empresas? Este. Digamos con este cambio. De patrón de consumo. Oye mira. Que hoy. El tema de la fidelidad. Empieza a ser un. Por un punto importante. Dos mil dieciséis. Dos mil diecisiete. Momentos de crisis en venezuela. Lo que le importaba al venezolano. Era conseguir. Algún producto de la categoría. Hoy al venezolano. Le interesa conseguir otra vez la marca. Pero. Tenemos que volver a. Trabajar mucho. En el tema de la fidelidad. Por eso. Nuestras grandes recomendaciones. Para todos los fabricantes de venezuela. Hoy. El gran reto. Es volver a conocer. Al consumidor venezolano. Que no es el consumidor del año pasado. Ni de antes. Es un consumidor. Totalmente diferente. Que tenemos que sentarnos. Escucharlo. Y entender. Para poder dar. Esa oferta de servicio. Y esa propuesta de valor. Alexander. Ha cambiado. La cultura de consumo. Antes. Solamente. Estábamos. Con ese tema. De estandarización. De marcas. Incluso. Los hábitos del consumidor. Han cambiado. En cuanto a las exigencias. En la cultura venezolana. Por ejemplo. Si tu comprabas. Una empanada. De queso. Y te la daban de carne. Tu te la comías. Y tu decías. Bueno. Yo la pedí. De queso. Pero esta de carne. Esta sabrosa. Hoy en día. El consumidor. Está más exigente. Y si. Escribir. Brevemente. Para cualquier analista. Que vaya a hacer una proyección.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Economic analysis of Venezuelan consumer behavior patterns, including spending habits, savings depletion during consumption peaks, and changing brand loyalty dynamics among Venezuelan shoppers.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_27",
+      "chunkIndex": 27,
+      "text": "De mercado. O para uno mismo. Poder comprender. E interpretar. Esos hábitos de consumo. Como definirías. Al consumidor venezolano. En tres palabras. Mira. Hoy en su vida. El consumidor venezolano. Es. Exigente. Racional. Pero sobre todo. Con una expectativa. De generar una propuesta de valor. Si ese producto. No tiene una propuesta de valor. Va a ser un producto más. Por eso es que hoy. Tenemos que tener claro. Cuál es mi propuesta de valor. Que es una propuesta de valor. Una propuesta de valor. Es un atributo que tú tengas. Que no tengas la competencia. Y brindar experiencia con los productos. Y brindar una experiencia completa. Pero apalancarte. En esa propuesta de valor. El consumidor venezolano. En el 2008. Era. Compraba una caja de medicamentos. Porque estaba económica. Compraba otra. Para tener el inventario. Y compraba otra. Para ir a hacer a mi mamá. Esas tres. Se vencían en la casa. Hoy no. Hoy el consumidor. Le duele la cabeza. Y quiere comprar una pastilla hoy. De dinero. Eso quiere decir. Que hoy es racional. No. Y también. Más consciente. A la hora de evaluar. El costo de los servicios. Totalmente. Qué interesante. Todo lo que nos has aportado. Seguro. Muchas personas. En su casa. Están haciendo. De esta conversación. Muchísimas gracias. Por haber estado con nosotros. Acá en la emisión matutina. Y bueno. En la próxima parte. Abordaremos detalles. De la ley de amnistía. Inhabilitaciones. Y otros temas fundamentales. Como el sector petrolero. Para ello. Contamos con la participación. Del diputado. Y miembro de la comisión especial. De la ley de amnistía. Pablo Pérez. Esto será. En tan solo minutos. En entrevista a beneficio. Ya regresamos. Pero los dejamos. Con la tasa oficial. Del dólar y el euro. Para el día de hoy. Hablando precisamente. De lo que nos decía. Alexander. Los hábitos de consumo. Allí está. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "economy",
+      "topicSummary": "A discussion about changing Venezuelan consumer behavior and habits, characterizing today's consumers as more rational and value-conscious compared to 2008. The segment briefly mentions an upcoming interview about the amnesty law, oil sector policy, and related political topics.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_28",
+      "chunkIndex": 28,
+      "text": "El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "No substantive content provided; transcript consists only of repeated phrase 'El día de hoy' (Today). Unable to classify as this appears to be corrupted or placeholder text.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_29",
+      "chunkIndex": 29,
+      "text": "El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. El día de hoy. Ya estamos listos. Acá en entrevista. Benevisión. Tal como lo anunciamos. Vamos a conversar. Con Pablo Pérez. Él es diputado. Ante la asamblea nacional. Miembro de la comisión. De ley de amnistía. Para la convivencia. Democrática. Cuánto tiempo. Sin vernos. Diputado. Así es. Muchas gracias. Muchas gracias. A Benevisión. Que siempre ha sido una casa. Que me he recibido. Con los brazos abiertos. Durante muchos años. Bueno. Y te felicito. Este nuevo formato. A Benevisión. Que tienen ahora. Muy temprano. En la mañana. Este nuevo esquema. Mucho éxito. En todo. Lo que viene. Así es. A mí. Un nuevo amanecer. De la información. Como decimos. Y tiempos. De cambios. Cuando usted. Se inscribió. Como aspirante. A la asamblea nacional. Era impredecible. Lo que. Estaba por suceder. Quiero que nos hable. Acerca de. Esta nueva realidad. En el parlamento. Y. El rol. Que juegan ustedes. En la asamblea nacional. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.6,
+      "oppositionSentiment": 0,
+      "primaryTopic": "government-policy",
+      "topicSummary": "Venevisión morning show interview with Deputy Pablo Pérez, a member of the National Assembly's commission on the amnesty law for democratic coexistence. The segment frames the new parliamentary reality positively as a 'new dawn of information' during times of change.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_30",
+      "chunkIndex": 30,
+      "text": "En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. En el parlamento. Se ha ido. Desde comienzos. Del año. Dos mil veintiséis. Hay muchísimos retos. Para la instrumentación. De esta ley. De hidrocarburos. Yo pienso que. Es muy determinante. El seguimiento. Que se le va a hacer. Desde la comisión. Sobre todo. Para brindar un marco. Jurídico. A todas las empresas. Transnacionales. Que van a invertir. En Venezuela. El gobierno. Considerando que. Usted viene. De un estado. Petrolero. También fue. Gobernador. El estado. Sí. Mira. Con respecto. A la ley. De hidrocarburos. Viene ya. Dando licencias. Para poder. Participar. Creo que hay otras. Leyes. Que. Tienen que venir. Para dar. Mayor seguridad. A la inversión. Que es la reforma. La ley del trabajo. Sobre eso. Pero por lo demás. Es el recurso. Del cual. Va a obtener. El estado. Venezolano. El ingreso. Petrolero. Se van a crear. Dos fondos. Es un anuncio. Que hizo. La ciudadana. Del si rodríguez. Que está encargada. Hoy. Del ejecutivo. El recurso. La vigilancia. De ese recurso. Uno. Del punto de vista. Y que los venezolanos. Realmente. Le veamos. Que durante. Tantos años. Beneficiado. Del ingreso. Petrolero. Por ejemplo. El tema eléctrico. El tema de servicio. El tema eléctrico. Es una situación. Que se está presentando. En todo el país. Hay deficiencias. Del tema eléctrico. El tema del servicio. De agua potable. La generación. De empleo. Que va a pasar. Con la banca. En el sentido. Del encaje. Se va a mantener. Igual. Va a haber. Intermediación. Financiera. Donde el venezolano. Que quiera. Tener. Un negocio. Pueda obtener. En cual. Tenemos que ser vigilantes. Que exista. Transparencia. Porque lamentablemente. Las experiencias anteriores. En quienes han sido directivos. De PDVSA. Ha sido nefasta. Temas de corrupción. Temas de oscurantismo. Y de secretismo. Que han traído las consecuencias. Que en este momento. Estamos viviendo. El presidente. Justamente. PDVSA. Hace días. Se emitió. Un comunicado. En el cual. Exhortaba. El gobierno. De Estados Unidos. Para el cese. De las sanciones. ¿Cuál es la postura. Al menos. De la bancada. Libertad. En torno. Al tema. De las sanciones. En el mercado. Irán. Israel. Estados Unidos. Que pudiera. Tener muy atentos. A todos los mercados. En función. Del alza. De los precios. Del crudo. En el mercado internacional. Bueno. Hace. Hace días. El comunicado. Con respecto. A lo que puedan ser. Las sanciones. Sino también. Con respecto. A buscar. Equilibrar. El mercado. Petrolero. En el medio oriente. Los precios. Del petróleo. De bien. Estabilizar. Lo que si. Estamos convencidos. Es que. Necesitamos. Poder tener. Verdaderamente. La actividad. Funcionando. Por eso. Vemos. Como te dije. Anteriormente. Las licencias. Que ya. La OFAC. Y el gobierno. Norteamericano. Vienen otorgando. Sobre diferentes rubros. Sobre diferentes. Actividades. Que engloban. Todo lo que refiere. Al sector. Petrolero. Pero bueno. Nos tocó. Esa ley. Comenzando. Un hermano. De la vida cotidiana. Que fue. Que es la ley de amnistía.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.15,
+      "oppositionSentiment": 0,
+      "primaryTopic": "government-policy",
+      "topicSummary": "Parliamentary discussion of Venezuela's new hydrocarbon law and its implementation, with emphasis on creating legal frameworks for transnational investment, establishing oversight funds, and addressing corruption concerns from past PDVSA mismanagement. The segment also touches on US sanctions policy and the amnesty law.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": 0.05
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_31",
+      "chunkIndex": 31,
+      "text": "Ley que ha sido criticada. Por muchas razones. Eh. La ley no es perfecta. Eso no podemos decir que es perfecta. Fuimos una. Una comisión de veinte y un diputados. Solamente cuatro. Éramos de la oposición. Eh. Y lograr discutir. Hubo situaciones. Las discusiones se llevaron en la comisión. Alguna gente decía. Pero es que no hubo discusión. No. No fue la discusión fuerte. La discusión fuerte fue en la comisión. ¿Qué hablaban en esa comisión? Este. Sobre todo comprendiendo su postura. Diputado. Porque usted estuvo inhabilitado diez años. Sí. Prácticamente diez años. Que lo que estuvo fuera del mundo político. Puede conocer muy de cerca. De qué se trata. Pero yo quiero que nos hable. Eh. Eh. Aquí. Frente a toda Venezuela. Frente a todo el país. ¿Cuáles fueron las piedras de tranca. Más importantes donde. De esas discusiones. Y qué es lo que viene. Fíjate. Uno de los artículos. En los cuales. Hubo una discusión muy fuerte. Fue el que hoy en la ley es el artículo siete. Que es de los que están fuera del país. Los exiliados. Eh. Ellos decían que no. Que tenían que presentarse personalmente. Que no podía ser. Que no era con abogado. Que tenían que arriesgarse a venir. Y nosotros decíamos que no. Hubo un momento que se presentó la segunda discusión. Que se aprobaron los seis primeros artículos. Y cuando llegamos al siete. Se paró. Se difirió. Y. La semana siguiente fue que se hizo. Logramos una salida. Con que. Un apoderado. Quien esté fuera del país. Nombrar un apoderado. Sin mayor. Este. Un abogado de su confianza. Sin mayor. Eh. Eh. Detalle sobre el poder. No. Que tiene que ser apostillado. Que tiene que pasar por embajada. No. No. Sin mayor protocolo. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. Un apoderado. En el hecho de los hechos. Logramos mucha discusión. Porque nosotros no permitíamos. No. Nos parecía bien la calificación de los hechos. Para ellos todos los hechos eran violentos. Para nosotros todos los hechos no eran violentos. La situación que se presentó en lo de. En el tema de PDV ese año 2002-2003. Para nosotros no fueron hechos violentos. La gente. Hubo un derecho constitucional. De paralizar las actividades. Sencillamente. Bueno. Por situaciones internas de la industria. Pero ahí logramos incluir. Las actuaciones de los diputados de la asamblea nacional. 2016-2021. Que no estaban en el proyecto original. Entonces. Entran los diputados. Y entran también las actuaciones. De esa asamblea nacional. ¿Qué actuaciones hay de esa asamblea nacional. 2016-2021. Nombramiento. De tribunal supremo. De fiscal. O sea. Entran allí. Y te quiero decir. Hay un magistrado del tribunal supremo del exilio. Un magistrado que es suplente. Pero es magistrado. Viene. Se va a acoger a la ley de amnistía. Ya firmó su poder. Bueno. Y unos pocos días. Estar aquí en Venezuela.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.35,
+      "oppositionSentiment": 0.25,
+      "primaryTopic": "judiciary",
+      "topicSummary": "An opposition deputy discusses the amnesty law for democratic coexistence, detailing contentious negotiations within the 21-member commission that drafted it, including disputes over provisions affecting exiled Venezuelans and the classification of violent acts.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_32",
+      "chunkIndex": 32,
+      "text": "Y varios diputados. De la asamblea 2016-2021. Que no se encuentran en el país. Muchos están haciendo. Y hace trámite de otorgar el poder. Los hechos de elecciones del año 2024. Hechos de elecciones del 25. Hubo varios hechos que logramos incluir. Logramos incluir la doble instancia. ¿Qué llamamos la doble instancia? Que si alguien. Solicita la amnistía. Y es negada. Tiene que obligatoriamente. Ir a un tribunal de alzada. A revisar. Porque originalmente no se tenía. Otro importantísimo. Que es la comisión. La cual. Hoy. Pertenezco. Hay una comisión de seguimiento. Originalmente. En el proyecto original. Querían que fuera la comisión. De revolución. Judicial. De venezuela. Que preside. El ministro de interior y justicia. Esa comisión. Quien tenga ese cargo. Dirige eso. Nosotros decíamos que no. Que no podía ser una comisión. Ejecutiva. Sino que tiene que ser una comisión. Legislativa. Quien tuviera que hacerle. El seguimiento. Esa. Esa comisión legislativa. Bueno. La preside. El diputado. Jorge Reaza. La vicepresidenta. La diputada Nora Bracho. Pero por una intervención. Que. Estuve en la asamblea nacional. El día de la aprobación de la ley. Donde llamaba la atención. Que no estaban en los hechos. Incluidos. Dirigentes gremiales. Dirigentes sindicales. Que están detenidos. Por ejercer su derecho. Y su función. A la protesta. Por contratos colectivos. Por situación de HCM. Y esas situaciones. Y además. Los delitos de la ley contra el odio. Entonces. Esos dos. A raíz de nuestra intervención. La comisión de seguimiento. Se dividió. En tres. En tres. En tres subcomisiones. Una subcomisión de seguimiento. De los. Los que están enmarcados. En los hechos. Que preside Jorge Arreaza. Y la vicepresidenta. Esnora Bracho. Una subcomisión de asuntos laborales. Que preside el diputado Francisco Torreal. En la cual. Soy el vicepresidente. Y una tercera. Que llaman. De casos especiales. Y complementarios. Que allí. Está la diputada. Carolina García. Esa. Esas subcomisiones. Estamos trabajando. Estamos reuniéndonos. Permanentemente. Para poder hacer las recomendaciones. De vidas. En cada caso. Yo estoy convencido. En muchos casos. Que he revisado. Son muchos casos. Uno se imagina. Cuantos casos. Cuantos casos. Hay en el país. De dirigentes gremiales. Y sindicales. Y de personas. Civiles. Comunes. Y corriente. Normal. Que están detenidas. Por razones políticas. Y por último. Andrina. Quiero. Informarte a ti. Y al pueblo venezolano. Quien nos ve y nos escucha. En la discusión de la ley. Mira. Nosotros llevamos allí. En la comisión. Y fue una discusión. Ardua. Y dura. Porque nosotros. Pedíamos. Dos amnistías. Dos artículos. Amnistía laboral. Para los sindicalistas. Y trabajadores. Para no solamente. Para ellos. Sino trabajadores. Que fueron votados. De gobernaciones. De alcaldías. De PDVSA. De la CBG. De cualquier organismo. Y cualquier nivel de gobierno. Que fueron votados. Malamente votados. Desde los hechos del 99. Hasta el 2026. Porque eso es lo que enmarca. Los hechos de la ley de amnistía. Desde el año 99. Hasta la entrada de vigencia. De la ley que fue. En el año 2026. Todos. Hay una discusión. Sobre ese tema.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": 0.15,
+      "oppositionSentiment": 0,
+      "primaryTopic": "judiciary",
+      "topicSummary": "A National Assembly deputy discusses the implementation mechanisms of Venezuela's amnesty law for democratic coexistence, detailing the structure of follow-up subcommissions and advocating for expanded labor amnesty provisions to include dismissed workers from state institutions since 1999.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_33",
+      "chunkIndex": 33,
+      "text": "Y una amnistía administrativa. ¿Quiénes están en esa amnistía administrativa? Los que fueron inhabilitados. Yo fui víctima de una injusta inhabilitación. Que la decisión fue una multa. Y por razones políticas. La llevaron a una inhabilitación política de 10 años. Así como yo. Yo logré. Ya cumplir. El tiempo. Pero hay muchos que están injustamente inhabilitados. Y por último. Pedimos las derogatorias de unas leyes. La ley contra el odio. La ley de extensión de dominio. La ley de Simón Bolívar. La ley resorte. Porque se han convertido en una camisa de fuerza. Y muy mal utilizada. Muy mal llevada. Se ha logrado. Muy mala aplicación de algunas leyes. Y sabiendo que no fueron delitos. Y mal utilizando algún cuerpo de leyes. Para. Por razones políticas. Llevarnos a esta situación. Por eso es que hay una ley de amnistía. Por muchas situaciones de instituciones que tenemos en el país. Hoy el fiscal del Ministerio Público renunció. Es defensor del pueblo. Nosotros votamos en contra de esa designación de defensor del pueblo. Pero es una contradicción. De nosotros no podemos acompañar. No podíamos acompañar esa designación. Muchísimas gracias al diputado Pablo Pérez. Por estar con nosotros hoy. Acá en entrevista. Benevisión. Importantes temas quedaron en el tintero. Y una excusa perfecta para tenerlo de vuelta. Esa derogatoria de las cuatro leyes que ustedes proponen. Dentro de las cuales se encuentra la ley resorte. Que es la que atañe directamente al ejercicio del periodismo. Y de los medios de comunicación. Es muy interesante escuchar lo que sería su planteamiento. Así que esté invitado para una próxima oportunidad. Muchísimas gracias a ti en lo personal. Mucho éxito. Y muchísimas gracias a Benevisión. Y que nos lograron vernos y escucharnos. Y a la orden estamos como siempre. Yo siento que Benevisión es mi casa. Siempre me han recibido de una manera extraordinaria. Y aquí estaremos como siempre. Llevando el mensaje al pueblo venezolano. Muchísimas gracias.",
+      "isPoliticallyRelevant": true,
+      "governmentSentiment": -0.35,
+      "oppositionSentiment": 0.55,
+      "primaryTopic": "judiciary",
+      "topicSummary": "An opposition deputy discusses administrative amnesty provisions, judicial disqualifications, and proposes repealing four controversial laws including the 'ley resorte' that affects press freedom. The segment addresses concerns about political persecution and institutional contradictions in the current system.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_34",
+      "chunkIndex": 34,
+      "text": "Bueno, Benevisión es la casa de los venezolanos. Y así ha sido por más de 65 años. Con esta información hacemos una breve pausa. Pero al regreso tendremos mucho más. Recuerden escanear nuestro código QR. Para que tengan acceso completo a toda esta entrevista. Y los contenidos de la emisión matutina de Noticias Benevisión.\nY de todas nuestras emisiones.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Station identification and promotional messaging for Venevisión's morning news broadcast. The segment contains no substantive news content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_35",
+      "chunkIndex": 35,
+      "text": "Vamos a una pausa y continuamos con más. Ya venimos. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Gracias. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. Estefanía. que la medida. En el Senado. Enfrentaba. Una batalla. Complicada. En el Capitolio. Ya que habría tenido. Antes de pasar a la Cámara. De Representantes. Y luego. Un probable veto. Presidencial. Que requiere dos tercios. De los votos. Para anularlo. Esta votación. En el Senado. Tuvo 47 votos. A favor. Y 53. En contra. La propuesta. Que había sido impulsada. Por el demócrata. Tim Cain. Y apoyada también. Por el republicano. Ron Paul. Tenía pocas posibilidades. De salir adelante. Porque la oposición. Está en minoría. En ambas cámaras. Legislativas. Entretanto. El secretario de guerra. Estadounidense. Pete Hedtep. Subrayó. Que Washington. Tiene munición suficiente. Para completar. Su campaña. Contra Irán. Y su. Sugirió. Que el conflicto. Podría durar. Hasta ocho semanas. Mientras que. La portavoz. De la casa blanca. Caroline Levitt. Insistió. En que enviar tropas. Sobre el terreno. Que es una opción. Que está sobre la mesa. Para Trump. Entre tanto. La guardia revolucionaria. Iraní. Afirmó hoy. Que el estrecho de Hormuz. Está bajo el control. De la república islámica. Según las leyes internacionales. Se avisó. Que los buques. Que no cumplan. Con los protocolos. Podrían ser atacados. O hundidos. Ayer. Una naviera danesa. Anunció. Con efecto inmediato. La suspensión temporal. Del transporte marítimo. De mercancías. En siete países. De oriente medio. Por el conflicto. Pasamos a Ecuador. El gobierno de ese país. Expulsó este miércoles. A todo el personal diplomático de Cuba. Acreditado en esa nación. Incluido a su embajador. Basilio Gutiérrez. Y también procedió a retirar. Al embajador ecuatoriano. En La Habana. Lo que supone la ruptura. De las relaciones diplomáticas. Con la isla. En un comunicado. El ministerio de relaciones exteriores. Detalló. Que todo el personal. De la misión diplomática. De Cuba. Acreditada en Quito. Ha sido declarada. Personas no gratas. Y cuentan con 48 horas. Para abandonar el país. El ejecutivo. Del presidente. Daniel Novoa. Este anuncio. Con base. En el artículo 9. De la convención de Viena. Sobre relaciones diplomáticas. A su vez. El mandatario. Dispuso. El retorno. Del embajador ecuatoriano. En La Habana. El gobierno de Cuba. Rechazó. Enérgicos. La expulsión. De todo su personal diplomático. Una decisión. Que calificó. De arbitraria. E injustificada. Y entre tanto. En Cuba. El sistema. Electroenergético. Nacional. Se recupera. Lentamente. Ocho horas. Después. De la desconexión. Parcial. Que sufrió. Este miércoles. Por una avería. En una termoeléctrica. Que dejó. Sin servicio. A más de 6 millones. De personas. En dos tercios. En la región. Oriental. Desde la provincia. De Guantánamo. Hasta la ciudad. De Camagüey. Aunque de forma limitada. Con prioridad. Del servicio eléctrico.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "The segment covers international news including US Senate voting on a bill, US-Iran military tensions, Ecuador-Cuba diplomatic rupture, and Cuba's power grid recovery after an outage.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 1,
+        "otherUsOfficials": [
+          "Pete Hedtep (Secretary of War)",
+          "Caroline Levitt (White House Spokesperson)",
+          "Tim Cain (Democrat Senator)",
+          "Ron Paul (Republican Senator)"
+        ]
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_36",
+      "chunkIndex": 36,
+      "text": "Para sistemas vitales. Como hospitales. Y fuentes. De abastecimiento. De agua. Vamos a revisar. La situación. Del clima. En Perú. Donde la temporada. De lluvias. Ya ha dejado. En lo que va del año. Al menos 41 personas. Reportadas. Como fallecidas. Y una desaparecida. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. En el año. Un momento histórico. Para la salud pública. Regional. Al convertirse. En el primer. País de América. En ser declarado. Oficialmente. Libre de lepra. Por la organización. Mundial de la salud. Luego de más. De tres décadas. Sin registrar casos. Locales. El país. Suramericano. Se suma. A Jordania. Como las únicas. Naciones del mundo. En alcanzar. Esta verificación. Oficial. El último contagio. Autóctono. En territorio. En 1993. Desde entonces. De la OMS. La Organización Panamericana. De la Salud. Evaluó. Rigurosamente. Los protocolos. De vigilancia. Y la capacidad. De detección. Temprana. Antes de otorgar. Este reconocimiento. Y es que la enfermedad. De Hansen. Vinculada. Históricamente. A condiciones. De vulnerabilidad. Aún registra. Más de 200 mil. Nuevos casos. Anuales. En el mundo. Sin embargo. Chile. Logró. Interrumpir. La transmisión. La transmisión. La transmisión. Hasta aquí las noticias internacionales en lo que pasa en el mundo. Andrina. Regreso contigo. Muchísimas gracias. Estefanía. Y nosotros. Vamos a continuar revisando. Cada uno de sus mensajes. Y por supuesto. La participación. En la encuesta. Que tenemos abierta. Gracias a todas aquellas personas. Que nos han reportado sintonía. Desde Estados Unidos. Brasil. Chile. Colombia. Colombia. También nos reportaron sintonía desde Costa Rica. Y distintos puntos de Venezuela. Nosotros continuamos celebrando los 325 años de Maracay. Y a esta hora vamos a darle el pase a nuestro compañero Gregorio Rojas. Que nos va a hablar de fútbol. Él se encuentra también con Socias Castro. Recordemos que ayer se celebró la Copa del Rey. Vamos a hablar del fútbol venezolano. Y de muchísimo más. Adelante Gregorio. Seguimos celebrando Maracay. Maracay. 325 años. Ya te quitaste el atuendo de Tigre. Ahora nos va a hablar de fútbol. Igual quiero mandar un fuerte abrazo. Y un saludo grande a toda la afición del fútbol en Maracay. A la afición del único orirrojo de Venezuela. Del Aragua Fútbol Club. También hay motivos para celebrar hoy. Pronto volverá el Aragua Fútbol Club a primera. Esto si ya lo digo con el corazoncito en la mano. Más que otra cosa.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "The segment covers international weather and health news, including flooding in Peru and Chile's achievement of leprosy-free status, followed by sports coverage of Venezuelan football and celebrations for Maracay's 325th anniversary.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_37",
+      "chunkIndex": 37,
+      "text": "Pronto volverá el Aragua Fútbol Club a primera. Fuerte abrazo para todos. Muy buenos días. Esperando que tengan las arepitas en el lugar. Y el aroma café bien tempranito. Como acostumbramos los venezolanos. Acá con Josías Castro en el estudio. Gracias Josías por acompañarnos esta mañana. Para hablar de fútbol en general. Porque hay que hablar. Ojo en primera instancia del evento. Que transmite la televisión de la Copa del Rey. Pero también. Hablar de fútbol nacional. Pero comencemos con el torneo del knockout de España. Porque ya se conoce el segundo finalista de la Copa del Rey. La Real Sociedad de San Sebastián. Que venció al Athletic Club de Bilbao. Última diferencia en el estadio de Anoeta. En el partido de vuelta de semifinales. Vamos a ver ese partido. El gol de ese partido. Por intermedio de Miquel Oyarzabal. De penal al minuto 87. El único tanto del compromiso. Para la victoria del Global 2 a 0. Josías de la Real Sociedad. ¿Cómo está Gregorio? Y todos los amigos del noticiero. Mi saludo a toda la gente del estado de Aragua de Maracay. En este gol de Oyarzabal. Hay que recordar que fue un penal que le hicieron a Yangel Herrera. Uno de los nuestros. De los dos venezolanos que jugaron con la Real Sociedad. En la gran fiesta de Anoeta. Cuando repitieron el resultado del partido de ida. El Atlético de Bilbao. Uno a cero. Con presencia de John Aramburo. El caraqueño lateral derecho del conjunto de la Real Sociedad. Y el ingreso al minuto 13 del segundo tiempo de Yangel Herrera. Y que fue protagonista de primera orden. Para someter a un rival de gran envergadura. Como el Atlético de Bilbao. ¿Cómo entiendes tú este partido? ¿Cómo ves un partido que fue ríspido en el segundo tiempo? Muy áspero. De mucho corte. De lo que es típico de un derbi vasco. ¿Cómo entiendes a la Real Sociedad saliendo de este partido? Para enfrentarse a un Atlético de Madrid. Que pasó aceite para avanzar a la final. Bueno, tenemos un Atlético de Madrid. Que fue lo sublime. En el partido en el Wanda. A lo ridículo diríamos. En el partido de vuelta. Donde el Barcelona no llegó a la final. Y no hizo la épica. Por el arquero. Porque en algún momento. En una última instancia. Algún central del Atlético de Madrid. Envió la pelota con bloqueo al tiro de esquina. Pero ese equipo de la vuelta. En el Camp Nou. No tiene nada que buscar. Sí. Contra la Real Sociedad. O el equipo del Wanda. El equipo de Madrid. El partido de ida. Tiene todo para pelearle a la Real Sociedad. Que ha mostrado. Una capacidad. Para subsistir a cualquier tipo de juego. Cuando le toca sufrir. Como el partido de la Noeta. Cuando le ganó 2 a 1. Al Barça. En Liga. O los partidos como estos. Ante el Bilbao. Donde por todo lo rispero que fue. Por todo el contacto. Y las faltas.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Sports commentary on Spanish Copa del Rey football (soccer) matches, featuring analysis of Real Sociedad's semifinal victory over Athletic Bilbao and mentions of Venezuelan players John Aramburo and Yangel Herrera.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_38",
+      "chunkIndex": 38,
+      "text": "Un juego de tanta rivalidad. Y tanta tensión. También lo sobrevivió. Y fui superior a su rival. ¿Cómo ves tú Josías? O mejor dicho. ¿Qué cara crees tú que vamos a ver. De este Atlético de Simeone en la final? Sobre todo considerando lo que hemos visto. Del Atlético de Madrid. En partidos decisivos. En los últimos. 15 años y un poquito más. Es una incertidumbre. Porque lo vimos. Ante el Barcelona. Que no fue poca cosa. Goliarlo. 4 a 0. Y la goleada que le metió en la cartuja. En el estadio. Donde se va a jugar la final. Al Betis. Ese 5 a 0. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. El campeonato. La ida de la tercera fase previa. De la competición internacional. Bruera. Evitó. Que fuese peor la cosa. Josías. Si. Un partido. En la estadística. Dicen que remato. Mas el carabobo. Que tuvo mas posesión. Pero. No fue un equipo. Que estuvo. Cómodo. En el misa del delgado. Pudo. Haber perdido. Por alguna diferencia mayor. Este penal. Mucha gente se quejó. Que fue exagerado. Fue muy riguroso. Pero penal. Al fin. Mucho mas. En el partido de vuelta. Seguro. Hay que recordar. Lo que hizo. Contra el rival chileno. Ayer. Le faltó mucho a Eric Ramirez. Sientes que. Viendo sobre todo. Que también pasó algo similar. Con guachipato. Se ganó. Ganó el carabobo. Por la mínima diferencia. ¿Verdirías que. El carabobo. Se siente más cómodo. Fuera de casa. Que en el misa delgado. Podría ser. Podría ser. Podría ser que. Fíjate que en el misa delgado. Perdió. Una final con Táchira. Perdió una final de copa. Venezuela. Con la UCB. Perdió una final de. Estrella. Con la UCB. Y. De visitante. A veces. Este equipo. Está como más suelto. Y lo que vimos en Chile. En la ronda anterior. De copa libertadores. Fue un equipo extraordinario. Y ojo. El esporte cristal. Pero no es una diferencia. Para decir que no se puede intentar. La época. Es remontable. Es absolutamente remontable. Aquí tiene que pasar algo. Con el carabobo. Porque. Si hay una afición. Que arropa a su equipo. Es la del carabobo. En Valencia. Arropan en gran forma. A su equipo. Hay que hablar también. De otros dos equipos. Que vieron acción. En competición internacional. Ayer. Hablamos de Caracas. Y de Metropolitanos. En el partido único. De la fase previa. De la copa sudamericana. En el estadio olímpico. De la UCB. Terminó en penales. La cosa. Cero a cero. En el tiempo regular. Tal como pasó. Con Puerto Cabello. Y. Monagas. Y me. Me voy con la impresión. Josías. Es más. Me voy a ir con lo siguiente. El resumen del partido. Que presenta con Mebol.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Sports commentary discussing Venezuelan football teams' performances in international competitions, including analysis of Atlético Madrid's prospects and Venezuelan clubs' participation in Copa Libertadores and Copa Sudamericana.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_39",
+      "chunkIndex": 39,
+      "text": "Este mismo. Que ustedes están viendo resumido. Que aquí está. Fedor fallando su penal. Y también. El refuerzo africano. Del equipo. Metropolitano. También fallando su penal. Ahí. Da la impresión. Josías. De que fueron. Rácanos. Los cuatro equipos. En los dos partidos. De esta fase previa. Sudamericana. Hay cero a cero. Que hay diez remates a puerta. Por cada equipo. Y los arqueros son figuras. Sí. Dos partidos. En la victoria. De que me aportó cabello. Por penal. Y de caracas. Por penales. Fueron. Lo que se vivió. En cancha. El partido. Donde buscaron. Evitar el error. Buscaron. Mantener el cero. En su arco. Y los cuatro equipos. Fueron fiel. A lo que dice el resultado. Quizás. Mostró un poquito más. Caracas. Y quizás. Mostró un poquito más. A quemar. Puerto cabello. Pero no fue. No fueron. Para nada. Agresivos. Para buscar la victoria. Y se esperó. Desde la definición. Van a ser Caracas. Y Puerto cabello. Quienes van a jugar. La sudamericana. Caracas. Ya jugó. El año pasado. Copa sudamericana. En fase de grupos. Le fue muy bien. Avanzó de fase. El Caracas. Fútbol club. El año pasado. Que esperar. De ambos equipos. En la siguiente fase. Sobre todo. Considerando. Que Puerto cabello. Tiene una plantilla. Que se reforzó. Pensando. En hacer. El mejor trabajo. En competición internacional. Academia. Puerto cabello. Tiene una muy buena plantilla. Para pelear. Y pelear bien. El Caracas. Tiene una plantilla. Similar a la del año pasado. No está jugando bien. En el torneo local. En el torneo venezolano. Está en. En las. Posiciones posteriores. De la tabla de clasificación. Y no sé. Eh. Qué tanto. Se puede aspirar. Con el rojo. Que un equipo. Que normalmente compite. Normalmente pelea. Sus participaciones internacionales. Pero no se augura tanto. Eh. Por lo que hemos visto. Y por la misma plantilla. Del Caracas. Sí. Vamos a hacer una mención. Nos quedan un par de minutos. Todavía. En la sección de deportes. De noticias. Beneficion. En estas. Mañanas. De tertulia deportiva. Eh. Mención honorífica. A la selección femenina. Ayer le ganó. A Brasil. Dos tantos por uno. Buen partido. De las muchachas. Eh. Victoria histórica. Ante Brasil. Un equipo que puntea. Además. La liga de naciones. Comebol. Rumbo al mundial. Brasil. Solo ha perdido. Tres partidos. En su historia. Contra rivales. De Sudamérica. Dos con Argentina. Y uno con Venezuela. Uruguay no la ha ganado. Colombia no la ha ganado. Paraguay no la ha ganado. Venezuela le ganó a Brasil. Eso siempre va a ser noticia. Desde el año 2014. No perdió un partido con un rival. Sudamericano. Brasil. Y tenía toda su jugadora. Su primer equipo. La selección brasileña. Que cayó en territorio mexicano. Dos a uno. Y quizás diez minutos. Eh. Se sufrió. Pero una victoria extraordinaria. Al más alto nivel. Lo que hizo Venezuela. Buen trabajo del profe. Sin duda. Buen trabajo del cuerpo técnico. Para darle forma a una selección. Que sabemos. Tiene piezas individuales interesantes. Y que bueno. Toma ese.\nEse aire importante de cara a buscar. Tienen dos partidos. En la próxima fecha. FIFA.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Sports commentary on Venezuelan football teams' performance in Copa Sudamericana preliminary matches and the women's national team's historic victory over Brazil.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_40",
+      "chunkIndex": 40,
+      "text": "En la liga de naciones. Donde Venezuela pueda asegurar. Su clasificación. A la copa del mundo. Que se va a desarrollar en Brasil. Sería histórico. Primera clasificación. De una selección absoluta. De fútbol mundial. Sea hombre. O sea. Damas. O sea. Caballeros. Ocias. Gracias por acompañarnos. Esta mañana. Amigos. En Rina. Vuelvo contigo. Gracias. Gregorio. Y Josías Castro. Bueno.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Brief sports news segment about Venezuela's potential qualification to the FIFA World Cup in Brazil. The segment discusses the historical significance of Venezuela qualifying for the World Cup.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_41",
+      "chunkIndex": 41,
+      "text": "Continuamos con más. Venevisión. Arribó a sus 65 años. Seis décadas. De señal ininterrumpida. Acompañando millones de hogares. Que nos abren la puerta de su casa. Para hacernos parte de su familia. Celebramos nuestra historia. Así como la energía de quienes se la construyen a diario. Hagamos un recorrido por las regiones de Venezuela. Para ver los rostros de quienes dan cobertura a cada hecho noticioso. Comenzamos en el litoral central con Orlefran Amaya. Te saludamos Orlefran. Un gran abrazo de felicitaciones envía el pueblo de La Guaira a Benevisión por sus 65 aniversarios. Un canal o una familia que ha sido parte de la historia de este pueblo. Y que ha vivido de cerca la transformación que ha tenido el litoral central durante estos años. Por eso queremos que ustedes escuchen lo que dijeron los guaireños. Benevisión. Oye, como no recordar a Benevisión. Benevisión es uno de los canales pioneros de Venezuela. Quien no se va a olvidar de Estado Sensacional. Amador Bendayán. La mejor telenovela que yo he visto en mi vida. Las Amazonas. Cheverísimo. Qué locura. O sea, Benevisión. El pionero del mundo. La mejor televisión de Venezuela. Bueno, para mí Benevisión de verdad ha sido lo máximo. Es mi canal preferido. Desde que era niña, bueno, toda la programación de Benevisión era excelente. Maite Delgado con sus concursos y programación en mi Venezuela. Definitivo una planta televisiva que llegó a los hogares venezolanos y en especial al litoral central para quedarse. Para formar parte de su cultura, de sus tradiciones y sobre todo para llevar información y entretenimiento. Por eso hoy es recordado y es visto y es posicionado como el canal número uno de Venezuela. Desde el litoral central queremos desearle feliz aniversario a Benevisión. Buenos días. Hoy amanecemos muy contentos, muy felices porque la planta televisiva, nuestro canal, Benevisión, se encuentra cumpliendo 65 años de transmisión continua, llevándole a niños, jóvenes y adultos una programación completamente variada. La presidenta de la Cámara de Comercio e Industria del municipio Tucupita, Estado de Tamacuro, la señora Adelaida Da Silva, también envió sus felicitaciones.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Venevisión celebrates its 65th anniversary with commemorative segments featuring interviews from various regions of Venezuela praising the broadcaster's historical role and programming. The segment focuses on the channel's cultural impact and legacy rather than political content.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_42",
+      "chunkIndex": 42,
+      "text": "Desde el estado de Tamacuro, la Cámara de Comercio e Industria del municipio Tucupita celebra el 65 aniversario de Benevisión. 46 años que llegué a Venezuela y nunca me perdí algún sábado sensacional. Vamos a cantar el cumpleaños a Benevisión. Cumpleaños, Sherry, te deseamos a ti. Cumpleaños, Benevisión. Cumpleaños, Sherry. ¡No apaga la vela! Y bueno, lo que a mí siempre me ha gustado, siempre me gustó, fue su pensado sensacional, el Club Los Picritos y el Noticiero Benevisión. 65 años que cumple nuestra planta de televisión, Benevisión. Adelante, Estudios. Reportó Ángel Marcano. Buenos días, gracias por este contacto. Benevisión hoy cumple 65 años, más de seis décadas de historia, llevando entretenimiento en las pantallas, con eventos, telenovelas, programas humorísticos y también, por supuesto, con la mejor información que ha quedado en la memoria de los monaguenses. Lo que más me ha gustado de Benevisión, que soy de su generación, las propagandas de diciembre, de las navidades. Queremos volver a rescatar este año, que son muy hermosas. Los eventos de Venezuela, los diversos. Los programas infantiles, que les han hecho aprendizajes a los niños. Les deseo a Benevisión éxitos y que enfrente los retos que se les presenten. Bueno, la marcha, son buenas noticias, acontecimientos. Y lo que más recuerdo, que me encantaba, era que lo curan la guerra de los sexos con Viviana Liguelo. Lo que recuerdo es que era pequeña, de Benevisión, era la guerra de los sexos, que nos reuníamos en familia para ver ese programa. Les deseo un feliz cumpleaños a Benevisión.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Venevisión celebrates its 65th anniversary with coverage of a commemorative event in Tucupita, Tamacuro state, featuring interviews with citizens reminiscing about the broadcaster's programming history and cultural impact.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_43",
+      "chunkIndex": 43,
+      "text": "Y deseando que sean muchos años más y felicidades a toda la gran familia de Benevisión, nos despedimos desde el estado de Moragas. Soy Luis Bustamante. Adelante, estudios. Muchísimas gracias, pero también nos envían un mensaje más allá de nuestras fronteras. Desde España, Tony Chitadino. Adelante, Tony. Amigos de Benevisión, les saluda a Tony Chitadino desde Madrid. Dime uno a las felicitaciones a Benevisión, a mi casa, por este 65 aniversario. Muy contento siempre de contar con la bendición y la responsabilidad de estar en cada uno de sus hogares. Primero, en nuestra primera etapa como redactor y luego como presentador de noticias en Caracas entre 2011 y 2016. Y ahora con la responsabilidad de informarles lo que pasa acá en España como corresponsal de deportes. Miremos al pasado con gratitud y al presente y al futuro con optimismo, porque siempre las mejores noticias deportivas se ven primero por Benevisión. Un gran abrazo para todos. Así es, Tony. Miramos el futuro con optimismo, porque son 65 años en el corazón de Venezuela. Nosotros vamos a continuar revisando información. Este jueves 5 de marzo varias vías de Caracas tendrán el acceso vehicular parcialmente restringido debido a varias movilizaciones. Y a esta hora vamos a establecer un contacto con nuestro compañero William Sánchez para conocer las rutas que se tendrán posibles alteraciones en el tráfico. Buenos días, William. Te escuchamos. Sí, buenos días. Gracias por el contacto que establecemos a esta hora. La movilización partirá de diferentes puntos del centro de Caracas hasta la plaza 4F en la parroquia 23 de enero, cerca donde reposan los restos del exmandatario. Uno de los puntos de concentración será la parada del taxista en el 23 de enero a partir de las 8 de la mañana, por lo que serán cerradas de manera parcial las calles que conducen al cuartel de la montaña, como la calle Real de la Planicie, la calle de Museo Militar y la calle 23 de enero. Otros puntos de salida serán en Pagüita y las escaleras del Calvario, cerca del Palacio de Miraflores, donde la movilización arrancará entre las 9 y las 10 de la mañana. También se esperan movilizaciones a partir de las 11 de la mañana desde la plaza Miranda en el Silencio, así como desde acá, desde la plaza Oliari, por lo que se les recomienda a los conductores tomar sus previsiones y también planificar sus rutas de viaje, mientras que se realiza este evento en nuestra ciudad capital, por lo menos la avenida Boyacá, mejor conocida como Cotamil, es una buena opción. Y también si ustedes desean movilizarse para conectar desde el este y oeste de nuestra ciudad capital, el metro de Caracas también les funciona. Es toda la información que tenemos para compartirles por el momento a esta hora de la mañana. Y con ella regresa al pasear estudio. Adelante. Muchísimas gracias William y vamos a revelar la respuesta de nuestra encuesta del día, muchachos.",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Venevisión anniversary celebration and traffic advisory for planned mobilizations in Caracas on March 5, 2026. The segment includes congratulations from staff and a correspondent, followed by traffic information for various routes affected by demonstrations.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    },
+    {
+      "chunkId": "20260305_noticias-emision-matutina-5-de-marzo-de-2026_44",
+      "chunkIndex": 44,
+      "text": "Así es, la pregunta fue, después de pagar lo esencial, ¿en qué gastas el dinero que sobra? Les ofrecemos cuatro opciones o les ofrecimos cuatro opciones. Opción A, salidas a comer, 37%. Opción B, cine o teatro, obtuvo menos, 7%. Opción C, paseos, playa o montaña, apenas 5%. Y la opción D, lo ahorro, que con 51% fue la opción más votada, la de la del ahorro. Caramba, los venezolanos tienen bastante capacidad de ahorro entonces. Bueno, muy diferente a los resultados de nuestras encuestas, porque nosotros habíamos dicho la opción A. Pero bueno, la gente... Lo he visto todo saliendo. Lo he visto todo saliendo por allí, me sorprendo. Exacto, pero bueno, es lo que está diciendo la gente y la gente habla, los números no mienten. Así como no mienten todos nuestros seguidores que nos están enviando saludos en este momento y están aquí enviando saludos desde España, desde La Guaira, a ver, desde Barquisimeto, desde Los Teques, desde Caricuao. Bueno, gracias a todas las personas que están conectadas. Randolfo, vendrás el 25. Así es, el 25 de marzo son los 471 años de la ciudad de Valencia. La Fundación y por supuesto, al igual que en el día de hoy que venimos a celebrar el aniversario también de la Fundación de la ciudad de Maracay, estaremos acá presente con Valencia, capital del estado de Carabobo. Bueno, aquí te esperamos, Randolfo, a celebrar Carabobo, Valencia, toda Venezuela, porque Venezuela es un país lleno de buenos venezolanos. Hoy en particular, feliz aniversario a Maracay, María, Gregorio, Alejandra, Randolfo, todos nos sumamos a esta celebración. Gracias por habernos acompañado, de verdad, verdad, que estamos llenos de gratitud en nuestro corazón por esta oportunidad que le han dado al nuevo amanecer de la información en Venezuela y seguir posicionándonos como referencia informativa. Nos honran ustedes con su audiencia. ¡Feliz día para todos! A continuación...",
+      "isPoliticallyRelevant": false,
+      "governmentSentiment": 0,
+      "oppositionSentiment": 0,
+      "primaryTopic": "other-non-political",
+      "topicSummary": "Morning show segment featuring survey results about consumer spending habits and city anniversary celebrations in Venezuela. No political content or policy discussion.",
+      "entityMentions": {
+        "mariaCorinaMachado": 0,
+        "edmundoGonzalez": 0,
+        "juanPabloGuanipa": 0,
+        "lauraDogu": 0,
+        "donaldTrump": 0,
+        "otherUsOfficials": []
+      },
+      "usRelationsTone": null
+    }
+  ]
+}

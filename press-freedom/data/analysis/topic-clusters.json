@@ -1,0 +1,702 @@
+[
+  {
+    "dimension": "opposition",
+    "topics": [
+      {
+        "label": "Enrique Márquez International Diplomacy",
+        "chunkIds": [
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_20",
+          "20260227_noticias-venevision-a-esta-hora-27-de-febrero-de-2026_1",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_0",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_2"
+        ],
+        "summaries": [
+          "An opposition political figure discusses the importance of peace-committed leadership and praises Enrique Márquez as a moderate centrist opposition leader gaining recognition, including mentions of Trump's State of the Union address highlighting Venezuela and Márquez's presence in the US Congress.",
+          "Opposition political figure Enrique Márquez holds a press conference following his return to Venezuela from the United States, where he was invited by President Donald Trump to attend his State of the Union address. Márquez expresses hope about Venezuela's political transition and opportunities for democracy, freedom, and prosperity.",
+          "Opposition figure Enrique Márquez reappears in Caracas and calls for restoration of freedoms and institutional governance. The segment also briefly mentions Trump's potential involvement in Cuba-related matters amid energy crisis.",
+          "Opposition figure Enrique Márquez reports on his visit to the US Congress, describing positive conversations about Venezuela's political situation and expressing willingness to unite with other opposition leaders. Márquez emphasizes US support for Venezuela's future while indicating he has not yet coordinated with other opposition figures but remains open to collaboration."
+        ],
+        "dateRange": [
+          "2026-02-27",
+          "2026-02-27"
+        ],
+        "avgSentiment": 0.275
+      },
+      {
+        "label": "Opposition Leaders Released from Detention",
+        "chunkIds": [
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_6",
+          "20260311_noticias-emision-estelar-10-de-marzo-de-2026_3"
+        ],
+        "summaries": [
+          "An opposition political figure (Alviares) makes his first public appearance after release from detention, calling for freedom of all detainees and early elections as conditions for democratic progress. He expresses support for US-Venezuela relations and foreign investment while demanding judicial guarantees.",
+          "Opposition figure Delsa Solórzano criticizes the repressive apparatus in Venezuela and calls for the release of all detainees as a condition for national transition and reconciliation. COPEI party leadership discusses the need for political consensus and electoral timelines, ruling out elections in 2026."
+        ],
+        "dateRange": [
+          "2026-03-03",
+          "2026-03-10"
+        ],
+        "avgSentiment": 0.4
+      },
+      {
+        "label": "Political Prisoners Liberation Demands",
+        "chunkIds": [
+          "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_17",
+          "20260304_noticias-emision-matutina-4-de-marzo-de-2026_12",
+          "20260311_noticias-emision-estelar-10-de-marzo-de-2026_3"
+        ],
+        "summaries": [
+          "Juan Pablo Guanipa held a press conference marking 26 years of Primero Justicia party, discussing his judicial situation, removal of identity document blocks, and calls for review of judicalized political parties and release of political prisoners. He also highlighted opposition coordination with international actors including US officials.",
+          "An opposition figure calls for the liberation of political prisoners and the return of exiles, advocating for national unity, a democratic accord, and eventual elections as conditions for Venezuela's progress.",
+          "Opposition figure Delsa Solórzano criticizes the repressive apparatus in Venezuela and calls for the release of all detainees as a condition for national transition and reconciliation. COPEI party leadership discusses the need for political consensus and electoral timelines, ruling out elections in 2026."
+        ],
+        "dateRange": [
+          "2026-03-04",
+          "2026-03-10"
+        ],
+        "avgSentiment": 0.467
+      },
+      {
+        "label": "Opposition-US Strategic Coordination",
+        "chunkIds": [
+          "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_17",
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_6",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_5"
+        ],
+        "summaries": [
+          "Juan Pablo Guanipa held a press conference marking 26 years of Primero Justicia party, discussing his judicial situation, removal of identity document blocks, and calls for review of judicalized political parties and release of political prisoners. He also highlighted opposition coordination with international actors including US officials.",
+          "An opposition political figure (Alviares) makes his first public appearance after release from detention, calling for freedom of all detainees and early elections as conditions for democratic progress. He expresses support for US-Venezuela relations and foreign investment while demanding judicial guarantees.",
+          "Venezuela's interim government announces restoration of diplomatic relations with the United States following high-level meetings with US Interior Secretary Doug Bormond, including economic agreements on investment security and oil sector collaboration with Shell. The segment also reports on opposition figure Juan Pablo Guanipa's statement that Venezuela's political shift depends on opposition-US alliance coordination."
+        ],
+        "dateRange": [
+          "2026-03-03",
+          "2026-03-06"
+        ],
+        "avgSentiment": 0.467
+      },
+      {
+        "label": "Democratic Transition and Electoral Framework",
+        "chunkIds": [
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_6",
+          "20260304_noticias-emision-matutina-4-de-marzo-de-2026_12",
+          "20260311_noticias-emision-estelar-10-de-marzo-de-2026_3"
+        ],
+        "summaries": [
+          "An opposition political figure (Alviares) makes his first public appearance after release from detention, calling for freedom of all detainees and early elections as conditions for democratic progress. He expresses support for US-Venezuela relations and foreign investment while demanding judicial guarantees.",
+          "An opposition figure calls for the liberation of political prisoners and the return of exiles, advocating for national unity, a democratic accord, and eventual elections as conditions for Venezuela's progress.",
+          "Opposition figure Delsa Solórzano criticizes the repressive apparatus in Venezuela and calls for the release of all detainees as a condition for national transition and reconciliation. COPEI party leadership discusses the need for political consensus and electoral timelines, ruling out elections in 2026."
+        ],
+        "dateRange": [
+          "2026-03-03",
+          "2026-03-10"
+        ],
+        "avgSentiment": 0.467
+      },
+      {
+        "label": "Government-US Energy and Mining Negotiations",
+        "chunkIds": [
+          "20260305_noticias-emision-estelar-4-de-marzo-de-2026_0",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_5",
+          "20260309_noticias-venevision-a-esta-hora-9-de-marzo-de-2026_0"
+        ],
+        "summaries": [
+          "Interim President Delcy Rodríguez meets with US Interior Secretary Doug Burgum to discuss bilateral energy and mining cooperation, with both governments emphasizing strategic partnership and investment opportunities. The segment also covers opposition figures' calls for democratic transition and sanctions relief.",
+          "Venezuela's interim government announces restoration of diplomatic relations with the United States following high-level meetings with US Interior Secretary Doug Bormond, including economic agreements on investment security and oil sector collaboration with Shell. The segment also reports on opposition figure Juan Pablo Guanipa's statement that Venezuela's political shift depends on opposition-US alliance coordination.",
+          "Global market turmoil driven by Middle East tensions and maritime disruptions; Venezuela receives $100 million in gold exports to the US as part of energy cooperation. The National Assembly prepares to debate an organic mining law."
+        ],
+        "dateRange": [
+          "2026-03-04",
+          "2026-03-09"
+        ],
+        "avgSentiment": 0.233
+      }
+    ]
+  },
+  {
+    "dimension": "government",
+    "topics": [
+      {
+        "label": "Institutional Leadership Transitions",
+        "chunkIds": [
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_0",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_1",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_2",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_3",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_4",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_5",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_6",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_7",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_8",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_1",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_2",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_3",
+          "20260227_noticias-emision-estelar-26-de-febrero-de-2026_1",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_1",
+          "20260228_noticias-venevision-edicion-fin-de-semana-28-de-febrero-de-2026_0",
+          "20260228_noticias-venevision-edicion-fin-de-semana-28-de-febrero-de-2026_1",
+          "20260302_noticias-a-esta-hora-2-de-marzo-de-2026_3",
+          "20260302_noticias-emision-matutina-2-de-marzo-de-2026_4"
+        ],
+        "summaries": [
+          "The National Assembly held an emergency session where fiscal general Tarek William Saab and ombudsman Alfredo Ruiz Angulo resigned. Saab was then sworn in as interim ombudsman while Larry Davoe became interim fiscal general, with opposition leader Enrique Capriles criticizing the appointments as lacking independence.",
+          "Two key figures in Venezuela's institutional structure resigned: Tarek William Saab as Fiscal General and Alfredo Ruiz as Defensor del Pueblo. Their replacements were immediately appointed by the National Assembly, with Saab transitioning to the Ombudsman role and Larry Deboe assuming the position of interim Attorney General.",
+          "The segment provides a detailed explanation of the constitutional procedures and requirements for designating Venezuela's Attorney General (Fiscal General) and Ombudsperson (Defensor del Pueblo), including the role of the National Assembly's selection committee and specific qualification criteria for candidates.",
+          "A preliminary committee with multiple parliamentarians was formed to define a schedule, review legal requirements, and convene civil society sectors for a complete committee integration. The segment provides institutional procedural information without editorial commentary.",
+          "The segment discusses the resignation of Tarek William Saab as Attorney General and the appointment of Larry Deboe as interim fiscal general, in the context of Venezuela's recent amnesty law passage and institutional transitions.",
+          "The Prosecutor General Tarek William Sáez and the Ombudsman submitted resignations during a National Assembly session, read aloud by Jorge Rodríguez at the request of deputy Stalin González. The resignations were unexpected news but lacked detailed explanation of the underlying reasons.",
+          "The segment covers Tarek William Saab's appointment as People's Defender (Defensoría del Pueblo) and his continuation of amnesty law implementation, with opposition criticism from Enrique Capriles regarding the lack of institutional independence.",
+          "Coverage of the National Assembly's approval by qualified majority of Tarek Willansap as Ombudsman (Defensor del Pueblo) and Larry de Boe as General Prosecutor, with critical questioning from opposition figure Enrique Capriles about how Willansap can move to a new public position after recently resigning for family and health reasons.",
+          "The segment discusses the resignation of the Attorney General and Ombudsman, with the appointment of temporary authorities. It mentions Larry de Boe's background in human rights and his past involvement in 2017 dialogue negotiations led by National Assembly president Jorge Rodríguez in the Dominican Republic.",
+          "The National Assembly, led by President Jorge Rodríguez, has established a preliminary committee to oversee the renewal of leadership positions in the Citizens' Power following the resignations of Prosecutor General Tarek William Saab and Ombudsman Alfredo Ruiz. The 12-member committee, headed by Deputy Giuseppe Alessandrello, will complete the process within 30 days per constitutional procedures.",
+          "The National Assembly designates Larry Deboe as interim Attorney General following Tarek William Saab's resignation, while Saab assumes the role of interim Ombudsman. The segment provides biographical details of both officials and highlights Saab's tenure achievements.",
+          "Opposition deputy Antonio De Carri from the Libertad parliamentary group criticizes temporary appointments of the new Attorney General and Ombudsman, calling for genuine renewal of public powers rather than mere reshuffling of positions. He expresses conditional support for consensus-building on institutional reform while voting against the current designations.",
+          "Opposition parliamentarian Antonio Ecarri criticizes recent institutional appointments (acting Public Defender and Prosecutor General resignations) and calls for transparent, consensus-based selection processes. The segment also reports the release of imprisoned journalists Pedro Urribarri and Jonathan Carrillo after months of detention.",
+          "The National Assembly's Citizen Power Evaluation Commission announced an open call for candidates to the positions of Attorney General and Ombudsman, with applications to be received from March 2-9. Opposition figure Enrique Márquez returned to Caracas and emphasized his commitment to institutional restoration and constitutional democracy.",
+          "The National Assembly announces the resignations of Attorney General Tarek William Saab and Ombudsman Alfredo José Ruiz Angulo, and establishes a preliminary nominations committee led by deputy Giuseppe Alessandrello to fill these positions within 30 days.",
+          "The National Assembly designates Larry Deboy as interim Attorney General following Tarek William Saab's transition to interim Ombudsman. The segment reviews Saab's tenure highlighting prosecutions and anti-corruption efforts while framing his work within a narrative of defending national peace against alleged threats.",
+          "The National Assembly opens nominations for Prosecutor General and Ombudsman positions, with Bernabé Gutiérrez from the Nominations Committee assuring transparency and equal treatment of all candidates until March 9.",
+          "The segment reports on Venezuelan government actions including the amnesty law implementation, military prisoner releases (31 according to Jorge Arreaza), and the National Assembly's process for selecting a new Attorney General and Ombudsman, with applications opening March 2-9, 2026. The bulk of the segment shifts to extensive international coverage of US-Israel military operations against Iran."
+        ],
+        "dateRange": [
+          "2026-02-25",
+          "2026-03-02"
+        ],
+        "avgSentiment": 0.09
+      },
+      {
+        "label": "Amnesty Law Implementation",
+        "chunkIds": [
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_14",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_4",
+          "20260227_noticias-emision-estelar-26-de-febrero-de-2026_2",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_0",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_1",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_24",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_25",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_26",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_5",
+          "20260302_noticias-a-esta-hora-2-de-marzo-de-2026_4",
+          "20260303_noticias-a-esta-hora-3-de-marzo-de-2026_3",
+          "20260303_noticias-a-esta-hora-3-de-marzo-de-2026_4",
+          "20260303_noticias-a-esta-hora-3-de-marzo-de-2026_5",
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_2",
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_3",
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_4",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_31",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_32",
+          "20260305_noticias-venevision-a-esta-hora-5-marzo-de-2026_4",
+          "20260306_noticias-emision-estelar-5-de-marzo-de-2026_5",
+          "20260307_noticias-venevision-edicion-fin-de-semana-7-de-marzo-de-2026_1",
+          "20260310_noticias-emision-estelar-9-de-marzo-de-2026_6",
+          "20260310_noticias-venevision-a-esta-hora-10-de-marzo-de-2026_6"
+        ],
+        "summaries": [
+          "The segment reports on the implementation of the amnesty law for democratic coexistence, with recent releases of detainees from Tocorón prison including scientist Laudín Mora and architect Gonzalo Moncada. It also covers security operations including the dismantling of an illegal logging gang in Táchira state.",
+          "The Supreme Court of Justice supervises lower courts to accelerate implementation of the recently approved amnesty law, while the Secretary General of the PSUV clarifies that the amnesty does not apply to future crimes. US Secretary of State Marco Rubio states that free elections are indispensable for Venezuela's new stage while acknowledging positive measures taken by the government.",
+          "The segment primarily covers the implementation of Venezuela's amnesty law (ley de amnistía), with government officials reporting over 7,400 amnesty requests received and thousands of releases granted. It also includes announcements of a yellow fever vaccination campaign coordinated by the interim government and health authorities.",
+          "The segment reports on the implementation of Venezuela's amnesty law, with Jorge Arreaza announcing that 4,151 people have received full freedom and 7,461 amnesty requests have been received. It also covers interim president Delcy Rodríguez's message to Donald Trump requesting the lifting of sanctions on Venezuela.",
+          "The segment reports on the rapid progress of Venezuela's amnesty law for democratic coexistence, with nearly 4,200 applications approved and thousands receiving alternative measures or release. Interim President Delcy Rodríguez calls on President Trump to lift sanctions, citing the country's political recomposition and restored diplomatic relations.",
+          "The segment reports on the implementation of Venezuela's amnesty and democratic coexistence law promulgated by interim president Delcy Rodríguez on February 20, 2026, detailing early results including 217 excarcerations, 4,151 full releases, and 7,461 amnesty applications received. It covers government statements, parliamentary perspectives from the Libertad group seeking broader reforms including repeal of the Hate Law, and NGO concerns about the scope of military prisoner coverage.",
+          "The segment explains the procedural implementation of Venezuela's amnesty law for democratic coexistence, detailing the 15-day resolution process and judicial requirements. It also presents criticism from human rights organizations like Foro Penal regarding the law's exclusions and limitations.",
+          "The segment discusses María Logurdiz Afiuni, a judge detained in 2009 and convicted on multiple charges, who was excluded from the recently passed amnesty law despite serving over a decade in legal proceedings. The report also announces an upcoming discussion on press freedom concerns related to anti-hate speech legislation.",
+          "Report on the implementation of Venezuela's amnesty law, with National Assembly deputy Juan Carlos Alvarado (COPEI) providing statistics on applications and releases, and discussion of economic transition. Also covers commemorations of the 1989 Caracazo protests.",
+          "The segment reports on the application of Venezuela's amnesty law, with 31 military personnel released with alternative measures by the Parliamentary Commission on Amnesty. It also covers international developments including the release of Argentine gendarme Nahuel Gallo and former Spanish Prime Minister Zapatero's denial of receiving remuneration for his mediation efforts in Venezuela.",
+          "Five prisoners detained during 2024 post-electoral events were released from Tocorón prison in Aragua as part of the amnesty law implementation, with approximately 100 prisoners freed to date, though some political prisoners remain incarcerated.",
+          "Family members of political detainees gathered at the Palace of Justice in Caracas to request amnesty applications and case dismissals under the amnesty law, with lawyer Joel García clarifying that there is no time limit for detainees to be released through the amnesty mechanism.",
+          "Legal analysts and National Assembly officials discuss implementation challenges with Venezuela's amnesty law, with concerns raised about contradictions in its application and delays in judicial processing of amnesty requests.",
+          "Two individuals detained since 2023 were released under the Amnesty and Civic Coexistence Law, with civil society organization 20 Venezuela confirming their liberation after advocacy campaigns.",
+          "Two weeks after the amnesty law's approval, over 9,400 applications have been received in Venezuelan courts. National Assembly deputy Jorge Arreaza reports that 6,071 cases have received full freedom, including 245 previously detained individuals and 31 military personnel.",
+          "Legal clarification on the amnesty law's timeline and procedures, with families of political prisoners seeking broader application and faster implementation of prisoner releases.",
+          "An opposition deputy discusses the amnesty law for democratic coexistence, detailing contentious negotiations within the 21-member commission that drafted it, including disputes over provisions affecting exiled Venezuelans and the classification of violent acts.",
+          "A National Assembly deputy discusses the implementation mechanisms of Venezuela's amnesty law for democratic coexistence, detailing the structure of follow-up subcommissions and advocating for expanded labor amnesty provisions to include dismissed workers from state institutions since 1999.",
+          "The segment covers multiple government policy areas including US-Venezuela bilateral energy and mining negotiations, the amnesty law implementation with 6,071 beneficiaries reported, and parliamentary legislative activities. It also addresses infrastructure challenges including power outages in Zulia state.",
+          "UK diplomatic delegation visits Venezuela to strengthen bilateral relations and explore economic opportunities. Families of detained security personnel and civilians protest outside the National Assembly demanding faster review of cases excluded from the recent amnesty law, citing lack of transparency and slow implementation.",
+          "Legal analysis of Venezuela's amnesty law timeline clarification, with families of political prisoners demanding faster implementation and greater inclusivity in the amnesty process. The segment also briefly mentions US President Trump encouraging American oil companies to invest in Venezuelan hydrocarbon sector.",
+          "The segment covers security concerns in agricultural production, discusses the amnesty law as incomplete (lacking political rehabilitation provisions), and reports on opposition figures praising US-Venezuela diplomatic normalization and urging accelerated prisoner releases under the amnesty law.",
+          "The interim president Delcy Rodríguez will meet Colombian President Gustavo Petro on Friday at an international bridge to discuss economic, energy, and border security issues. Multiple individuals including former deputies Américo de Gracia and Williams Dávila have been released under the amnesty law for democratic coexistence."
+        ],
+        "dateRange": [
+          "2026-02-26",
+          "2026-03-10"
+        ],
+        "avgSentiment": 0.23
+      },
+      {
+        "label": "Opposition Criticism and Concerns",
+        "chunkIds": [
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_0",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_6",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_7",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_3",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_4",
+          "20260227_noticias-emision-estelar-26-de-febrero-de-2026_1",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_19",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_1",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_33",
+          "20260307_noticias-emision-estelar-6-de-marzo-de-2026_6",
+          "20260310_noticias-venevision-a-esta-hora-10-de-marzo-de-2026_7",
+          "20260310_noticias-venevision-a-esta-hora-10-de-março-de-2026_8"
+        ],
+        "summaries": [
+          "The National Assembly held an emergency session where fiscal general Tarek William Saab and ombudsman Alfredo Ruiz Angulo resigned. Saab was then sworn in as interim ombudsman while Larry Davoe became interim fiscal general, with opposition leader Enrique Capriles criticizing the appointments as lacking independence.",
+          "The segment covers Tarek William Saab's appointment as People's Defender (Defensoría del Pueblo) and his continuation of amnesty law implementation, with opposition criticism from Enrique Capriles regarding the lack of institutional independence.",
+          "Coverage of the National Assembly's approval by qualified majority of Tarek Willansap as Ombudsman (Defensor del Pueblo) and Larry de Boe as General Prosecutor, with critical questioning from opposition figure Enrique Capriles about how Willansap can move to a new public position after recently resigning for family and health reasons.",
+          "Opposition deputy Antonio De Carri from the Libertad parliamentary group criticizes temporary appointments of the new Attorney General and Ombudsman, calling for genuine renewal of public powers rather than mere reshuffling of positions. He expresses conditional support for consensus-building on institutional reform while voting against the current designations.",
+          "The Supreme Court of Justice supervises lower courts to accelerate implementation of the recently approved amnesty law, while the Secretary General of the PSUV clarifies that the amnesty does not apply to future crimes. US Secretary of State Marco Rubio states that free elections are indispensable for Venezuela's new stage while acknowledging positive measures taken by the government.",
+          "Opposition parliamentarian Antonio Ecarri criticizes recent institutional appointments (acting Public Defender and Prosecutor General resignations) and calls for transparent, consensus-based selection processes. The segment also reports the release of imprisoned journalists Pedro Urribarri and Jonathan Carrillo after months of detention.",
+          "An opposition deputy discusses the National Assembly's process for appointing key public officials, including the ombudsman (defensor del pueblo), emphasizing bipartisan consensus and dialogue despite the government's numerical majority. The segment reflects on Venezuela's democratic normalization and the opposition's role in legislative deliberations.",
+          "The National Assembly's Citizen Power Evaluation Commission announced an open call for candidates to the positions of Attorney General and Ombudsman, with applications to be received from March 2-9. Opposition figure Enrique Márquez returned to Caracas and emphasized his commitment to institutional restoration and constitutional democracy.",
+          "An opposition deputy discusses administrative amnesty provisions, judicial disqualifications, and proposes repealing four controversial laws including the 'ley resorte' that affects press freedom. The segment addresses concerns about political persecution and institutional contradictions in the current system.",
+          "Manuel Rosales criticizes restrictive laws (Ley Contra el Odio, Ley Simón Bolívar) as instruments of persecution and calls for their repeal, while endorsing strict implementation of the amnesty law and release of all political prisoners.",
+          "Segment covers tensions at Zona 7 detention facility where families of detained individuals camp awaiting releases under the amnesty law, and includes commentary from National Assembly deputy José Gregorio Correa on mining law revenue allocation to worker salaries and institutional appointments."
+        ],
+        "dateRange": [
+          "2026-02-25",
+          "2026-03-10"
+        ],
+        "avgSentiment": -0.19
+      },
+      {
+        "label": "Electoral Process and Selection Committee",
+        "chunkIds": [
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_17",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_18",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_1",
+          "20260302_noticias-a-esta-hora-2-de-marzo-de-2026_3",
+          "20260306_noticias-emision-estelar-5-de-março-de-2026_12",
+          "20260310_noticias-emision-estelar-9-de-março-de-2026_7"
+        ],
+        "summaries": [
+          "The segment announces the establishment of a preliminary evaluation committee for selecting candidates for the positions of Ombudsman (Defensor del Pueblo) and Attorney General (Fiscal General de la República), with an upcoming interview with deputy Luis Romero to discuss the qualifications required for these judicial positions.",
+          "Discussion of the resignation of Venezuela's Attorney General and Ombudsman, and the establishment of a preliminary committee to receive nominations for their replacements. A National Assembly deputy emphasizes the importance of candidates' trajectories, constitutional commitment, and defense of citizens' rights.",
+          "The National Assembly's Citizen Power Evaluation Commission announced an open call for candidates to the positions of Attorney General and Ombudsman, with applications to be received from March 2-9. Opposition figure Enrique Márquez returned to Caracas and emphasized his commitment to institutional restoration and constitutional democracy.",
+          "The National Assembly opens nominations for Prosecutor General and Ombudsman positions, with Bernabé Gutiérrez from the Nominations Committee assuring transparency and equal treatment of all candidates until March 9."
+        ],
+        "dateRange": [
+          "2026-02-27",
+          "2026-03-02"
+        ],
+        "avgSentiment": 0.27
+      },
+      {
+        "label": "Democratic Dialogue and Political Normalization",
+        "chunkIds": [
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_9",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_19",
+          "20260303_noticias-a-esta-hora-3-de-marzo-de-2026_0",
+          "20260303_noticias-a-esta-hora-3-de-marzo-de-2026_1",
+          "20260304_noticias-emision-matutina-4-de-março-de-2026_4",
+          "20260307_noticias-venevision-edicion-fin-de-semana-7-de-março-de-2026_2"
+        ],
+        "summaries": [
+          "The National Assembly under Jorge Rodríguez announces resignations of the Attorney General and Ombudsman, approves a law regulating the Red Cross, facilitates migrant returns, and announces vehicle documentation operations. The segment also reports US sanctions relaxation on Venezuelan crude oil sales to Cuba.",
+          "An opposition deputy discusses the National Assembly's process for appointing key public officials, including the ombudsman (defensor del pueblo), emphasizing bipartisan consensus and dialogue despite the government's numerical majority. The segment reflects on Venezuela's democratic normalization and the opposition's role in legislative deliberations.",
+          "Jorge Rodríguez states that economic recovery and population interests should be prioritized before calling elections, and asserts that journalism can be practiced without fear of reprisals. The segment reports 18 recent prisoner releases confirmed by Foro Penal.",
+          "National Assembly President Jorge Rodríguez discusses Venezuela's political transition, announcing plans for institutional restructuring, electoral processes by consensus, and affirming press freedom protections."
+        ],
+        "dateRange": [
+          "2026-02-26",
+          "2026-03-03"
+        ],
+        "avgSentiment": 0.28
+      },
+      {
+        "label": "Community Programs and Social Services",
+        "chunkIds": [
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_16",
+          "20260227_noticias-emision-estelar-26-de-febrero-de-2026_4",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_11",
+          "20260305_noticias-emision-estelar-4-de-março-de-2026_2",
+          "20260305_noticias-emision-estelar-4-de-março-de-2026_3",
+          "20260305_noticias-emision-matutina-5-de-março-de-2026_7",
+          "20260305_noticias-emision-matutina-5-de-março-de-2026_20",
+          "20260307_noticias-emision-estelar-6-de-março-de-2026_8",
+          "20260310_noticias-emision-estelar-9-de-março-de-2026_21"
+        ],
+        "summaries": [
+          "Caracas mayor Carmen Meléndez reports that the \"Operación Caracas Sonríe\" program has served 1.36 million people across 64 community service initiatives since June 2025, providing integrated health, infrastructure rehabilitation, entrepreneurship support, and documentation services in Caracas neighborhoods.",
+          "The broadcast covers multiple government initiatives including agricultural sector challenges, municipal economic incentives, business census announcements, and a popular consultation scheduled for March 8, 2026. Government officials present these policies favorably with emphasis on community participation and economic reactivation.",
+          "Venezuelan interim government official Ricardo Menéndez announces preparations for a popular consultation on March 8 featuring community development projects. The segment reports positively on government community engagement initiatives and infrastructure improvements across various neighborhoods."
+        ],
+        "dateRange": [
+          "2026-02-25",
+          "2026-02-27"
+        ],
+        "avgSentiment": 0.48
+      },
+      {
+        "label": "Legal Reforms and Legislation",
+        "chunkIds": [
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_2",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_3",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_7",
+          "20260305_noticias-emision-matutina-5-de-março-de-2026_30",
+          "20260310_noticias-emision-estelar-9-de-março-de-2026_1",
+          "20260311_noticias-emision-estelar-10-de-março-de-2026_11"
+        ],
+        "summaries": [
+          "The segment provides a detailed explanation of the constitutional procedures and requirements for designating Venezuela's Attorney General (Fiscal General) and Ombudsperson (Defensor del Pueblo), including the role of the National Assembly's selection committee and specific qualification criteria for candidates.",
+          "A preliminary committee with multiple parliamentarians was formed to define a schedule, review legal requirements, and convene civil society sectors for a complete committee integration. The segment provides institutional procedural information without editorial commentary.",
+          "The National Assembly approved a new Red Cross law that Deputy José Gregorio Correa Torres from the Vamos, Vamos, Venezuela faction praised as fundamental for strengthening humanitarian assistance and Venezuela's reintegration into the international cooperation system."
+        ],
+        "dateRange": [
+          "2026-02-26",
+          "2026-02-27"
+        ],
+        "avgSentiment": 0.25
+      },
+      {
+        "label": "International Relations and Sanctions",
+        "chunkIds": [
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_9",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_0",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_1",
+          "20260304_noticias-a-esta-hora-4-de-março-de-2026_0",
+          "20260310_noticias-venevision-a-esta-hora-10-de-março-de-2026_6"
+        ],
+        "summaries": [
+          "The National Assembly under Jorge Rodríguez announces resignations of the Attorney General and Ombudsman, approves a law regulating the Red Cross, facilitates migrant returns, and announces vehicle documentation operations. The segment also reports US sanctions relaxation on Venezuelan crude oil sales to Cuba.",
+          "The segment reports on the implementation of Venezuela's amnesty law, with Jorge Arreaza announcing that 4,151 people have received full freedom and 7,461 amnesty requests have been received. It also covers interim president Delcy Rodríguez's message to Donald Trump requesting the lifting of sanctions on Venezuela.",
+          "The segment reports on the rapid progress of Venezuela's amnesty law for democratic coexistence, with nearly 4,200 applications approved and thousands receiving alternative measures or release. Interim President Delcy Rodríguez calls on President Trump to lift sanctions, citing the country's political recomposition and restored diplomatic relations."
+        ],
+        "dateRange": [
+          "2026-02-26",
+          "2026-02-27"
+        ],
+        "avgSentiment": 0.32
+      },
+      {
+        "label": "Government Administrative Operations",
+        "chunkIds": [
+          "20260303_noticias-emision-matutina-3-de-março-de-2026_5",
+          "20260304_noticias-emision-matutina-4-de-março-de-2026_3",
+          "20260305_noticias-emision-matutina-5-de-março-de-2026_29",
+          "20260306_noticias-venevision-a-esta-hora-6-de-março-de-2026_11",
+          "20260311_noticias-emision-estelar-10-de-março-de-2026_4"
+        ],
+        "summaries": [],
+        "dateRange": [
+          "",
+          ""
+        ],
+        "avgSentiment": 0.33
+      },
+      {
+        "label": "Public Commemorations and Mobilizations",
+        "chunkIds": [
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_6",
+          "20260306_noticias-emision-estelar-5-de-março-de-2026_6"
+        ],
+        "summaries": [
+          "Pro-government rally commemorates the 37th anniversary of the Caracazo, with social movements and chavista leaders expressing support for interim president Delcy Rodríguez and unity around Chávez's legacy."
+        ],
+        "dateRange": [
+          "2026-02-27",
+          "2026-02-27"
+        ],
+        "avgSentiment": 0.65
+      }
+    ]
+  },
+  {
+    "dimension": "us-relations",
+    "topics": [
+      {
+        "label": "US-Venezuela Diplomatic Normalization",
+        "chunkIds": [
+          "20260306_noticias-emision-estelar-5-de-marzo-de-2026_0",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_0",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_1",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_2",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_5",
+          "20260306_noticias-venevision-a-esta-hora-6-de-marzo-de-2026_0",
+          "20260306_noticias-venevision-a-esta-hora-6-de-marzo-de-2026_1",
+          "20260306_noticias-venevision-a-esta-hora-6-de-marzo-de-2026_2",
+          "20260306_noticias-venevision-a-esta-hora-6-de-marzo-de-2026_3",
+          "20260307_noticias-emision-estelar-6-de-marzo-de-2026_4",
+          "20260307_noticias-emision-estelar-6-de-marzo-de-2026_5"
+        ],
+        "summaries": [
+          "US Interior Secretary Don Burgum concludes visit to Venezuela with government meetings, signing energy cooperation agreements. Multiple segments highlight US-Venezuela diplomatic engagement and energy sector investment opportunities.",
+          "The segment reports on the formal re-establishment of US-Venezuela diplomatic relations, with the US recognizing Delcy Rodríguez as interim president and announcing embassy reopenings. It also covers the amnesty law processing and related government initiatives for political reconciliation.",
+          "Analysis of restored US-Venezuela diplomatic relations as a historic milestone, highlighting practical benefits for Venezuelan migrants, oil sector agreements with Shell and ExxonMobil, and potential economic normalization with international financial institutions.",
+          "Discussion of improving US-Venezuela diplomatic relations, including potential airline connections, sanctions relief, and the role of Venezuelan diplomatic representatives in Washington. Commentary emphasizes economic and social benefits of the diplomatic opening and notes changes in US administration regarding migration policy.",
+          "Venezuela's interim government announces restoration of diplomatic relations with the United States following high-level meetings with US Interior Secretary Doug Bormond, including economic agreements on investment security and oil sector collaboration with Shell. The segment also reports on opposition figure Juan Pablo Guanipa's statement that Venezuela's political shift depends on opposition-US alliance coordination.",
+          "The segment reports on the restoration of diplomatic relations between the United States and Venezuela after seven years, with US Interior Secretary Doug Burgum promising legal security for mining companies returning to Venezuela. Additionally, the segment covers domestic government appointments and infrastructure issues.",
+          "Venevisión reports on the normalization of US-Venezuela diplomatic relations following the January 3 transition, featuring a joint announcement by the US State Department and Venezuela's interim government. The segment highlights high-level US official visits including Laura Dogu, Energy Secretary Chris Wright, Interior Secretary Doug Burgum, and SOUTHCOM Commander General Francis Donovan to discuss cooperation on energy, minerals, security, and economic recovery.",
+          "The segment discusses the reopening of US and Venezuelan embassies as a positive development for diplomatic relations, investor confidence, and consular services. An international relations analyst praises the interim government's rapid progress and the interim president's diplomatic engagement, including her English-language proficiency.",
+          "US officials including Southern Command and Interior Secretary Doug Bergen visit Venezuela to support diplomatic efforts, discuss capital investment recovery, and sign energy/mining agreements with the interim government.",
+          "The segment reports on the reopening of US and Venezuelan embassies as a major diplomatic breakthrough, with analysts and National Assembly officials praising the move as economically beneficial and crucial for restoring legal security for foreign investment and resolving administrative issues for Venezuelans abroad.",
+          "The segment covers Delcy Rodríguez's initiatives to attract Venezuelan migrants back to the country through financing programs, and reports on strengthened US-Venezuela diplomatic relations, including US Southern Command's support for stability and an upcoming meeting between Rodríguez and Colombian President Gustavo Petro. Opposition figure Manuel Rosales comments positively on US-Venezuela diplomatic normalization."
+        ],
+        "dateRange": [
+          "2026-03-05",
+          "2026-03-06"
+        ],
+        "avgSentiment": 0.68
+      },
+      {
+        "label": "Sanctions Relief and Oil Trade",
+        "chunkIds": [
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_1",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_9",
+          "20260227_noticias-emision-estelar-26-de-febrero-de-2026_0",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_3",
+          "20260227_noticias-venevision-a-esta-hora-27-de-febrero-de-2026_0",
+          "20260227_noticias-venevision-a-esta-hora-27-de-febrero-de-2026_2",
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_0",
+          "20260304_noticias-emision-matutina-4-de-marzo-de-2026_1",
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_5",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_1",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_2",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_3",
+          "20260306_noticias-emision-estelar-5-de-marzo-de-2026_2",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_6",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_21",
+          "20260309_noticias-emision-matutina-9-de-marzo-de-2026_1",
+          "20260309_noticias-emision-matutina-9-de-marzo-de-2026_3",
+          "20260310_noticias-venevision-a-esta-hora-10-de-marzo-de-2026_2",
+          "20260310_noticias-venevision-a-esta-hora-10-de-marzo-de-2026_3"
+        ],
+        "summaries": [
+          "The US Treasury Department authorized limited Venezuelan crude oil sales to Cuba through private sector mechanisms with sanctions relief for licensed companies. Additionally, Delcy Rodríguez held diplomatic discussions with Italian Foreign Minister Antonio Tajani regarding detained persons and investment opportunities, while human rights organizations reported only six releases under the recently passed amnesty law in Lara state.",
+          "The National Assembly under Jorge Rodríguez announces resignations of the Attorney General and Ombudsman, approves a law regulating the Red Cross, facilitates migrant returns, and announces vehicle documentation operations. The segment also reports US sanctions relaxation on Venezuelan crude oil sales to Cuba.",
+          "Interim president Delcy Rodríguez appeals to President Trump to lift sanctions against Venezuela, framing the countries as friends and partners. The segment also covers energy cooperation with Shell and planned bilateral meetings with Colombia and the US.",
+          "Interim President Delcy Rodríguez appeals to Donald Trump to end the US blockade and sanctions against Venezuela during an event with youth, framing it as an opening of a new cooperation agenda. The segment also covers government actions on amnesty law implementation, journalist releases, and economic partnerships with Shell.",
+          "The segment covers diplomatic interactions between Venezuela and the United States, including interim president Delcy Rodríguez's characterization of Donald Trump as a friend and partner while requesting sanctions relief, and US Energy Secretary Chris Wright's statements about energy cooperation agreements to reduce fuel costs.",
+          "The segment extensively covers Venezuela-US diplomatic engagement, including President Delcy Rodríguez's meeting with Trump administration officials, energy cooperation agreements, and petroleum production projections. It also reports on amnesty law implementations, exonerations of political prisoners, and commemorations of the 1989 Caracazo.",
+          "The segment reports on Venezuela's economic projections under interim president Delcy Rodríguez, focusing on petroleum sector recovery, ExxonMobil's potential return, and agricultural growth, while positioning Venezuela as a reliable energy supplier to the US amid geopolitical tensions.",
+          "Defense Minister Vladimir Padrino López calls for the US to lift sanctions against Venezuela as part of a new diplomatic phase, while opposition figure Manuel Rosales supports the amnesty law but calls for additional legal reforms and institutional reinstitutionalization to achieve full democracy.",
+          "Coverage of US-Venezuela energy relations, including PDVSA's new oil contracts with US buyers and Venezuela's request for sanctions relief. Also includes extensive reporting on Trump's trade conflict with Spain and Iran tensions.",
+          "A high-level US Cabinet official visits Venezuela to negotiate resource extraction agreements, particularly focusing on rare earth minerals and oil production. The segment frames the visit positively, emphasizing US-Venezuelan cooperation and praising interim president Delcy Rodríguez's role in facilitating these agreements.",
+          "Coverage of a US Interior Department delegation's visit to Venezuela, highlighting business opportunities in mining and hydrocarbon sectors and praising diplomatic engagement between the Trump administration and interim president Delcy Rodríguez.",
+          "Discussion of business agreements between Venezuelan state company Minervén and US firms (Trafigura, Vitol) involving gold and petroleum exports, with emphasis on US technology access enabling Venezuelan economic reactivation and diversification into rare earth minerals.",
+          "The interim president Delcy Rodríguez announces new energy cooperation agreements with Shell and discusses US sanctions relief through OFAC licenses, with attendance and endorsement from US Interior Secretary Doug Bergen.",
+          "Ecopetrol's director requests that the US Treasury Department lift sanctions on Venezuela to enable oil negotiations and investment discussions. The segment also reports on US domestic political changes, including Trump's dismissal of the Secretary of Homeland Security.",
+          "A government official discusses Venezuela's oil industry recovery, new regulatory framework approved by the National Assembly, and cooperative relations with the United States on petroleum sector development and licensing.",
+          "The segment reports on the arrival of the first shipment of Venezuelan gold (approximately $100 million) to the United States as part of bilateral cooperation on critical minerals, announced by US Interior Secretary Doug Berman. Foreign Minister Iván Gil also calls on Chile's incoming president to exercise greater historical responsibility and avoid xenophobic rhetoric targeting Venezuelans.",
+          "The segment reports on US-Venezuela economic cooperation, including a $100 million gold shipment from Venezuela to the US and a $1 billion commercial agreement with state company Minervén following Interior Secretary Doug Morgan's visit to meet interim president Delcy Rodríguez. The coverage emphasizes Trump's praise for Rodríguez's professionalism and the concrete results of bilateral cooperation.",
+          "Oil and gas price fluctuations driven by Middle East tensions and Iran-US military operations, with analysis of Venezuela's increased petroleum revenue from strategic partnership with the United States. Trump highlights successful Venezuelan oil extraction and processing in US refineries as part of a mutually beneficial alliance.",
+          "Donald Trump announces temporary suspension of petroleum sanctions to stabilize global oil prices and ensure crude supply, with implications for Venezuela's energy sector and potential foreign investment by Repsol. The segment also reports on G7 coordination on energy markets and US Treasury measures affecting Russian and Venezuelan oil operations."
+        ],
+        "dateRange": [
+          "2026-02-25",
+          "2026-03-10"
+        ],
+        "avgSentiment": 0.55
+      },
+      {
+        "label": "Mining and US Investment Delegation",
+        "chunkIds": [
+          "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_1",
+          "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_2",
+          "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_8",
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_0",
+          "20260305_noticias-emision-estelar-4-de-marzo-de-2026_0",
+          "20260305_noticias-venevision-a-esta-hora-5-marzo-de-2026_2",
+          "20260305_noticias-venevision-a-esta-hora-5-marzo-de-2026_3",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_6",
+          "20260306_noticias-emision-estelar-5-de-marzo-de-2026_1",
+          "20260307_noticias-venevision-edicion-fin-de-semana-7-de-marzo-de-2026_0"
+        ],
+        "summaries": [
+          "US Interior Secretary Duke Burgum arrives in Venezuela to meet with interim government authorities and discuss investment projects in critical minerals and energy transition. The segment frames the visit as part of a strategic White House plan to stabilize the region and enhance bilateral commercial exchange.",
+          "A US Interior Secretary is visiting Venezuela to meet with interim president Delcy Rodríguez at Miraflores Palace, with expected agreements on energy financing. The segment also briefly mentions the National Academy of Medicine supporting national vaccination efforts against a yellow fever outbreak.",
+          "Venezuela's Vice Minister for Europe and North America Oliver Blanco welcomed US Secretary of Interior Doug Bergen, framing the visit as initiating a new phase of mutual respect and constructive dialogue between the nations under interim president Delcy Rodríguez's authority. The US delegation includes business representatives interested in strengthening energy and mining exchanges.",
+          "The segment reports on Venezuela's economic projections under interim president Delcy Rodríguez, focusing on petroleum sector recovery, ExxonMobil's potential return, and agricultural growth, while positioning Venezuela as a reliable energy supplier to the US amid geopolitical tensions.",
+          "Interim President Delcy Rodríguez meets with US Interior Secretary Doug Burgum to discuss bilateral energy and mining cooperation, with both governments emphasizing strategic partnership and investment opportunities. The segment also covers opposition figures' calls for democratic transition and sanctions relief.",
+          "US Interior Secretary Doug Burgum visits Caracas with American mining companies to discuss investment opportunities in Venezuela's mineral sector. Interim President Delcy Rodríguez requests Parliament expedite reforms to the mining law to facilitate both national and foreign investment.",
+          "A meeting between interim president Delcy Rodríguez and US Interior Secretary Doug Berman opens opportunities for mining investment in Venezuela, particularly in Bolívar state. Industrial sector leaders express optimism about new capital and technology, with plans for mining law reforms to expand private sector participation.",
+          "A Venezuelan economist discusses the visit of a U.S. Interior Secretary to Venezuela and its implications for mining activity and mineral extraction, expressing concern about transparency regarding corporate agreements and environmental protections.",
+          "US Interior Secretary Kramer South Oregon concludes visit to Venezuela, meeting with interim president Delcy Rodríguez and National Assembly president Jorge Rodríguez to discuss economic recovery and commercial relations. The segment emphasizes US commitment to supporting Venezuelan stability and economic normalization through collaborative efforts.",
+          "Interim President Delcy Rodríguez met with US Interior Secretary Doug Bourbon to discuss energy and mining cooperation between Venezuela and the United States, with emphasis on investment opportunities and the Trump administration's three-phase bilateral plan. Major US companies including ExxonMobil are reportedly evaluating return to Venezuela under favorable investment conditions."
+        ],
+        "dateRange": [
+          "2026-03-03",
+          "2026-03-07"
+        ],
+        "avgSentiment": 0.65
+      },
+      {
+        "label": "Aviation and Air Connectivity",
+        "chunkIds": [
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_5",
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_6",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_4",
+          "20260305_noticias-emision-matutina-5-de-marzo-de-2026_9",
+          "20260305_noticias-venevision-a-esta-hora-5-marzo-de-2026_0",
+          "20260305_noticias-venevision-a-esta-hora-5-marzo-de-2026_1"
+        ],
+        "summaries": [
+          "Colombian business chamber expresses interest in establishing financial partnerships and creating a binational economic triangle with Venezuela's Táchira state, including proposals for special economic zones and cross-border trade in agriculture, livestock, and tourism. The segment also mentions US verification of aeronautical security conditions for expansion of Venezuela's international airport.",
+          "Two segments report on aviation infrastructure improvements following US TSA inspections and expectations for resumed direct flights to the US by Q2 2026, and municipal authorities in Maracaibo enforce official transport fare regulations against illegal increases by drivers.",
+          "The segment reports on the resumption of American Airlines flights between the US and Venezuela, along with seven other airlines reestablishing connectivity to Venezuela in March 2026. The coverage frames this as positive economic news resulting from improved US-Venezuela relations, highlighting benefits for families, commerce, and cargo transportation.",
+          "The segment reports on US Senate rejection of a resolution to halt military intervention in Iran under President Trump's order, and on US authorization of American Airlines flights resuming service to Venezuela after six years, marking normalization of air travel between the two countries.",
+          "American Airlines resumes direct flights between the US and Venezuela following the January revocation of a flight ban, with US Interior Secretary Doug Borkum noting American mining companies are eager to operate in Venezuela. Technical validations by Venezuelan aviation authorities remain pending before commercial operations begin.",
+          "American Airlines receives US authorization to resume flights to Caracas and Maracaibo after a six-year suspension. Maracaibo's mayor credits interim president Delcy Rodríguez for the economic opening and highlights upcoming national consultation scheduled for March 8."
+        ],
+        "dateRange": [
+          "2026-02-25",
+          "2026-03-05"
+        ],
+        "avgSentiment": 0.57
+      },
+      {
+        "label": "Trump Administration Statements",
+        "chunkIds": [
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_10",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_10",
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_27",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_4",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_20",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_21",
+          "20260227_noticias-venevision-a-esta-hora-27-de-febrero-de-2026_1",
+          "20260228_noticias-venevision-edicion-fin-de-semana-28-de-febrero-de-2026_2"
+        ],
+        "summaries": [
+          "The segment covers international news including a Brazilian court ruling on a political murder case, Paraguay's temporary ban on Argentine poultry imports due to bird flu, and US President Donald Trump's State of the Union address emphasizing border security and immigration enforcement.",
+          "US Secretary of State Marco Rubio articulates Washington's position on Venezuela, acknowledging positive government measures including prisoner releases, the closure of La Helicoide prison, and an amnesty law, while emphasizing that free elections are an indispensable condition for the next phase of bilateral relations.",
+          "Analysis of Donald Trump's State of the Union address messaging and symbolic gestures, focusing on his use of the US men's hockey team to convey strength and American greatness, and the partisan response from Republican and Democratic audiences.",
+          "The Supreme Court of Justice supervises lower courts to accelerate implementation of the recently approved amnesty law, while the Secretary General of the PSUV clarifies that the amnesty does not apply to future crimes. US Secretary of State Marco Rubio states that free elections are indispensable for Venezuela's new stage while acknowledging positive measures taken by the government.",
+          "An opposition political figure discusses the importance of peace-committed leadership and praises Enrique Márquez as a moderate centrist opposition leader gaining recognition, including mentions of Trump's State of the Union address highlighting Venezuela and Márquez's presence in the US Congress.",
+          "Opposition legislator discusses Donald Trump's invitation to Enrique Márquez to the US Congress and criticizes the government's failure to raise salaries for four years, demanding emergency salary increases and bonuses for workers, retirees, and pensioners.",
+          "Opposition political figure Enrique Márquez holds a press conference following his return to Venezuela from the United States, where he was invited by President Donald Trump to attend his State of the Union address. Márquez expresses hope about Venezuela's political transition and opportunities for democracy, freedom, and prosperity.",
+          "The segment covers Delcy Rodríguez's meetings on health and energy cooperation, opposition criticism of government appointments, and Donald Trump's State of the Union address highlighting increased US-Venezuela oil trade and the release of Venezuelan opposition figure Enrique Márquez."
+        ],
+        "dateRange": [
+          "2026-02-25",
+          "2026-02-28"
+        ],
+        "avgSentiment": 0.35
+      },
+      {
+        "label": "Amnesty Law and Political Prisoner Releases",
+        "chunkIds": [
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_1",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_4",
+          "20260227_noticias-emision-estelar-26-de-febrero-de-2026_0",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_0",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_1",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_3",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_3",
+          "20260302_noticias-emision-matutina-2-de-marzo-de-2026_4",
+          "20260305_noticias-venevision-a-esta-hora-5-marzo-de-2026_4",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_3",
+          "20260307_noticias-venevision-edicion-fin-de-semana-7-de-marzo-de-2026_1",
+          "20260310_noticias-emision-estelar-9-de-marzo-de-2026_6"
+        ],
+        "summaries": [
+          "The US Treasury Department authorized limited Venezuelan crude oil sales to Cuba through private sector mechanisms with sanctions relief for licensed companies. Additionally, Delcy Rodríguez held diplomatic discussions with Italian Foreign Minister Antonio Tajani regarding detained persons and investment opportunities, while human rights organizations reported only six releases under the recently passed amnesty law in Lara state.",
+          "The Supreme Court of Justice supervises lower courts to accelerate implementation of the recently approved amnesty law, while the Secretary General of the PSUV clarifies that the amnesty does not apply to future crimes. US Secretary of State Marco Rubio states that free elections are indispensable for Venezuela's new stage while acknowledging positive measures taken by the government.",
+          "Interim president Delcy Rodríguez appeals to President Trump to lift sanctions against Venezuela, framing the countries as friends and partners. The segment also covers energy cooperation with Shell and planned bilateral meetings with Colombia and the US.",
+          "The segment reports on the implementation of Venezuela's amnesty law, with Jorge Arreaza announcing that 4,151 people have received full freedom and 7,461 amnesty requests have been received. It also covers interim president Delcy Rodríguez's message to Donald Trump requesting the lifting of sanctions on Venezuela.",
+          "The segment reports on the rapid progress of Venezuela's amnesty law for democratic coexistence, with nearly 4,200 applications approved and thousands receiving alternative measures or release. Interim President Delcy Rodríguez calls on President Trump to lift sanctions, citing the country's political recomposition and restored diplomatic relations.",
+          "Interim President Delcy Rodríguez appeals to Donald Trump to end the US blockade and sanctions against Venezuela during an event with youth, framing it as an opening of a new cooperation agenda. The segment also covers government actions on amnesty law implementation, journalist releases, and economic partnerships with Shell.",
+          "The interim president Delcy Rodríguez met with security authorities to review progress on national security plans, including expansion of peace zones (cuadrantes de paz) to 6,000 units nationwide. Additionally, opposition political figure Freddy Superlano was released under the democratic coexistence amnesty law after 19 months in detention.",
+          "The segment reports on Venezuelan government actions including the amnesty law implementation, military prisoner releases (31 according to Jorge Arreaza), and the National Assembly's process for selecting a new Attorney General and Ombudsman, with applications opening March 2-9, 2026. The bulk of the segment shifts to extensive international coverage of US-Israel military operations against Iran.",
+          "The segment covers multiple government policy areas including US-Venezuela bilateral energy and mining negotiations, the amnesty law implementation with 6,071 beneficiaries reported, and parliamentary legislative activities. It also addresses infrastructure challenges including power outages in Zulia state.",
+          "Segment discusses US security policy changes under Trump administration, including leadership transitions at the Department of Homeland Security and anti-narcotics operations in the region. Also covers Venezuelan amnesty law implementation and the status of Venezuelan migrants in the US under asylum and TPS protections.",
+          "Legal analysis of Venezuela's amnesty law timeline clarification, with families of political prisoners demanding faster implementation and greater inclusivity in the amnesty process. The segment also briefly mentions US President Trump encouraging American oil companies to invest in Venezuelan hydrocarbon sector.",
+          "The segment covers security concerns in agricultural production, discusses the amnesty law as incomplete (lacking political rehabilitation provisions), and reports on opposition figures praising US-Venezuela diplomatic normalization and urging accelerated prisoner releases under the amnesty law."
+        ],
+        "dateRange": [
+          "2026-02-25",
+          "2026-03-09"
+        ],
+        "avgSentiment": 0.15
+      },
+      {
+        "label": "Opposition Leaders and US Engagement",
+        "chunkIds": [
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_20",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_21",
+          "20260227_noticias-venevision-a-esta-hora-27-de-febrero-de-2026_1",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_0",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_2",
+          "20260228_noticias-venevision-edicion-fin-de-semana-28-de-febrero-de-2026_3",
+          "20260304_noticias-a-esta-hora-4-de-marzo-de-2026_17",
+          "20260304_noticias-emision-estelar-3-de-marzo-de-2026_6"
+        ],
+        "summaries": [
+          "An opposition political figure discusses the importance of peace-committed leadership and praises Enrique Márquez as a moderate centrist opposition leader gaining recognition, including mentions of Trump's State of the Union address highlighting Venezuela and Márquez's presence in the US Congress.",
+          "Opposition legislator discusses Donald Trump's invitation to Enrique Márquez to the US Congress and criticizes the government's failure to raise salaries for four years, demanding emergency salary increases and bonuses for workers, retirees, and pensioners.",
+          "Opposition political figure Enrique Márquez holds a press conference following his return to Venezuela from the United States, where he was invited by President Donald Trump to attend his State of the Union address. Márquez expresses hope about Venezuela's political transition and opportunities for democracy, freedom, and prosperity.",
+          "Opposition figure Enrique Márquez reappears in Caracas and calls for restoration of freedoms and institutional governance. The segment also briefly mentions Trump's potential involvement in Cuba-related matters amid energy crisis.",
+          "Opposition figure Enrique Márquez reports on his visit to the US Congress, describing positive conversations about Venezuela's political situation and expressing willingness to unite with other opposition leaders. Márquez emphasizes US support for Venezuela's future while indicating he has not yet coordinated with other opposition figures but remains open to collaboration.",
+          "Coverage of opposition political figure Enrique Márquez's visit to the US Capitol and White House during Trump's State of the Union address, with emphasis on US-Venezuela diplomatic coordination and positive assessments of recent Venezuelan political reforms including prisoner releases and amnesty law.",
+          "Juan Pablo Guanipa held a press conference marking 26 years of Primero Justicia party, discussing his judicial situation, removal of identity document blocks, and calls for review of judicalized political parties and release of political prisoners. He also highlighted opposition coordination with international actors including US officials.",
+          "An opposition political figure (Alviares) makes his first public appearance after release from detention, calling for freedom of all detainees and early elections as conditions for democratic progress. He expresses support for US-Venezuela relations and foreign investment while demanding judicial guarantees."
+        ],
+        "dateRange": [
+          "2026-02-27",
+          "2026-03-04"
+        ],
+        "avgSentiment": 0.44
+      },
+      {
+        "label": "Delcy Rodríguez Diplomatic Appeals",
+        "chunkIds": [
+          "20260227_noticias-emision-estelar-26-de-febrero-de-2026_0",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_0",
+          "20260227_noticias-emision-matutina-27-de-febrero-de-2026_3",
+          "20260227_noticias-venevision-a-esta-hora-27-de-febrero-de-2026_0",
+          "20260227_noticias-venevision-a-esta-hora-27-de-febrero-de-2026_2",
+          "20260228_noticias-venevision-edicion-fin-de-semana-28-de-febrero-de-2026_2"
+        ],
+        "summaries": [
+          "Interim president Delcy Rodríguez appeals to President Trump to lift sanctions against Venezuela, framing the countries as friends and partners. The segment also covers energy cooperation with Shell and planned bilateral meetings with Colombia and the US.",
+          "The segment reports on the implementation of Venezuela's amnesty law, with Jorge Arreaza announcing that 4,151 people have received full freedom and 7,461 amnesty requests have been received. It also covers interim president Delcy Rodríguez's message to Donald Trump requesting the lifting of sanctions on Venezuela.",
+          "Interim President Delcy Rodríguez appeals to Donald Trump to end the US blockade and sanctions against Venezuela during an event with youth, framing it as an opening of a new cooperation agenda. The segment also covers government actions on amnesty law implementation, journalist releases, and economic partnerships with Shell.",
+          "The segment covers diplomatic interactions between Venezuela and the United States, including interim president Delcy Rodríguez's characterization of Donald Trump as a friend and partner while requesting sanctions relief, and US Energy Secretary Chris Wright's statements about energy cooperation agreements to reduce fuel costs.",
+          "The segment extensively covers Venezuela-US diplomatic engagement, including President Delcy Rodríguez's meeting with Trump administration officials, energy cooperation agreements, and petroleum production projections. It also reports on amnesty law implementations, exonerations of political prisoners, and commemorations of the 1989 Caracazo.",
+          "The segment covers Delcy Rodríguez's meetings on health and energy cooperation, opposition criticism of government appointments, and Donald Trump's State of the Union address highlighting increased US-Venezuela oil trade and the release of Venezuelan opposition figure Enrique Márquez."
+        ],
+        "dateRange": [
+          "2026-02-26",
+          "2026-02-28"
+        ],
+        "avgSentiment": 0.4
+      },
+      {
+        "label": "Immigration and Asylum Policy",
+        "chunkIds": [
+          "20260226_noticias-emision-estelar-25-de-febrero-de-2026_12",
+          "20260228_noticias-emision-estelar-27-de-febrero-de-2026_10",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_3",
+          "20260306_noticias-emision-matutina-6-de-marzo-de-2026_26"
+        ],
+        "summaries": [
+          "The segment discusses how Venezuela's recently passed amnesty law could affect over 300,000 Venezuelans with pending asylum claims in the US, explaining the legal implications and asylum requirements. It also covers US government requests to tech companies for data on users critical of ICE immigration enforcement.",
+          "Segment covers the arrest of a Venezuelan engineer with legal status in Florida by US immigration authorities and broader ICE detention practices, including detentions of DACA recipients, with criticism of Trump administration immigration enforcement policies.",
+          "Segment discusses US security policy changes under Trump administration, including leadership transitions at the Department of Homeland Security and anti-narcotics operations in the region. Also covers Venezuelan amnesty law implementation and the status of Venezuelan migrants in the US under asylum and TPS protections.",
+          "Report on immigration fraud schemes targeting Venezuelan migrants in the US, followed by comments from National Assembly President Jorge Rodríguez about how Venezuela's amnesty law could benefit Venezuelans with US asylum claims who wish to return home."
+        ],
+        "dateRange": [
+          "2026-02-25",
+          "2026-03-06"
+        ],
+        "avgSentiment": -0.25
+      },
+      {
+        "label": "US-Venezuela Election and Democracy",
+        "chunkIds": [
+          "20260226_noticias-emision-matutina-26-de-febrero-de-2026_10",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_11",
+          "20260226_noticias-venevision-a-esta-hora-26-de-febrero-de-2026_4",
+          "20260310_noticias-emision-estelar-9-de-marzo-de-2026_3"
+        ],
+        "summaries": [
+          "US Secretary of State Marco Rubio articulates Washington's position on Venezuela, acknowledging positive government measures including prisoner releases, the closure of La Helicoide prison, and an amnesty law, while emphasizing that free elections are an indispensable condition for the next phase of bilateral relations.",
+          "The Supreme Court of Justice supervises lower courts to accelerate implementation of the recently approved amnesty law, while the Secretary General of the PSUV clarifies that the amnesty does not apply to future crimes. US Secretary of State Marco Rubio states that free elections are indispensable for Venezuela's new stage while acknowledging positive measures taken by the government.",
+          "Political leader Leosénis García outlines a three-phase roadmap for Venezuela prioritizing political reconciliation and economic reconstruction before elections, and advocates for diversified international relations beyond the United States.",
+          "US nominee for DHS Mark Wayne Mullen signals intention to normalize relations with Venezuela while pressing for free elections and political prisoner releases; Venezuelan government responds critically, rejecting what it calls 'microphone diplomacy' and reaffirming defense of sovereignty."
+        ],
+        "dateRange": [
+          "2026-02-26",
+          "2026-03-09"
+        ],
+        "avgSentiment": 0.075
+      }
+    ]
+  }
+]
