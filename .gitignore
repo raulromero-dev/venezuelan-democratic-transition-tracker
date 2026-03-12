@@ -25,5 +25,5 @@ yarn-error.log*
 .DS_Store
 *.pem
 
-# press-freedom data (audio + transcripts)
-press-freedom/data/
+# press-freedom audio (too large for git)
+press-freedom/data/audio/
