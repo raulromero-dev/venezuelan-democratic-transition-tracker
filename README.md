@@ -1,4 +1,4 @@
-# Venezuelan Transition Tracker
+# Eyes on Venezuela
 
 **Democratic and Economic Development — Open Intelligence Platform**
 
@@ -27,7 +27,7 @@ An open-source intelligence platform that independently measures democratic and 
 
 Venezuela's regime has long been opaque to external scrutiny. It claims to uphold democratic freedoms while imprisoning hundreds of journalists. It has nominally opened its economy to private enterprise, yet no credible independent measurement of that opening exists. Official statistics are either unreliable or simply absent.
 
-The Venezuelan Transition Tracker changes that. By combining media monitoring, social media analysis, satellite imagery, surveys, web scraping, audio transcription, and large language models, we produce **transparent and reproducible indices** that Venezuelan civil society and the international community can trust when evaluating the country's transition.
+Eyes on Venezuela changes that. By combining media monitoring, social media analysis, satellite imagery, surveys, web scraping, audio transcription, and large language models, we produce **transparent and reproducible indices** that Venezuelan civil society and the international community can trust when evaluating the country's transition.
 
 We are building **measurement infrastructure**, the kind that has historically required large institutional budgets and years of fieldwork, and making it automated, open-source, and resilient to the very censorship it is designed to expose.
 
@@ -35,7 +35,7 @@ We are building **measurement infrastructure**, the kind that has historically r
 
 The Miranda Center previously created an OSINT dashboard shared with Nobel Peace Prize winner and Venezuelan opposition leader María Corina Machado and her team, within the context of Operation Southern Spear and Absolute Resolve. That dashboard helped drive military and intelligence insights that led to negotiations and engagements with US representatives (diplomatic, congressional, and intelligence personnel) and members of the Venezuelan transitional government.
 
-The Transition Tracker extends this track record into systematic, longitudinal measurement of Venezuela's democratic and economic trajectory.
+Eyes on Venezuela extends this track record into systematic, longitudinal measurement of Venezuela's democratic and economic trajectory.
 
 ---
 
@@ -361,7 +361,7 @@ Aggregates news coverage from 100+ outlets across English, Spanish, Venezuelan, 
 
 ### What Carries Forward
 
-The Transition Tracker will directly leverage:
+Eyes on Venezuela will directly leverage:
 
 1. **The LLM pipeline pattern:** batch processing, progress tracking, error recovery, database upsert
 2. **The semantic relevance scoring system:** keyword matching + embedding-based similarity scoring

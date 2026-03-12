@@ -1,4 +1,4 @@
-# Venezuelan Democratic Transition Tracker
+# Eyes on Venezuela
 
 ## Project Objective
 
