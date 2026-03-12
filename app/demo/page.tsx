@@ -52,7 +52,7 @@ export default function DemoPage() {
                 Three-pillar measurement system.
               </h1>
               <p className="text-base md:text-lg text-muted-foreground font-light leading-relaxed">
-                The transition tracker independently measures Venezuela&apos;s democratic and economic trajectory across three dimensions. This demo focuses on a subsection of Pillar 1 (Freedom of the Press), examining news segments from Venevisi&oacute;n&mdash;a major private television network&mdash;to assess the scope and independence of their political coverage.
+                Eyes on Venezuela independently measures the country&apos;s democratic and economic trajectory across three dimensions. This demo focuses on a subsection of Pillar 1 (Freedom of the Press), examining news segments from Venevisi&oacute;n&mdash;a major private television network&mdash;to assess the scope and independence of their political coverage.
               </p>
             </div>
           </div>

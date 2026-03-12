@@ -12,16 +12,16 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Venezuelan Transition Tracker",
+  title: "Eyes on Venezuela",
   description: "Open intelligence platform measuring democratic and economic progress in Venezuela.",
   openGraph: {
-    title: "Venezuelan Transition Tracker",
+    title: "Eyes on Venezuela",
     description: "Open intelligence platform measuring democratic and economic progress in Venezuela.",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Venezuelan Transition Tracker",
+    title: "Eyes on Venezuela",
     description: "Open intelligence platform measuring democratic and economic progress in Venezuela.",
   },
 }
