@@ -12,7 +12,7 @@ export default function LandingPage() {
           <div className="glass rounded-full px-5 py-2.5 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-5 h-[2px] tricolor-line rounded-full" />
-              <span className="text-[10px] font-display tracking-[0.25em] uppercase text-muted-foreground">
+              <span className="text-[10px] font-display tracking-[0.25em] uppercase text-foreground/80">
                 Miranda Center
               </span>
             </div>
