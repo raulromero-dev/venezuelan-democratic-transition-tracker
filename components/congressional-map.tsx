@@ -761,7 +761,7 @@ export function CongressionalMap() {
   const getStateColorClass = (stateCode: string) => {
     // DC is always disabled
     if (stateCode === "DC") {
-      return "bg-zinc-900/30 text-zinc-700 cursor-not-allowed"
+      return "bg-zinc-200/50 dark:bg-zinc-900/30 text-zinc-400 dark:text-zinc-700 cursor-not-allowed"
     }
 
     const isSelected = selectedStates.has(stateCode)
@@ -776,7 +776,7 @@ export function CongressionalMap() {
       if (statesMatchingFilter.has(stateCode)) {
         return "bg-zinc-500/60 text-white hover:bg-zinc-400/60 cursor-pointer"
       }
-      return "bg-zinc-900/30 text-zinc-700"
+      return "bg-zinc-200/50 dark:bg-zinc-900/30 text-zinc-400 dark:text-zinc-700"
     }
 
     const matchingState = searchQuery.trim() ? filteredMembers.some((m) => getStateCode(m.state) === stateCode) : false
@@ -788,11 +788,11 @@ export function CongressionalMap() {
 
     // Default state - darker, all states available
     if (statesWithData.has(stateCode)) {
-      return "bg-zinc-700/40 text-zinc-400 hover:bg-zinc-600/50 cursor-pointer"
+      return "bg-zinc-200/60 dark:bg-zinc-700/40 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-300/60 dark:hover:bg-zinc-600/50 cursor-pointer"
     }
 
-    // States without data - even darker
-    return "bg-zinc-800/30 text-zinc-600"
+    // States without data - even lighter in light mode
+    return "bg-zinc-100 dark:bg-zinc-800/30 text-zinc-400 dark:text-zinc-600"
   }
 
   const handleStateClick = (stateCode: string) => {
@@ -819,29 +819,29 @@ export function CongressionalMap() {
   }
 
   return (
-    <div className="h-full flex flex-col gap-4 p-4 bg-black min-h-0 overflow-auto">
+    <div className="h-full flex flex-col gap-4 p-4 bg-white dark:bg-black min-h-0 overflow-auto">
       {/* Header */}
       <div className="relative flex-shrink-0">
         {/* Top reflection line */}
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-black/[0.06] dark:via-white/20 to-transparent" />
 
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 pt-4">
           <div>
             <span className="text-[10px] font-mono text-zinc-500 uppercase tracking-[0.3em] block mb-2">
               CONGRESSIONAL POSITIONS
             </span>
-            <h2 className="text-2xl font-light tracking-tight text-white">Venezuela Stance Map</h2>
+            <h2 className="text-2xl font-light tracking-tight text-zinc-900 dark:text-white">Venezuela Stance Map</h2>
           </div>
           <div className="flex items-center gap-3">
             {lastRefresh && (
-              <span className="text-[10px] font-mono text-zinc-600 tracking-wider">
+              <span className="text-[10px] font-mono text-zinc-500 dark:text-zinc-600 tracking-wider">
                 UPDATED: {new Date(lastRefresh).toLocaleDateString()}
               </span>
             )}
             <button
               onClick={runAnalysis}
               disabled={isAnalyzing}
-              className="relative flex items-center gap-2 text-[10px] font-mono text-zinc-400 hover:text-white transition-colors px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 hover:border-white/20 disabled:opacity-50 tracking-[0.2em] uppercase group"
+              className="relative flex items-center gap-2 text-[10px] font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors px-4 py-2 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm border border-black/[0.06] dark:border-white/10 hover:border-black/10 dark:hover:border-white/20 disabled:opacity-50 tracking-[0.2em] uppercase group"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/5 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity" />
               <RefreshCw className={`h-3 w-3 ${isAnalyzing ? "animate-spin" : ""}`} />
@@ -850,14 +850,14 @@ export function CongressionalMap() {
             <button
               onClick={exportToCSV}
               disabled={members.length === 0}
-              className="relative flex items-center gap-2 text-[10px] font-mono text-zinc-400 hover:text-green-400 transition-colors px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 hover:border-green-500/30 disabled:opacity-50 tracking-[0.2em] uppercase group"
+              className="relative flex items-center gap-2 text-[10px] font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors px-4 py-2 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm border border-black/[0.06] dark:border-white/10 hover:border-green-500/30 disabled:opacity-50 tracking-[0.2em] uppercase group"
             >
               <Download className="h-3 w-3" />
               EXPORT CSV
             </button>
             <button
               onClick={clearData}
-              className="relative flex items-center gap-2 text-[10px] font-mono text-zinc-500 hover:text-red-400 transition-colors px-3 py-2 bg-white/5 backdrop-blur-sm border border-white/10 hover:border-red-500/30 tracking-[0.2em] uppercase"
+              className="relative flex items-center gap-2 text-[10px] font-mono text-zinc-500 hover:text-red-500 dark:hover:text-red-400 transition-colors px-3 py-2 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm border border-black/[0.06] dark:border-white/10 hover:border-red-500/30 tracking-[0.2em] uppercase"
             >
               <Trash2 className="h-3 w-3" />
             </button>
@@ -881,13 +881,13 @@ export function CongressionalMap() {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-2 gap-4 flex-shrink-0">
-        <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 p-4 overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-          <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-white/20" />
-          <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-white/20" />
+        <div className="relative bg-black/[0.03] dark:bg-white/5 backdrop-blur-xl border border-black/[0.06] dark:border-white/10 p-4 overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-black/[0.06] dark:via-white/20 to-transparent" />
+          <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-black/10 dark:border-white/20" />
+          <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-black/10 dark:border-white/20" />
 
           <h3 className="text-[10px] font-mono text-zinc-500 uppercase tracking-[0.3em] mb-3 flex items-center gap-2">
-            <div className="w-1.5 h-1.5 bg-white/50" />
+            <div className="w-1.5 h-1.5 bg-black/30 dark:bg-white/50" />
             SENATE
           </h3>
           <div className="flex flex-wrap gap-4 text-[10px] font-mono tracking-wider">
@@ -898,8 +898,8 @@ export function CongressionalMap() {
               <div className="w-4 h-4 border-2 border-blue-400 bg-blue-400 flex items-center justify-center">
                 <div className="w-2 h-2 bg-black" />
               </div>
-              <span className="text-zinc-300">ALLY:</span>
-              <span className="text-white">{stanceCounts.senate["ally"]}</span>
+              <span className="text-zinc-700 dark:text-zinc-300">ALLY:</span>
+              <span className="text-zinc-900 dark:text-white">{stanceCounts.senate["ally"]}</span>
             </button>
             <button
               onClick={() => setStanceFilter(stanceFilter === "normalizer" ? null : "normalizer")}
@@ -908,8 +908,8 @@ export function CongressionalMap() {
               <div className="w-4 h-4 border-2 border-amber-400 bg-amber-400 flex items-center justify-center">
                 <div className="w-2 h-2 bg-black" />
               </div>
-              <span className="text-zinc-300">NORMALIZER:</span>
-              <span className="text-white">{stanceCounts.senate["normalizer"]}</span>
+              <span className="text-zinc-700 dark:text-zinc-300">NORMALIZER:</span>
+              <span className="text-zinc-900 dark:text-white">{stanceCounts.senate["normalizer"]}</span>
             </button>
             <button
               onClick={() => setStanceFilter(stanceFilter === "neutral" ? null : "neutral")}
@@ -918,19 +918,19 @@ export function CongressionalMap() {
               <div className="w-4 h-4 border-2 border-zinc-500 bg-zinc-500 flex items-center justify-center">
                 <div className="w-2 h-2 bg-black" />
               </div>
-              <span className="text-zinc-300">NEUTRAL:</span>
-              <span className="text-white">{stanceCounts.senate["neutral"]}</span>
+              <span className="text-zinc-700 dark:text-zinc-300">NEUTRAL:</span>
+              <span className="text-zinc-900 dark:text-white">{stanceCounts.senate["neutral"]}</span>
             </button>
           </div>
         </div>
 
-        <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 p-4 overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-          <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-white/20" />
-          <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-white/20" />
+        <div className="relative bg-black/[0.03] dark:bg-white/5 backdrop-blur-xl border border-black/[0.06] dark:border-white/10 p-4 overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-black/[0.06] dark:via-white/20 to-transparent" />
+          <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-black/10 dark:border-white/20" />
+          <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-black/10 dark:border-white/20" />
 
           <h3 className="text-[10px] font-mono text-zinc-500 uppercase tracking-[0.3em] mb-3 flex items-center gap-2">
-            <div className="w-1.5 h-1.5 bg-white/50" />
+            <div className="w-1.5 h-1.5 bg-black/30 dark:bg-white/50" />
             HOUSE
           </h3>
           <div className="flex flex-wrap gap-4 text-[10px] font-mono tracking-wider">
@@ -941,8 +941,8 @@ export function CongressionalMap() {
               <div className="w-4 h-4 border-2 border-blue-400 bg-blue-400 flex items-center justify-center">
                 <div className="w-2 h-2 bg-black" />
               </div>
-              <span className="text-zinc-300">ALLY:</span>
-              <span className="text-white">{stanceCounts.house["ally"]}</span>
+              <span className="text-zinc-700 dark:text-zinc-300">ALLY:</span>
+              <span className="text-zinc-900 dark:text-white">{stanceCounts.house["ally"]}</span>
             </button>
             <button
               onClick={() => setStanceFilter(stanceFilter === "normalizer" ? null : "normalizer")}
@@ -951,8 +951,8 @@ export function CongressionalMap() {
               <div className="w-4 h-4 border-2 border-amber-400 bg-amber-400 flex items-center justify-center">
                 <div className="w-2 h-2 bg-black" />
               </div>
-              <span className="text-zinc-300">NORMALIZER:</span>
-              <span className="text-white">{stanceCounts.house["normalizer"]}</span>
+              <span className="text-zinc-700 dark:text-zinc-300">NORMALIZER:</span>
+              <span className="text-zinc-900 dark:text-white">{stanceCounts.house["normalizer"]}</span>
             </button>
             <button
               onClick={() => setStanceFilter(stanceFilter === "neutral" ? null : "neutral")}
@@ -961,8 +961,8 @@ export function CongressionalMap() {
               <div className="w-4 h-4 border-2 border-zinc-500 bg-zinc-500 flex items-center justify-center">
                 <div className="w-2 h-2 bg-black" />
               </div>
-              <span className="text-zinc-300">NEUTRAL:</span>
-              <span className="text-white">{stanceCounts.house["neutral"]}</span>
+              <span className="text-zinc-700 dark:text-zinc-300">NEUTRAL:</span>
+              <span className="text-zinc-900 dark:text-white">{stanceCounts.house["neutral"]}</span>
             </button>
           </div>
         </div>
@@ -971,7 +971,7 @@ export function CongressionalMap() {
       {/* Active Filters Bar */}
       {(stanceFilter || partyFilter !== "all" || tagFilters.size > 0 || committeeFilter) && (
         <div className="flex items-center gap-2 flex-shrink-0 flex-wrap">
-          <span className="text-[9px] font-mono text-zinc-600 tracking-[0.2em] uppercase">FILTERS:</span>
+          <span className="text-[9px] font-mono text-zinc-500 dark:text-zinc-600 tracking-[0.2em] uppercase">FILTERS:</span>
           {stanceFilter && (
             <button
               onClick={() => setStanceFilter(null)}
@@ -1021,7 +1021,7 @@ export function CongressionalMap() {
           )}
           <button
             onClick={() => { setStanceFilter(null); setPartyFilter("all"); setTagFilters(new Set()); setCommitteeFilter(null) }}
-            className="text-[9px] font-mono text-zinc-600 hover:text-white tracking-wider transition-colors ml-1"
+            className="text-[9px] font-mono text-zinc-500 dark:text-zinc-600 hover:text-zinc-900 dark:hover:text-white tracking-wider transition-colors ml-1"
           >
             CLEAR ALL
           </button>
@@ -1032,9 +1032,9 @@ export function CongressionalMap() {
       {isLoading && members.length === 0 && (
         <div className="flex flex-col items-center justify-center py-12 gap-4">
           <div className="flex gap-1">
-            <div className="w-2 h-6 bg-white/20 skew-x-[-12deg] animate-pulse" style={{ animationDelay: "0ms" }} />
-            <div className="w-2 h-6 bg-white/30 skew-x-[-12deg] animate-pulse" style={{ animationDelay: "150ms" }} />
-            <div className="w-2 h-6 bg-white/20 skew-x-[-12deg] animate-pulse" style={{ animationDelay: "300ms" }} />
+            <div className="w-2 h-6 bg-black/10 dark:bg-white/20 skew-x-[-12deg] animate-pulse" style={{ animationDelay: "0ms" }} />
+            <div className="w-2 h-6 bg-black/15 dark:bg-white/30 skew-x-[-12deg] animate-pulse" style={{ animationDelay: "150ms" }} />
+            <div className="w-2 h-6 bg-black/10 dark:bg-white/20 skew-x-[-12deg] animate-pulse" style={{ animationDelay: "300ms" }} />
           </div>
           <span className="text-[10px] font-mono text-zinc-500 tracking-[0.3em] uppercase">LOADING STANCES</span>
         </div>
@@ -1043,10 +1043,10 @@ export function CongressionalMap() {
       {/* Main Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Map - takes 2 of 3 columns */}
-        <div className="lg:col-span-2 relative bg-white/5 backdrop-blur-xl border border-white/10 p-6 overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-          <div className="absolute top-0 right-0 w-3 h-3 border-t border-r border-white/20" />
-          <div className="absolute bottom-0 left-0 w-3 h-3 border-b border-l border-white/20" />
+        <div className="lg:col-span-2 relative bg-black/[0.03] dark:bg-white/5 backdrop-blur-xl border border-black/[0.06] dark:border-white/10 p-6 overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-black/[0.06] dark:via-white/20 to-transparent" />
+          <div className="absolute top-0 right-0 w-3 h-3 border-t border-r border-black/10 dark:border-white/20" />
+          <div className="absolute bottom-0 left-0 w-3 h-3 border-b border-l border-black/10 dark:border-white/20" />
 
           <div className="grid gap-1" style={{ gridTemplateColumns: "repeat(12, 1fr)" }}>
             {STATE_LAYOUT.flat().map((stateCode, idx) =>
@@ -1056,7 +1056,7 @@ export function CongressionalMap() {
                   onClick={() => handleStateClick(stateCode)}
                   disabled={stateCode === "DC"}
                   className={`aspect-square flex items-center justify-center text-[8px] font-mono transition-all border ${getStateColorClass(stateCode)} ${
-                    selectedStates.has(stateCode) ? "ring-1 ring-white border-white/40" : "border-zinc-700/50"
+                    selectedStates.has(stateCode) ? "ring-1 ring-zinc-900 dark:ring-white border-zinc-400/40 dark:border-white/40" : "border-zinc-300/50 dark:border-zinc-700/50"
                   } ${stateCode === "DC" ? "cursor-not-allowed" : ""}`}
                   title={stateCode === "DC" ? "DC disabled" : STATE_CODE_TO_NAME[stateCode] || stateCode}
                 >
@@ -1070,9 +1070,9 @@ export function CongressionalMap() {
         </div>
 
         {/* Search Panel - takes 1 of 3 columns */}
-        <div className="lg:col-span-1 relative bg-white/5 backdrop-blur-xl border border-white/10 p-4 overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-          <div className="absolute top-0 right-0 w-3 h-3 border-t border-r border-white/20" />
+        <div className="lg:col-span-1 relative bg-black/[0.03] dark:bg-white/5 backdrop-blur-xl border border-black/[0.06] dark:border-white/10 p-4 overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-black/[0.06] dark:via-white/20 to-transparent" />
+          <div className="absolute top-0 right-0 w-3 h-3 border-t border-r border-black/10 dark:border-white/20" />
 
           <div className="flex items-center justify-between mb-4">
             <h3 className="text-[10px] font-mono text-zinc-500 uppercase tracking-[0.3em]">
@@ -1083,7 +1083,7 @@ export function CongressionalMap() {
             {selectedStates.size > 0 && (
               <button
                 onClick={clearSelectedStates}
-                className="text-[10px] font-mono text-zinc-500 hover:text-white flex items-center gap-1 tracking-wider"
+                className="text-[10px] font-mono text-zinc-500 hover:text-zinc-900 dark:hover:text-white flex items-center gap-1 tracking-wider"
               >
                 <X className="w-3 h-3" />
                 CLEAR
@@ -1095,7 +1095,7 @@ export function CongressionalMap() {
               {Array.from(selectedStates).map((stateCode) => (
                 <span
                   key={stateCode}
-                  className="px-2 py-0.5 bg-white/10 border border-white/20 text-[10px] font-mono text-white tracking-wider"
+                  className="px-2 py-0.5 bg-black/[0.06] dark:bg-white/10 border border-black/10 dark:border-white/20 text-[10px] font-mono text-zinc-900 dark:text-white tracking-wider"
                 >
                   {stateCode}
                 </span>
@@ -1110,7 +1110,7 @@ export function CongressionalMap() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search members..."
-              className="w-full bg-black/30 border border-white/10 pl-9 pr-4 py-2.5 text-xs text-white placeholder-zinc-600 focus:outline-none focus:border-white/30 font-mono tracking-wider"
+              className="w-full bg-black/[0.04] dark:bg-black/30 border border-black/[0.06] dark:border-white/10 pl-9 pr-4 py-2.5 text-xs text-zinc-900 dark:text-white placeholder-zinc-400 dark:placeholder-zinc-600 focus:outline-none focus:border-white/30 font-mono tracking-wider"
             />
           </div>
 
@@ -1118,15 +1118,15 @@ export function CongressionalMap() {
           <div className="mb-3">
             <button
               onClick={() => setFiltersOpen(!filtersOpen)}
-              className="w-full flex items-center justify-between px-3 py-2 bg-white/[0.03] border border-white/10 hover:border-white/20 transition-all group"
+              className="w-full flex items-center justify-between px-3 py-2 bg-black/[0.02] dark:bg-white/[0.03] border border-black/[0.06] dark:border-white/10 hover:border-black/10 dark:hover:border-white/20 transition-all group"
             >
               <div className="flex items-center gap-2">
-                <SlidersHorizontal className="w-3 h-3 text-zinc-500 group-hover:text-zinc-300 transition-colors" />
-                <span className="text-[9px] font-mono tracking-[0.2em] uppercase text-zinc-500 group-hover:text-zinc-300 transition-colors">
+                <SlidersHorizontal className="w-3 h-3 text-zinc-500 group-hover:text-zinc-700 dark:group-hover:text-zinc-300 transition-colors" />
+                <span className="text-[9px] font-mono tracking-[0.2em] uppercase text-zinc-500 group-hover:text-zinc-700 dark:group-hover:text-zinc-300 transition-colors">
                   FILTERS
                 </span>
                 {activeFilterCount > 0 && (
-                  <span className="flex items-center justify-center min-w-[16px] h-4 px-1 text-[8px] font-mono bg-white/10 border border-white/20 text-white">
+                  <span className="flex items-center justify-center min-w-[16px] h-4 px-1 text-[8px] font-mono bg-black/[0.06] dark:bg-white/10 border border-black/10 dark:border-white/20 text-zinc-900 dark:text-white">
                     {activeFilterCount}
                   </span>
                 )}
@@ -1135,7 +1135,7 @@ export function CongressionalMap() {
                 {activeFilterCount > 0 && !filtersOpen && (
                   <div className="flex items-center gap-1">
                     {chamberFilter !== "all" && (
-                      <span className="px-1.5 py-0.5 text-[8px] font-mono tracking-wider bg-white/10 border border-white/20 text-zinc-300">
+                      <span className="px-1.5 py-0.5 text-[8px] font-mono tracking-wider bg-black/[0.06] dark:bg-white/10 border border-black/10 dark:border-white/20 text-zinc-700 dark:text-zinc-300">
                         {chamberFilter === "senate" ? "SEN" : "HOUSE"}
                       </span>
                     )}
@@ -1181,17 +1181,17 @@ export function CongressionalMap() {
                 filtersOpen ? "max-h-[450px] opacity-100" : "max-h-0 opacity-0"
               }`}
             >
-              <div className="pt-2 space-y-2 border-x border-b border-white/10 px-3 pb-3">
+              <div className="pt-2 space-y-2 border-x border-b border-black/[0.06] dark:border-white/10 px-3 pb-3">
                 {/* Chamber Filter */}
                 <div>
-                  <span className="text-[8px] font-mono text-zinc-600 tracking-[0.2em] uppercase mb-1 block">CHAMBER</span>
+                  <span className="text-[8px] font-mono text-zinc-500 dark:text-zinc-600 tracking-[0.2em] uppercase mb-1 block">CHAMBER</span>
                   <div className="flex gap-1">
                     <button
                       onClick={() => setChamberFilter("all")}
                       className={`flex-1 px-2 py-1.5 text-[9px] font-mono tracking-[0.2em] uppercase transition-all border ${
                         chamberFilter === "all"
-                          ? "bg-white/10 border-white/30 text-white"
-                          : "bg-transparent border-white/10 text-zinc-500 hover:text-white hover:border-white/20"
+                          ? "bg-black/[0.06] dark:bg-white/10 border-black/15 dark:border-white/30 text-zinc-900 dark:text-white"
+                          : "bg-transparent border-black/[0.06] dark:border-white/10 text-zinc-500 hover:text-zinc-900 dark:hover:text-white hover:border-black/10 dark:hover:border-white/20"
                       }`}
                     >
                       ALL
@@ -1200,8 +1200,8 @@ export function CongressionalMap() {
                       onClick={() => setChamberFilter("senate")}
                       className={`flex-1 px-2 py-1.5 text-[9px] font-mono tracking-[0.2em] uppercase transition-all border ${
                         chamberFilter === "senate"
-                          ? "bg-white/10 border-white/30 text-white"
-                          : "bg-transparent border-white/10 text-zinc-500 hover:text-white hover:border-white/20"
+                          ? "bg-black/[0.06] dark:bg-white/10 border-black/15 dark:border-white/30 text-zinc-900 dark:text-white"
+                          : "bg-transparent border-black/[0.06] dark:border-white/10 text-zinc-500 hover:text-zinc-900 dark:hover:text-white hover:border-black/10 dark:hover:border-white/20"
                       }`}
                     >
                       SENATE
@@ -1210,8 +1210,8 @@ export function CongressionalMap() {
                       onClick={() => setChamberFilter("house")}
                       className={`flex-1 px-2 py-1.5 text-[9px] font-mono tracking-[0.2em] uppercase transition-all border ${
                         chamberFilter === "house"
-                          ? "bg-white/10 border-white/30 text-white"
-                          : "bg-transparent border-white/10 text-zinc-500 hover:text-white hover:border-white/20"
+                          ? "bg-black/[0.06] dark:bg-white/10 border-black/15 dark:border-white/30 text-zinc-900 dark:text-white"
+                          : "bg-transparent border-black/[0.06] dark:border-white/10 text-zinc-500 hover:text-zinc-900 dark:hover:text-white hover:border-black/10 dark:hover:border-white/20"
                       }`}
                     >
                       HOUSE
@@ -1221,14 +1221,14 @@ export function CongressionalMap() {
 
                 {/* Party Filter */}
                 <div>
-                  <span className="text-[8px] font-mono text-zinc-600 tracking-[0.2em] uppercase mb-1 block">PARTY</span>
+                  <span className="text-[8px] font-mono text-zinc-500 dark:text-zinc-600 tracking-[0.2em] uppercase mb-1 block">PARTY</span>
                   <div className="flex gap-1">
                     <button
                       onClick={() => setPartyFilter("all")}
                       className={`flex-1 px-2 py-1.5 text-[9px] font-mono tracking-[0.2em] uppercase transition-all border ${
                         partyFilter === "all"
-                          ? "bg-white/10 border-white/30 text-white"
-                          : "bg-transparent border-white/10 text-zinc-500 hover:text-white hover:border-white/20"
+                          ? "bg-black/[0.06] dark:bg-white/10 border-black/15 dark:border-white/30 text-zinc-900 dark:text-white"
+                          : "bg-transparent border-black/[0.06] dark:border-white/10 text-zinc-500 hover:text-zinc-900 dark:hover:text-white hover:border-black/10 dark:hover:border-white/20"
                       }`}
                     >
                       ALL
@@ -1238,7 +1238,7 @@ export function CongressionalMap() {
                       className={`flex-1 px-2 py-1.5 text-[9px] font-mono tracking-[0.2em] uppercase transition-all border ${
                         partyFilter === "R"
                           ? "bg-red-500/20 border-red-400/30 text-red-400"
-                          : "bg-transparent border-white/10 text-zinc-500 hover:text-red-400 hover:border-red-400/20"
+                          : "bg-transparent border-black/[0.06] dark:border-white/10 text-zinc-500 hover:text-red-400 hover:border-red-400/20"
                       }`}
                     >
                       GOP
@@ -1248,7 +1248,7 @@ export function CongressionalMap() {
                       className={`flex-1 px-2 py-1.5 text-[9px] font-mono tracking-[0.2em] uppercase transition-all border ${
                         partyFilter === "D"
                           ? "bg-blue-500/20 border-blue-400/30 text-blue-400"
-                          : "bg-transparent border-white/10 text-zinc-500 hover:text-blue-400 hover:border-blue-400/20"
+                          : "bg-transparent border-black/[0.06] dark:border-white/10 text-zinc-500 hover:text-blue-400 hover:border-blue-400/20"
                       }`}
                     >
                       DEM
@@ -1259,7 +1259,7 @@ export function CongressionalMap() {
                 {/* Tags Filter */}
                 {availableTags.length > 0 && (
                   <div>
-                    <span className="text-[8px] font-mono text-zinc-600 tracking-[0.2em] uppercase mb-1 block">TAGS</span>
+                    <span className="text-[8px] font-mono text-zinc-500 dark:text-zinc-600 tracking-[0.2em] uppercase mb-1 block">TAGS</span>
                     <div className="flex flex-wrap gap-1">
                       {availableTags.map((tag) => (
                         <button
@@ -1268,7 +1268,7 @@ export function CongressionalMap() {
                           className={`px-2 py-1.5 text-[9px] font-mono tracking-[0.15em] uppercase transition-all border ${
                             tagFilters.has(tag)
                               ? "bg-emerald-500/20 border-emerald-400/30 text-emerald-400"
-                              : "bg-transparent border-white/10 text-zinc-500 hover:text-emerald-400 hover:border-emerald-400/20"
+                              : "bg-transparent border-black/[0.06] dark:border-white/10 text-zinc-500 hover:text-emerald-400 hover:border-emerald-400/20"
                           }`}
                         >
                           {tag}
@@ -1281,16 +1281,16 @@ export function CongressionalMap() {
                 {/* Committee Filter */}
                 {availableCommittees.length > 0 && (
                   <div>
-                    <span className="text-[8px] font-mono text-zinc-600 tracking-[0.2em] uppercase mb-1 block">COMMITTEE</span>
+                    <span className="text-[8px] font-mono text-zinc-500 dark:text-zinc-600 tracking-[0.2em] uppercase mb-1 block">COMMITTEE</span>
                     <select
                       value={committeeFilter || ""}
                       onChange={(e) => setCommitteeFilter(e.target.value || null)}
-                      className="w-full px-2 py-1.5 text-[9px] font-mono tracking-wider uppercase bg-transparent border border-white/10 text-zinc-300 appearance-none cursor-pointer hover:border-violet-400/30 focus:border-violet-400/50 focus:outline-none transition-all"
+                      className="w-full px-2 py-1.5 text-[9px] font-mono tracking-wider uppercase bg-transparent border border-black/[0.06] dark:border-white/10 text-zinc-700 dark:text-zinc-300 appearance-none cursor-pointer hover:border-violet-400/30 focus:border-violet-400/50 focus:outline-none transition-all"
                       style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2371717a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 8px center' }}
                     >
-                      <option value="" className="bg-zinc-900 text-zinc-300">ALL COMMITTEES</option>
+                      <option value="" className="bg-white dark:bg-zinc-900 text-zinc-700 dark:text-zinc-300">ALL COMMITTEES</option>
                       {availableCommittees.map((c) => (
-                        <option key={c} value={c} className="bg-zinc-900 text-zinc-300">
+                        <option key={c} value={c} className="bg-white dark:bg-zinc-900 text-zinc-700 dark:text-zinc-300">
                           {c}
                         </option>
                       ))}
@@ -1302,7 +1302,7 @@ export function CongressionalMap() {
                 {activeFilterCount > 0 && (
                   <button
                     onClick={() => { setChamberFilter("all"); setPartyFilter("all"); setStanceFilter(null); setTagFilters(new Set()); setCommitteeFilter(null) }}
-                    className="w-full px-2 py-1.5 text-[8px] font-mono tracking-[0.2em] uppercase text-zinc-600 hover:text-white border border-white/5 hover:border-white/10 transition-all text-center"
+                    className="w-full px-2 py-1.5 text-[8px] font-mono tracking-[0.2em] uppercase text-zinc-500 dark:text-zinc-600 hover:text-zinc-900 dark:hover:text-white border border-black/[0.03] dark:border-white/5 hover:border-black/[0.06] dark:hover:border-white/10 transition-all text-center"
                   >
                     CLEAR ALL FILTERS
                   </button>
@@ -1335,24 +1335,24 @@ export function CongressionalMap() {
 
       {/* Selected Member Detail Panel */}
       {selectedMember && (
-        <div className="mt-6 relative bg-white/5 backdrop-blur-xl border border-white/10 p-6 overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-          <div className="absolute top-0 right-0 w-4 h-4 border-t border-r border-white/20" />
-          <div className="absolute bottom-0 left-0 w-4 h-4 border-b border-l border-white/20" />
+        <div className="mt-6 relative bg-black/[0.03] dark:bg-white/5 backdrop-blur-xl border border-black/[0.06] dark:border-white/10 p-6 overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-black/[0.06] dark:via-white/20 to-transparent" />
+          <div className="absolute top-0 right-0 w-4 h-4 border-t border-r border-black/10 dark:border-white/20" />
+          <div className="absolute bottom-0 left-0 w-4 h-4 border-b border-l border-black/10 dark:border-white/20" />
 
-          {/* White left border indicator */}
-          <div className="absolute left-0 top-6 bottom-6 w-px bg-white/50" />
+          {/* Left border indicator */}
+          <div className="absolute left-0 top-6 bottom-6 w-px bg-zinc-400 dark:bg-white/50" />
 
           <div className="flex items-start justify-between mb-4">
             <div>
               <span className="text-[10px] font-mono text-zinc-500 uppercase tracking-[0.3em] block mb-1">
                 MEMBER DETAILS
               </span>
-              <h3 className="text-xl font-light text-white">{selectedMember.name}</h3>
+              <h3 className="text-xl font-light text-zinc-900 dark:text-white">{selectedMember.name}</h3>
             </div>
             <button
               onClick={() => setSelectedMemberId(null)}
-              className="text-[10px] font-mono text-zinc-500 hover:text-white border border-white/10 hover:border-white/30 px-3 py-1.5 tracking-[0.2em] uppercase transition-colors"
+              className="text-[10px] font-mono text-zinc-500 hover:text-zinc-900 dark:hover:text-white border border-black/[0.06] dark:border-white/10 hover:border-black/15 dark:hover:border-white/30 px-3 py-1.5 tracking-[0.2em] uppercase transition-colors"
             >
               CLOSE
             </button>
@@ -1377,7 +1377,7 @@ export function CongressionalMap() {
                   >
                     {selectedMember.party}
                   </span>
-                  <span className="text-white text-sm">
+                  <span className="text-zinc-900 dark:text-white text-sm">
                     {selectedMember.role} - {STATE_CODE_TO_NAME[selectedMember.state] || selectedMember.state}
                   </span>
                 </div>
@@ -1424,11 +1424,11 @@ export function CongressionalMap() {
                   <div className="flex items-center gap-2">
                     <div className="flex-1 h-1 bg-zinc-800 overflow-hidden">
                       <div
-                        className="h-full bg-white/50 transition-all"
+                        className="h-full bg-black/30 dark:bg-white/50 transition-all"
                         style={{ width: `${selectedMember.confidence * 100}%` }}
                       />
                     </div>
-                    <span className="text-white text-[10px] font-mono">
+                    <span className="text-zinc-900 dark:text-white text-[10px] font-mono">
                       {Math.round(selectedMember.confidence * 100)}%
                     </span>
                   </div>
@@ -1454,12 +1454,12 @@ export function CongressionalMap() {
               <div className="space-y-2 max-h-[200px] overflow-y-auto">
                 {selectedMember.evidence.length > 0 ? (
                   selectedMember.evidence.map((e, i) => (
-                    <div key={i} className="border-l border-white/20 pl-3 py-1">
+                    <div key={i} className="border-l border-black/10 dark:border-white/20 pl-3 py-1">
                       <a
                         href={e.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-[10px] text-zinc-300 hover:text-white transition-colors block mb-1 font-mono tracking-wider"
+                        className="text-[10px] text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors block mb-1 font-mono tracking-wider"
                       >
                         {e.title || "SOURCE"}
                       </a>
@@ -1474,7 +1474,7 @@ export function CongressionalMap() {
           </div>
 
           {/* Notes & Override Section */}
-          <div className="mt-6 pt-6 border-t border-white/10">
+          <div className="mt-6 pt-6 border-t border-black/[0.06] dark:border-white/10">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-3">
                 <span className="text-[10px] font-mono text-zinc-500 uppercase tracking-[0.3em]">
@@ -1494,7 +1494,7 @@ export function CongressionalMap() {
               {!isEditingOverride ? (
                 <button
                   onClick={() => startEditingOverride(selectedMember)}
-                  className="text-[10px] font-mono text-zinc-500 hover:text-white border border-white/10 hover:border-white/30 px-3 py-1.5 tracking-[0.2em] uppercase transition-colors flex items-center gap-2"
+                  className="text-[10px] font-mono text-zinc-500 hover:text-zinc-900 dark:hover:text-white border border-black/[0.06] dark:border-white/10 hover:border-black/15 dark:hover:border-white/30 px-3 py-1.5 tracking-[0.2em] uppercase transition-colors flex items-center gap-2"
                 >
                   <Edit3 className="w-3 h-3" />
                   {selectedMember.hasOverride ? "EDIT" : "ADD NOTES"}
@@ -1515,7 +1515,7 @@ export function CongressionalMap() {
                       setEditOverrideStance("")
                       setEditUserNotes("")
                     }}
-                    className="text-[10px] font-mono text-zinc-500 hover:text-white border border-white/10 hover:border-white/30 px-3 py-1.5 tracking-[0.2em] uppercase transition-colors flex items-center gap-2"
+                    className="text-[10px] font-mono text-zinc-500 hover:text-zinc-900 dark:hover:text-white border border-black/[0.06] dark:border-white/10 hover:border-black/15 dark:hover:border-white/30 px-3 py-1.5 tracking-[0.2em] uppercase transition-colors flex items-center gap-2"
                   >
                     <XCircle className="w-3 h-3" />
                     CANCEL
@@ -1535,7 +1535,7 @@ export function CongressionalMap() {
                     value={editUserNotes}
                     onChange={(e) => setEditUserNotes(e.target.value)}
                     placeholder="Add notes about this member's position on Venezuela..."
-                    className="w-full bg-black/50 border border-white/20 px-3 py-2 text-xs text-white font-mono tracking-wider focus:outline-none focus:border-white/40 resize-none h-24"
+                    className="w-full bg-black/[0.04] dark:bg-black/50 border border-black/[0.06] dark:border-white/20 px-3 py-2 text-xs text-zinc-900 dark:text-white font-mono tracking-wider focus:outline-none focus:border-white/40 resize-none h-24"
                   />
                 </div>
                 
@@ -1547,7 +1547,7 @@ export function CongressionalMap() {
                   <select
                     value={editOverrideStance}
                     onChange={(e) => setEditOverrideStance(e.target.value)}
-                    className="w-full bg-black/50 border border-white/20 px-3 py-2 text-xs text-white font-mono tracking-wider focus:outline-none focus:border-white/40"
+                    className="w-full bg-black/[0.04] dark:bg-black/50 border border-black/[0.06] dark:border-white/20 px-3 py-2 text-xs text-zinc-900 dark:text-white font-mono tracking-wider focus:outline-none focus:border-white/40"
                   >
                     <option value="">Use AI Analysis (No Override)</option>
                     <option value="ally">Ally</option>

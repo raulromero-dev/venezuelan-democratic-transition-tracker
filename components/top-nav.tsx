@@ -14,42 +14,38 @@ export function TopNav() {
   const pathname = usePathname()
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl border-b
-      dark:bg-white/5 dark:border-white/10
-      bg-white/70 border-black/[0.06]"
-    >
-      {/* Tricolor line at very top */}
-      <div className="absolute inset-x-0 top-0 h-[3px] tricolor-line opacity-60" />
+    <header className="fixed top-0 left-0 right-0 z-50 px-6 py-5">
+      <div className="max-w-7xl mx-auto">
+        <div className="glass rounded-full px-5 py-2.5 flex items-center justify-between">
+          <Link href="/" className="flex items-center gap-3">
+            <div className="w-5 h-[2px] tricolor-line rounded-full" />
+            <span className="text-[10px] font-display tracking-[0.25em] uppercase text-foreground/80">
+              Miranda Center
+            </span>
+          </Link>
 
-      <div className="w-full px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 group">
-          <span className="text-sm font-light tracking-tight font-display group-hover:text-muted-foreground transition-colors">
-            Miranda Center
-          </span>
-        </Link>
+          <nav className="hidden md:flex items-center gap-1">
+            {mainNav.map((item) => {
+              const isActive = pathname === item.href || pathname.startsWith(item.href + "/")
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={cn(
+                    "px-4 py-1.5 text-[10px] font-display tracking-[0.15em] uppercase rounded-full transition-colors",
+                    isActive
+                      ? "bg-foreground text-background"
+                      : "text-muted-foreground hover:text-foreground",
+                  )}
+                >
+                  {item.name}
+                </Link>
+              )
+            })}
+          </nav>
 
-        <nav className="hidden md:flex items-center gap-1">
-          {mainNav.map((item) => {
-            const isActive = pathname === item.href || pathname.startsWith(item.href + "/")
-            return (
-              <Link
-                key={item.name}
-                href={item.href}
-                className={cn(
-                  "relative px-4 py-2 text-xs font-medium tracking-wide transition-all",
-                  isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground/70",
-                )}
-              >
-                {isActive && (
-                  <div className="absolute inset-0 dark:bg-white/10 bg-black/[0.04] backdrop-blur-sm border dark:border-white/20 border-black/10 skew-x-[-6deg]" />
-                )}
-                <span className="relative z-10">{item.name}</span>
-              </Link>
-            )
-          })}
-        </nav>
-
-        <ThemeToggle />
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   )

@@ -23,7 +23,7 @@ export async function getGlobalIntel(
   const supabase = await createServiceClient()
   const { lookbackHours = 168, limit = 100, country } = options // Default 7 days
 
-  let query = supabase.from("global_intel").select("*").order("statement_date", { ascending: false }).limit(limit)
+  let query = supabase.from("eov_global_intel").select("*").order("statement_date", { ascending: false }).limit(limit)
 
   // Filter by time window
   const cutoffTime = new Date(Date.now() - lookbackHours * 60 * 60 * 1000).toISOString()
@@ -61,7 +61,7 @@ export async function upsertGlobalIntel(intel: GlobalIntelRecord[]): Promise<voi
     fetched_at: new Date().toISOString(),
   }))
 
-  const { error } = await supabase.from("global_intel").upsert(records, {
+  const { error } = await supabase.from("eov_global_intel").upsert(records, {
     onConflict: "leader_name,statement",
     ignoreDuplicates: false,
   })

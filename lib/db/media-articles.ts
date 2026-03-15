@@ -23,7 +23,7 @@ export async function getMediaArticles(
   const supabase = await createServiceClient()
   const { lookbackHours = 24, limit = 50, category } = options
 
-  let query = supabase.from("media_articles").select("*").order("published_at", { ascending: false }).limit(limit)
+  let query = supabase.from("eov_media_articles").select("*").order("published_at", { ascending: false }).limit(limit)
 
   // Filter by time window
   const cutoffTime = new Date(Date.now() - lookbackHours * 60 * 60 * 1000).toISOString()
@@ -61,7 +61,7 @@ export async function upsertMediaArticles(articles: MediaArticleRecord[]): Promi
     fetched_at: new Date().toISOString(),
   }))
 
-  const { error } = await supabase.from("media_articles").upsert(records, {
+  const { error } = await supabase.from("eov_media_articles").upsert(records, {
     onConflict: "url",
     ignoreDuplicates: false,
   })

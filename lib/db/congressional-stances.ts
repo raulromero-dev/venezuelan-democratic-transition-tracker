@@ -23,7 +23,7 @@ export async function getAllCongressionalStances(): Promise<CongressionalStanceR
   const supabase = await createServiceClient()
 
   const { data, error } = await supabase
-    .from("congressional_stances")
+    .from("eov_congressional_stances")
     .select("*")
     .order("member_name", { ascending: true })
 
@@ -42,7 +42,7 @@ export async function getCongressionalStancesByState(state: string): Promise<Con
   const supabase = await createServiceClient()
 
   const { data, error } = await supabase
-    .from("congressional_stances")
+    .from("eov_congressional_stances")
     .select("*")
     .eq("state", state)
     .order("member_name", { ascending: true })
@@ -76,7 +76,7 @@ export async function upsertCongressionalStances(stances: CongressionalStanceRec
     last_updated: new Date().toISOString(),
   }))
 
-  const { error } = await supabase.from("congressional_stances").upsert(records, {
+  const { error } = await supabase.from("eov_congressional_stances").upsert(records, {
     onConflict: "member_name,chamber",
     ignoreDuplicates: false,
   })
@@ -93,7 +93,7 @@ export async function getLastStanceRefresh(): Promise<string | null> {
   const supabase = await createServiceClient()
 
   const { data, error } = await supabase
-    .from("feed_metadata")
+    .from("eov_feed_metadata")
     .select("last_fetched_at")
     .eq("feed_type", "congressional-stances")
     .single()
@@ -109,7 +109,7 @@ export async function updateStanceRefreshTime(): Promise<void> {
   const supabase = await createServiceClient()
 
   const { error } = await supabase
-    .from("feed_metadata")
+    .from("eov_feed_metadata")
     .update({
       last_fetched_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),
@@ -127,7 +127,7 @@ export async function getStanceCounts(): Promise<{
 }> {
   const supabase = await createServiceClient()
 
-  const { data, error } = await supabase.from("congressional_stances").select("chamber, stance")
+  const { data, error } = await supabase.from("eov_congressional_stances").select("chamber, stance")
 
   if (error) {
     console.error("[DB] Error fetching stance counts:", error)
@@ -152,7 +152,7 @@ export async function deleteAllCongressionalStances(): Promise<void> {
   const supabase = await createServiceClient()
 
   const { error } = await supabase
-    .from("congressional_stances")
+    .from("eov_congressional_stances")
     .delete()
     .neq("id", "00000000-0000-0000-0000-000000000000") // Delete all rows (neq with impossible value)
 
@@ -163,7 +163,7 @@ export async function deleteAllCongressionalStances(): Promise<void> {
 
   // Also reset the refresh timestamp
   const { error: metaError } = await supabase
-    .from("feed_metadata")
+    .from("eov_feed_metadata")
     .update({
       last_fetched_at: null,
       updated_at: new Date().toISOString(),
@@ -192,7 +192,7 @@ export async function getStanceOverride(memberName: string, chamber: string): Pr
   const supabase = await createServiceClient()
 
   const { data, error } = await supabase
-    .from("congressional_stance_overrides")
+    .from("eov_congressional_stance_overrides")
     .select("*")
     .eq("member_name", memberName)
     .eq("chamber", chamber)
@@ -209,7 +209,7 @@ export async function getAllStanceOverrides(): Promise<StanceOverride[]> {
   const supabase = await createServiceClient()
 
   const { data, error } = await supabase
-    .from("congressional_stance_overrides")
+    .from("eov_congressional_stance_overrides")
     .select("*")
     .order("member_name", { ascending: true })
 
@@ -233,7 +233,7 @@ export async function upsertStanceOverride(override: StanceOverride): Promise<vo
   }
 
   const { error } = await supabase
-    .from("congressional_stance_overrides")
+    .from("eov_congressional_stance_overrides")
     .upsert(record, {
       onConflict: "member_name,chamber",
       ignoreDuplicates: false,
@@ -251,7 +251,7 @@ export async function deleteStanceOverride(memberName: string, chamber: string):
   const supabase = await createServiceClient()
 
   const { error } = await supabase
-    .from("congressional_stance_overrides")
+    .from("eov_congressional_stance_overrides")
     .delete()
     .eq("member_name", memberName)
     .eq("chamber", chamber)

@@ -501,7 +501,7 @@ export async function DELETE() {
 
     // Delete all media articles
     const { error: articlesError } = await supabase
-      .from("media_articles")
+      .from("eov_media_articles")
       .delete()
       .neq("id", "00000000-0000-0000-0000-000000000000") // Delete all rows
 
@@ -511,7 +511,7 @@ export async function DELETE() {
     }
 
     // Also clear feed metadata for media
-    await supabase.from("feed_metadata").delete().eq("feed_type", "media")
+    await supabase.from("eov_feed_metadata").delete().eq("feed_type", "media")
 
     console.log("[v0] Media articles deleted successfully")
 

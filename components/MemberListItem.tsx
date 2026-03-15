@@ -93,7 +93,7 @@ export function MemberListItem({ member, isSelected, isFirst, onSelect }: Member
       className={cn(
         "w-full flex items-center gap-3 p-3 transition-all text-left group relative",
         // White left border for selected item
-        isSelected ? "border-l-2 border-l-white bg-white/5" : "border-l-2 border-l-transparent hover:bg-white/5",
+        isSelected ? "border-l-2 border-l-zinc-900 dark:border-l-white bg-black/[0.04] dark:bg-white/5" : "border-l-2 border-l-transparent hover:bg-black/[0.03] dark:hover:bg-white/5",
       )}
     >
       <div
@@ -105,13 +105,13 @@ export function MemberListItem({ member, isSelected, isFirst, onSelect }: Member
           backgroundColor: positionColor,
         }}
       >
-        <div className="w-2.5 h-2.5 bg-black" />
+        <div className="w-2.5 h-2.5 bg-white dark:bg-black" />
       </div>
 
       {/* Member info */}
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2">
-          <span className="text-sm text-white font-medium truncate">{member.name}</span>
+          <span className="text-sm text-zinc-900 dark:text-white font-medium truncate">{member.name}</span>
           {/* Party badge */}
           <span
             className={cn(

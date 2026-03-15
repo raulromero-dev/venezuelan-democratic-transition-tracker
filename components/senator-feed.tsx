@@ -72,7 +72,7 @@ function Avatar({ name, profileImage, className = "" }: { name: string; profileI
 
   if (profileImage && !imgError) {
     return (
-      <div className={`relative overflow-hidden bg-zinc-800 border border-zinc-700 ${className}`}>
+      <div className={`relative overflow-hidden bg-zinc-200 border border-zinc-200 dark:bg-zinc-800 dark:border-zinc-700 ${className}`}>
         <Image
           src={profileImage || "/placeholder.svg"}
           alt={name}
@@ -86,7 +86,7 @@ function Avatar({ name, profileImage, className = "" }: { name: string; profileI
 
   return (
     <div
-      className={`flex items-center justify-center bg-zinc-800 border border-zinc-700 text-zinc-400 font-mono text-xs font-bold ${className}`}
+      className={`flex items-center justify-center bg-zinc-200 border border-zinc-200 dark:bg-zinc-800 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 font-mono text-xs font-bold ${className}`}
     >
       {initials}
     </div>
@@ -100,7 +100,7 @@ function getPartyColor(party: string): string {
     case "Democrat":
       return "text-blue-400"
     default:
-      return "text-zinc-400"
+      return "text-zinc-500 dark:text-zinc-400"
   }
 }
 
@@ -204,34 +204,34 @@ export function SenatorFeed() {
 
   return (
     <div className="space-y-6">
-      <div className="relative bg-zinc-950/70 backdrop-blur-xl border border-white/10 p-6 overflow-hidden">
+      <div className="relative bg-white/80 dark:bg-zinc-950/70 backdrop-blur-xl border border-black/[0.06] dark:border-white/10 p-6 overflow-hidden">
         {/* Top reflection */}
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent dark:via-white/20 via-black/[0.06] to-transparent" />
         {/* Corner gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-br dark:from-white/5 from-black/[0.02] via-transparent to-transparent pointer-events-none" />
 
         <div className="relative z-10 space-y-4">
           <div className="flex items-center justify-between flex-wrap gap-4">
             <div>
               <p className="text-[10px] font-mono text-zinc-500 tracking-[0.3em] uppercase mb-1">CONGRESSIONAL FEED</p>
-              <h2 className="text-2xl font-light tracking-tight text-white">Senate X Feed</h2>
+              <h2 className="text-2xl font-light tracking-tight text-zinc-900 dark:text-white">Senate X Feed</h2>
             </div>
             <div className="flex items-center gap-3">
-              <span className="text-[10px] font-mono text-zinc-600">
+              <span className="text-[10px] font-mono text-zinc-500 dark:text-zinc-600">
                 {formatLastUpdated(lastUpdated)} · {lookbackHours}h
               </span>
               {/* Glass buttons */}
               <button
                 onClick={handleRefresh}
                 disabled={isRefreshing}
-                className="flex items-center gap-2 text-[10px] font-mono text-zinc-400 hover:text-white transition-colors border border-white/10 hover:border-white/30 px-3 py-1.5 bg-white/5 backdrop-blur-sm hover:bg-white/10 disabled:opacity-50"
+                className="flex items-center gap-2 text-[10px] font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 px-3 py-1.5 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:bg-black/[0.05] dark:hover:bg-white/10 disabled:opacity-50"
               >
                 <RefreshCw className={`h-3 w-3 ${isRefreshing ? "animate-spin" : ""}`} />
                 REFRESH
               </button>
               <button
                 onClick={handleClearHistory}
-                className="flex items-center gap-2 text-[10px] font-mono text-zinc-600 hover:text-red-400 transition-colors border border-white/10 hover:border-red-400/50 px-2 py-1.5 bg-white/5 backdrop-blur-sm"
+                className="flex items-center gap-2 text-[10px] font-mono text-zinc-500 dark:text-zinc-600 hover:text-red-500 dark:hover:text-red-400 transition-colors border border-black/[0.06] dark:border-white/10 hover:border-red-400/50 px-2 py-1.5 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm"
                 title="Clear local view"
               >
                 <Trash2 className="h-3 w-3" />
@@ -246,8 +246,8 @@ export function SenatorFeed() {
                 onClick={() => setActiveParty(party)}
                 className={`text-[10px] font-mono px-3 py-1.5 transition-all whitespace-nowrap ${
                   activeParty === party
-                    ? "bg-white text-black skew-x-[-6deg] shadow-[0_0_12px_rgba(255,255,255,0.2)]"
-                    : "text-zinc-500 hover:text-white bg-white/5 backdrop-blur-sm border border-white/10 hover:border-white/30 hover:bg-white/10"
+                    ? "bg-zinc-900 dark:bg-white text-white dark:text-black skew-x-[-6deg] dark:shadow-[0_0_12px_rgba(255,255,255,0.2)]"
+                    : "text-zinc-500 hover:text-zinc-900 dark:hover:text-white bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 hover:bg-black/[0.05] dark:hover:bg-white/10"
                 }`}
               >
                 <span
@@ -260,25 +260,25 @@ export function SenatorFeed() {
           </div>
 
           {/* Filter row */}
-          <div className="flex items-center justify-between pt-2 border-t border-white/10">
+          <div className="flex items-center justify-between pt-2 border-t border-black/[0.06] dark:border-white/10">
             <button
               onClick={() => setShowOnlyRelevant(!showOnlyRelevant)}
               className={`flex items-center gap-2 text-[10px] font-mono transition-all px-3 py-1.5 ${
                 showOnlyRelevant
-                  ? "bg-white text-black skew-x-[-6deg] shadow-[0_0_8px_rgba(255,255,255,0.2)]"
-                  : "text-zinc-500 border border-white/10 hover:border-white/30 bg-white/5 backdrop-blur-sm hover:text-white"
+                  ? "bg-zinc-900 dark:bg-white text-white dark:text-black skew-x-[-6deg] dark:shadow-[0_0_8px_rgba(255,255,255,0.2)]"
+                  : "text-zinc-500 border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:text-zinc-900 dark:hover:text-white"
               }`}
             >
               <Filter className="h-3 w-3" />
               <span className={showOnlyRelevant ? "skew-x-[6deg] inline-block" : ""}>VENEZUELA FILTER ACTIVE</span>
               {relevantPostCount > 0 && (
-                <span className={`ml-1 px-1.5 py-0.5 ${showOnlyRelevant ? "bg-black/20" : "bg-white/20"}`}>
+                <span className={`ml-1 px-1.5 py-0.5 ${showOnlyRelevant ? "bg-white/20 dark:bg-black/20" : "bg-white/20"}`}>
                   {relevantPostCount}
                 </span>
               )}
             </button>
             <span className="text-[10px] font-mono text-zinc-600">
-              SHOWING <span className="text-white">{filteredPosts.length}</span> OF {posts.length}
+              SHOWING <span className="text-zinc-900 dark:text-white">{filteredPosts.length}</span> OF {posts.length}
             </span>
           </div>
         </div>
@@ -291,12 +291,12 @@ export function SenatorFeed() {
           <div className="relative w-8 h-8">
             {/* Outer ring */}
             <div
-              className="absolute inset-0 border border-white/20"
+              className="absolute inset-0 border border-black/10 dark:border-white/20"
               style={{ clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)" }}
             />
             {/* Middle spinning ring */}
             <div
-              className="absolute inset-1 border border-white/40 animate-spin"
+              className="absolute inset-1 border border-black/20 dark:border-white/40 animate-spin"
               style={{
                 clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
                 animationDuration: "2s",
@@ -304,7 +304,7 @@ export function SenatorFeed() {
             />
             {/* Inner pulsing core */}
             <div
-              className="absolute inset-2 bg-white/20 animate-pulse"
+              className="absolute inset-2 bg-black/10 dark:bg-white/20 animate-pulse"
               style={{ clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)" }}
             />
           </div>
@@ -328,7 +328,7 @@ export function SenatorFeed() {
               href={post.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block py-4 transition-all cursor-pointer border-l-2 border-zinc-800 pl-4 hover:bg-white/5 hover:border-white"
+              className="group block py-4 transition-all cursor-pointer border-l-2 border-zinc-200 dark:border-zinc-800 pl-4 hover:bg-black/[0.03] dark:hover:bg-white/5 hover:border-zinc-900 dark:hover:border-white"
             >
               <div className="flex gap-3">
                 {/* Avatar */}
@@ -344,23 +344,23 @@ export function SenatorFeed() {
                 <div className="flex-1 min-w-0 space-y-2">
                   {/* Author Info */}
                   <div className="flex items-center gap-2 flex-wrap">
-                    <span className="font-mono text-white text-xs tracking-wide">{post.author}</span>
+                    <span className="font-mono text-zinc-900 dark:text-white text-xs tracking-wide">{post.author}</span>
                     {post.isVerified && (
-                      <svg className="w-3 h-3 text-white/60" viewBox="0 0 24 24" fill="currentColor">
+                      <svg className="w-3 h-3 text-zinc-500 dark:text-white/60" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z" />
                       </svg>
                     )}
-                    <span className="text-zinc-600 text-[10px] font-mono">{post.handle}</span>
-                    <span className="text-zinc-700">·</span>
-                    <span className="text-zinc-600 text-[10px] font-mono">{post.timestamp}</span>
-                    <span className="text-zinc-700">·</span>
+                    <span className="text-zinc-500 dark:text-zinc-600 text-[10px] font-mono">{post.handle}</span>
+                    <span className="text-zinc-400 dark:text-zinc-700">·</span>
+                    <span className="text-zinc-500 dark:text-zinc-600 text-[10px] font-mono">{post.timestamp}</span>
+                    <span className="text-zinc-400 dark:text-zinc-700">·</span>
                     <span className={`text-[10px] font-mono uppercase tracking-wider ${getPartyColor(post.party)}`}>
                       {post.role}
                     </span>
                   </div>
 
                   {/* Post Content */}
-                  <p className="text-zinc-400 text-xs leading-relaxed whitespace-pre-wrap">{post.content}</p>
+                  <p className="text-zinc-600 dark:text-zinc-400 text-xs leading-relaxed whitespace-pre-wrap">{post.content}</p>
 
                   {/* Images */}
                   {post.images && post.images.length > 0 && (
@@ -374,7 +374,7 @@ export function SenatorFeed() {
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={(e) => e.stopPropagation()}
-                          className="relative aspect-[16/9] max-h-32 bg-zinc-900 overflow-hidden border border-white/10 hover:border-white/30 transition-colors"
+                          className="relative aspect-[16/9] max-h-32 bg-zinc-100 dark:bg-zinc-900 overflow-hidden border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 transition-colors"
                         >
                           <Image
                             src={img || "/placeholder.svg"}
@@ -392,11 +392,11 @@ export function SenatorFeed() {
 
                   {/* Quoted Tweet */}
                   {post.quotedTweet && (
-                    <div className="mt-2 p-3 border border-white/10 bg-white/5 backdrop-blur-sm">
+                    <div className="mt-2 p-3 border border-black/[0.06] dark:border-white/10 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm">
                       <div className="flex items-center gap-2 mb-1">
-                        <Quote className="h-3 w-3 text-zinc-600" />
-                        <span className="text-[10px] font-mono text-zinc-400">{post.quotedTweet.author}</span>
-                        <span className="text-[10px] font-mono text-zinc-600">{post.quotedTweet.handle}</span>
+                        <Quote className="h-3 w-3 text-zinc-400 dark:text-zinc-600" />
+                        <span className="text-[10px] font-mono text-zinc-600 dark:text-zinc-400">{post.quotedTweet.author}</span>
+                        <span className="text-[10px] font-mono text-zinc-500 dark:text-zinc-600">{post.quotedTweet.handle}</span>
                       </div>
                       <p className="text-[10px] text-zinc-500">{post.quotedTweet.content}</p>
                     </div>
@@ -404,7 +404,7 @@ export function SenatorFeed() {
 
                   {/* Metrics Row */}
                   <div className="flex items-center justify-between pt-2">
-                    <div className="flex items-center gap-4 text-[10px] font-mono text-zinc-600">
+                    <div className="flex items-center gap-4 text-[10px] font-mono text-zinc-500 dark:text-zinc-600">
                       <span className="flex items-center gap-1">
                         <MessageCircle className="h-3 w-3" />
                         {formatNumber(post.metrics.replies)}
@@ -419,7 +419,7 @@ export function SenatorFeed() {
                       </span>
                     </div>
 
-                    <span className="flex items-center gap-1 text-[10px] font-mono text-zinc-600 group-hover:text-white transition-colors">
+                    <span className="flex items-center gap-1 text-[10px] font-mono text-zinc-500 dark:text-zinc-600 group-hover:text-zinc-900 dark:group-hover:text-white transition-colors">
                       VIEW ON X
                       <ExternalLink className="h-3 w-3" />
                     </span>
@@ -437,7 +437,7 @@ export function SenatorFeed() {
           <button
             onClick={handleLoadMore}
             disabled={isLoadingMore}
-            className="flex items-center gap-2 text-[10px] font-mono text-zinc-400 hover:text-white transition-colors border border-white/10 hover:border-white/30 px-6 py-2 bg-white/5 backdrop-blur-sm hover:bg-white/10 disabled:opacity-50 tracking-wider"
+            className="flex items-center gap-2 text-[10px] font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 px-6 py-2 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:bg-black/[0.05] dark:hover:bg-white/10 disabled:opacity-50 tracking-wider"
           >
             {isLoadingMore ? (
               <>
@@ -457,12 +457,12 @@ export function SenatorFeed() {
       {/* Empty State */}
       {!isLoading && filteredPosts.length === 0 && !error && (
         <div className="text-center py-20 space-y-4">
-          <p className="text-zinc-600 font-mono text-[10px] tracking-wider">
+          <p className="text-zinc-500 dark:text-zinc-600 font-mono text-[10px] tracking-wider">
             {showOnlyRelevant ? "NO VENEZUELA-RELEVANT SENATOR POSTS FOUND" : "NO SENATOR POSTS FOUND"}
           </p>
           <button
             onClick={() => (showOnlyRelevant ? setShowOnlyRelevant(false) : fetchPosts(true))}
-            className="text-[10px] font-mono text-white hover:text-zinc-300 transition-colors tracking-wider"
+            className="text-[10px] font-mono text-zinc-900 dark:text-white hover:text-zinc-600 dark:hover:text-zinc-300 transition-colors tracking-wider"
           >
             {showOnlyRelevant ? "SHOW ALL POSTS →" : "FETCH LATEST →"}
           </button>

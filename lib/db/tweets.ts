@@ -45,7 +45,7 @@ export async function getTweets(
   const { lookbackHours = 12, sinceId, limit = 200, minRelevanceScore } = options
 
   let query = supabase
-    .from("tweets")
+    .from("eov_tweets")
     .select("*")
     .eq("feed_type", feedType)
     .order("tweet_time", { ascending: false })
@@ -124,7 +124,7 @@ export async function upsertTweets(tweets: TweetRecord[]): Promise<void> {
 export async function getNewestTweetId(feedType: FeedType): Promise<string | null> {
   const supabase = await createServiceClient()
 
-  const { data, error } = await supabase.from("feed_metadata").select("newest_id").eq("feed_type", feedType).single()
+  const { data, error } = await supabase.from("eov_feed_metadata").select("newest_id").eq("feed_type", feedType).single()
 
   if (error && error.code !== "PGRST116") {
     console.error(`[DB] Error fetching newest tweet ID:`, error)
@@ -149,7 +149,7 @@ export async function updateFeedMetadata(feedType: FeedType, newestId?: string, 
     updates.lookback_hours = lookbackHours
   }
 
-  const { error } = await supabase.from("feed_metadata").update(updates).eq("feed_type", feedType)
+  const { error } = await supabase.from("eov_feed_metadata").update(updates).eq("feed_type", feedType)
 
   if (error) {
     console.error(`[DB] Error updating feed metadata:`, error)
@@ -161,7 +161,7 @@ export async function deleteTweetsByFeedType(feedType: FeedType): Promise<number
 
   // First get count of records to be deleted
   const { count, error: countError } = await supabase
-    .from("tweets")
+    .from("eov_tweets")
     .select("*", { count: "exact", head: true })
     .eq("feed_type", feedType)
 
