@@ -19,7 +19,7 @@ export function TopNav() {
         <div className="glass rounded-full px-5 py-2.5 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
             <div className="w-5 h-[2px] tricolor-line rounded-full" />
-            <span className="text-[10px] font-display tracking-[0.25em] uppercase text-foreground/80">
+            <span className="text-[10px] tracking-[0.25em] uppercase text-foreground/80" style={{ fontFamily: "'Google Sans', sans-serif" }}>
               Miranda Center
             </span>
           </Link>
@@ -31,8 +31,9 @@ export function TopNav() {
                 <Link
                   key={item.name}
                   href={item.href}
+                  style={{ fontFamily: "'Google Sans', sans-serif" }}
                   className={cn(
-                    "px-4 py-1.5 text-[10px] font-display tracking-[0.15em] uppercase rounded-full transition-colors",
+                    "px-4 py-1.5 text-[10px] tracking-[0.15em] uppercase rounded-full transition-colors",
                     isActive
                       ? "bg-foreground text-background"
                       : "text-muted-foreground hover:text-foreground",
