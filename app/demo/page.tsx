@@ -30,7 +30,8 @@ export default function DemoPage() {
           <div className="glass rounded-full px-5 py-2.5 flex items-center justify-between">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-[10px] font-display tracking-[0.15em] uppercase"
+              style={{ fontFamily: "'Google Sans', sans-serif" }}
+              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-[10px] tracking-[0.15em] uppercase"
             >
               <ArrowLeft className="w-3 h-3" />
               Back

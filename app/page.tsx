@@ -12,7 +12,7 @@ export default function LandingPage() {
           <div className="glass rounded-full px-5 py-2.5 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-5 h-[2px] tricolor-line rounded-full" />
-              <span className="text-[10px] font-display tracking-[0.25em] uppercase text-foreground/80">
+              <span className="text-[10px] tracking-[0.25em] uppercase text-foreground/80" style={{ fontFamily: "'Google Sans', sans-serif" }}>
                 Miranda Center
               </span>
             </div>
@@ -20,7 +20,8 @@ export default function LandingPage() {
               <ThemeToggle />
               <Link
                 href="/demo"
-                className="px-4 py-2 bg-foreground text-background text-[10px] font-display tracking-[0.15em] uppercase hover:bg-foreground/90 transition-colors duration-300 rounded-full"
+                style={{ fontFamily: "'Google Sans', sans-serif" }}
+                className="px-4 py-2 bg-foreground text-background text-[10px] tracking-[0.15em] uppercase hover:bg-foreground/90 transition-colors duration-300 rounded-full"
               >
                 View Demo
               </Link>
