@@ -1,4 +1,4 @@
-import { HOUSE_MEMBERS, type HouseMember } from "@/lib/house-members"
+import { US_GOV_ACCOUNTS, type USGovAccount } from "@/lib/us-gov-accounts"
 import { scoreTweetsRelevance, RELEVANCE_THRESHOLD } from "@/lib/semantic-relevance"
 import { getTweets, upsertTweets, updateFeedMetadata, type TweetRecord } from "@/lib/db/tweets"
 
@@ -99,17 +99,17 @@ export interface ProcessedPost {
   }
   party: string
   state: string
-  district: string
+  affiliation: string
   fetchedAt: string
   relevanceScore?: number
   relevanceMethod?: "keyword" | "semantic"
 }
 
-// Get all House members with handles
-function getHouseHandles(): { handle: string; member: HouseMember }[] {
-  return HOUSE_MEMBERS.filter((m) => m.officialHandle).map((m) => ({
-    handle: m.officialHandle,
-    member: m,
+// Get all US Gov accounts with handles
+function getUSGovHandles(): { handle: string; account: USGovAccount }[] {
+  return US_GOV_ACCOUNTS.map((a) => ({
+    handle: a.handle.replace("@", ""),
+    account: a,
   }))
 }
 
@@ -118,9 +118,9 @@ export async function GET(request: Request) {
   const lookbackHours = Number.parseInt(searchParams.get("lookbackHours") || "2")
 
   try {
-    const dbPosts = await getTweets("house", { lookbackHours, limit: 200 })
+    const dbPosts = await getTweets("us-officials", { lookbackHours, limit: 200 })
     if (dbPosts.length > 0) {
-      console.log("[v0] Returning", dbPosts.length, "House posts from database")
+      console.log("[v0] Returning", dbPosts.length, "US Officials posts from database")
       const posts = dbPosts.map(dbToPost)
       const relevantCount = posts.filter((p) => (p.relevanceScore || 0) >= RELEVANCE_THRESHOLD).length
       return Response.json({
@@ -141,7 +141,7 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
-  console.log("[v0] === House Feed API (X API) Started ===")
+  console.log("[v0] === US Officials Feed API (X API) Started ===")
 
   try {
     const body = await request.json()
@@ -153,22 +153,20 @@ export async function POST(request: Request) {
       maxResults = 50,
       scoreRelevance = true,
       refresh = false,
-      party,
     } = body as {
       lookbackHours?: number
       sinceId?: string
       maxResults?: number
       scoreRelevance?: boolean
       refresh?: boolean
-      party?: "Republican" | "Democrat" | "All"
     }
 
     // Check database first if not refreshing
     if (!refresh && !sinceId) {
       try {
-        const dbPosts = await getTweets("house", { lookbackHours, limit: 200 })
+        const dbPosts = await getTweets("us-officials", { lookbackHours, limit: 200 })
         if (dbPosts.length > 0) {
-          console.log("[v0] Returning", dbPosts.length, "House posts from database")
+          console.log("[v0] Returning", dbPosts.length, "US Officials posts from database")
           const posts = dbPosts.map(dbToPost)
           const relevantCount = posts.filter((p) => (p.relevanceScore || 0) >= RELEVANCE_THRESHOLD).length
           return Response.json({
@@ -200,16 +198,16 @@ export async function POST(request: Request) {
       )
     }
 
-    const houseHandles = getHouseHandles()
-    console.log("[v0] Total House members with handles:", houseHandles.length)
+    const govHandles = getUSGovHandles()
+    console.log("[v0] Total US Gov accounts with handles:", govHandles.length)
 
     // Create a map for quick lookup
-    const handleToMember = new Map<string, HouseMember>()
-    for (const { handle, member } of houseHandles) {
-      handleToMember.set(handle.toLowerCase(), member)
+    const handleToAccount = new Map<string, USGovAccount>()
+    for (const { handle, account } of govHandles) {
+      handleToAccount.set(handle.toLowerCase(), account)
     }
 
-    const allHandles = houseHandles.map((h) => h.handle)
+    const allHandles = govHandles.map((h) => h.handle)
 
     const handleBatches: string[][] = []
     for (let i = 0; i < allHandles.length; i += BATCH_SIZE) {
@@ -224,7 +222,6 @@ export async function POST(request: Request) {
     const startTimeISO = startTime.toISOString()
 
     console.log("[v0] Time range: from", startTimeISO, "to now")
-    console.log("[v0] Processing", batchesToProcess.length, "batches of House members")
 
     const allTweets: XTweet[] = []
     const allUsers: XUser[] = []
@@ -255,39 +252,30 @@ export async function POST(request: Request) {
 
       const url = `https://api.x.com/2/tweets/search/recent?${params.toString()}`
 
-      try {
-        const response = await fetch(url, {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${X_API_BEARER_TOKEN}`,
-          },
-        })
+      const response = await fetch(url, {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${X_API_BEARER_TOKEN}`,
+        },
+      })
 
-        if (!response.ok) {
-          const errorText = await response.text()
-          console.error(`[v0] X API error (batch ${batchIndex + 1}):`, errorText)
-          if (response.status === 429) {
-            console.log("[v0] Rate limited, stopping batch processing")
-            break
-          }
-          continue
-        }
-
-        const data: XApiResponse = await response.json()
-
-        if (data.data) allTweets.push(...data.data)
-        if (data.includes?.users) allUsers.push(...data.includes.users)
-        if (data.includes?.media) allMedia.push(...data.includes.media)
-        if (data.includes?.tweets) allIncludedTweets.push(...data.includes.tweets)
-        if (data.meta?.newest_id && (!newestId || data.meta.newest_id > newestId)) {
-          newestId = data.meta.newest_id
-        }
-      } catch (fetchError) {
-        console.error(`[v0] Fetch error (batch ${batchIndex + 1}):`, fetchError)
+      if (!response.ok) {
+        const errorText = await response.text()
+        console.error(`[v0] X API error (batch ${batchIndex + 1}):`, errorText)
+        if (response.status === 429) break
         continue
       }
 
-      // Longer delay between batches (3 seconds)
+      const data: XApiResponse = await response.json()
+
+      if (data.data) allTweets.push(...data.data)
+      if (data.includes?.users) allUsers.push(...data.includes.users)
+      if (data.includes?.media) allMedia.push(...data.includes.media)
+      if (data.includes?.tweets) allIncludedTweets.push(...data.includes.tweets)
+      if (data.meta?.newest_id && (!newestId || data.meta.newest_id > newestId)) {
+        newestId = data.meta.newest_id
+      }
+
       if (batchIndex < batchesToProcess.length - 1) {
         console.log(`[v0] Waiting ${BATCH_DELAY_MS}ms before next batch...`)
         await new Promise((resolve) => setTimeout(resolve, BATCH_DELAY_MS))
@@ -313,7 +301,7 @@ export async function POST(request: Request) {
         const username = user?.username || "unknown"
         const handle = `@${username}`
 
-        const member = handleToMember.get(username.toLowerCase())
+        const account = handleToAccount.get(username.toLowerCase())
 
         const images: string[] = []
         if (tweet.attachments?.media_keys) {
@@ -358,14 +346,14 @@ export async function POST(request: Request) {
         return {
           id: tweet.id,
           handle,
-          author: member?.name || user?.name || username,
-          role: `Rep. (${member?.party?.charAt(0) || "?"}-${member?.state || "??"}-${member?.district || "?"})`,
+          author: account?.displayName || user?.name || username,
+          role: account?.role || "US Official",
           content: tweet.text,
           timestamp,
           createdAt: tweet.created_at,
           source: "X" as const,
           url: `https://x.com/${username}/status/${tweet.id}`,
-          isVerified: user?.verified || user?.verified_type === "government" || !!member,
+          isVerified: user?.verified || user?.verified_type === "government" || !!account,
           profileImage: user?.profile_image_url?.replace("_normal", "_400x400"),
           metrics: {
             likes: tweet.public_metrics?.like_count || 0,
@@ -374,9 +362,9 @@ export async function POST(request: Request) {
           },
           images: images.length > 0 ? images : undefined,
           quotedTweet,
-          party: member?.party || "Unknown",
-          state: member?.state || "??",
-          district: member?.district || "?",
+          party: "Executive",
+          state: "",
+          affiliation: account?.affiliation || "US Government",
           fetchedAt: new Date().toISOString(),
         }
       },
@@ -407,7 +395,7 @@ export async function POST(request: Request) {
     try {
       const dbRecords: TweetRecord[] = posts.map((p) => ({
         id: p.id,
-        feed_type: "house" as const,
+        feed_type: "us-officials" as const,
         author: p.author,
         handle: p.handle.replace("@", ""),
         content: p.content,
@@ -419,15 +407,15 @@ export async function POST(request: Request) {
         images: p.images,
         metrics: p.metrics,
         quoted_tweet: p.quotedTweet,
-        subgroups: [p.party],
-        affiliation: p.party,
+        subgroups: [p.affiliation],
+        affiliation: p.affiliation,
         relevance_score: p.relevanceScore,
         relevance_method: p.relevanceMethod,
       }))
 
       await upsertTweets(dbRecords)
-      await updateFeedMetadata("house", newestId, lookbackHours)
-      console.log("[v0] Saved", dbRecords.length, "House tweets to database")
+      await updateFeedMetadata("us-officials", newestId, lookbackHours)
+      console.log("[v0] Saved", dbRecords.length, "US Officials tweets to database")
     } catch (dbError) {
       console.error("[v0] Database save error:", dbError)
     }
@@ -449,7 +437,7 @@ export async function POST(request: Request) {
       },
     })
   } catch (error) {
-    console.error("[v0] === House Feed API ERROR ===")
+    console.error("[v0] === US Officials Feed API ERROR ===")
     console.error("[v0] Error:", error instanceof Error ? error.message : String(error))
     return Response.json({ error: "Failed to fetch feed", posts: [] }, { status: 500 })
   }
@@ -476,7 +464,7 @@ function dbToPost(record: TweetRecord): ProcessedPost {
     id: record.id,
     handle: `@${record.handle}`,
     author: record.author,
-    role: record.role || "Representative",
+    role: record.role || "US Official",
     content: record.content,
     timestamp,
     createdAt: record.tweet_time,
@@ -487,9 +475,9 @@ function dbToPost(record: TweetRecord): ProcessedPost {
     metrics: record.metrics,
     images: record.images && record.images.length > 0 ? record.images : undefined,
     quotedTweet: record.quoted_tweet,
-    party: record.affiliation || "Unknown",
+    party: "Executive",
     state: "",
-    district: "",
+    affiliation: record.affiliation || "US Government",
     fetchedAt: new Date().toISOString(),
     relevanceScore: record.relevance_score,
     relevanceMethod: record.relevance_method === "embedding" ? "semantic" : record.relevance_method,

@@ -204,7 +204,7 @@ export function SenatorFeed() {
 
   return (
     <div className="space-y-6">
-      <div className="relative bg-white/80 dark:bg-zinc-950/70 backdrop-blur-xl border border-black/[0.06] dark:border-white/10 p-6 overflow-hidden">
+      <div className="relative bg-white/80 dark:bg-zinc-950/70 backdrop-blur-xl border border-black/[0.06] dark:border-white/10 p-6 overflow-hidden rounded-2xl">
         {/* Top reflection */}
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent dark:via-white/20 via-black/[0.06] to-transparent" />
         {/* Corner gradient */}
@@ -224,14 +224,14 @@ export function SenatorFeed() {
               <button
                 onClick={handleRefresh}
                 disabled={isRefreshing}
-                className="flex items-center gap-2 text-[10px] font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 px-3 py-1.5 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:bg-black/[0.05] dark:hover:bg-white/10 disabled:opacity-50"
+                className="flex items-center gap-2 text-[10px] font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 px-3 py-1.5 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:bg-black/[0.05] dark:hover:bg-white/10 disabled:opacity-50 rounded-full"
               >
                 <RefreshCw className={`h-3 w-3 ${isRefreshing ? "animate-spin" : ""}`} />
                 REFRESH
               </button>
               <button
                 onClick={handleClearHistory}
-                className="flex items-center gap-2 text-[10px] font-mono text-zinc-500 dark:text-zinc-600 hover:text-red-500 dark:hover:text-red-400 transition-colors border border-black/[0.06] dark:border-white/10 hover:border-red-400/50 px-2 py-1.5 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm"
+                className="flex items-center gap-2 text-[10px] font-mono text-zinc-500 dark:text-zinc-600 hover:text-red-500 dark:hover:text-red-400 transition-colors border border-black/[0.06] dark:border-white/10 hover:border-red-400/50 px-2 py-1.5 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm rounded-full"
                 title="Clear local view"
               >
                 <Trash2 className="h-3 w-3" />
@@ -247,7 +247,7 @@ export function SenatorFeed() {
                 className={`text-[10px] font-mono px-3 py-1.5 transition-all whitespace-nowrap ${
                   activeParty === party
                     ? "bg-zinc-900 dark:bg-white text-white dark:text-black skew-x-[-6deg] dark:shadow-[0_0_12px_rgba(255,255,255,0.2)]"
-                    : "text-zinc-500 hover:text-zinc-900 dark:hover:text-white bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 hover:bg-black/[0.05] dark:hover:bg-white/10"
+                    : "text-zinc-500 hover:text-zinc-900 dark:hover:text-white bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 hover:bg-black/[0.05] dark:hover:bg-white/10 rounded-full"
                 }`}
               >
                 <span
@@ -266,7 +266,7 @@ export function SenatorFeed() {
               className={`flex items-center gap-2 text-[10px] font-mono transition-all px-3 py-1.5 ${
                 showOnlyRelevant
                   ? "bg-zinc-900 dark:bg-white text-white dark:text-black skew-x-[-6deg] dark:shadow-[0_0_8px_rgba(255,255,255,0.2)]"
-                  : "text-zinc-500 border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:text-zinc-900 dark:hover:text-white"
+                  : "text-zinc-500 border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:text-zinc-900 dark:hover:text-white rounded-full"
               }`}
             >
               <Filter className="h-3 w-3" />
@@ -328,7 +328,7 @@ export function SenatorFeed() {
               href={post.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block py-4 transition-all cursor-pointer border-l-2 border-zinc-200 dark:border-zinc-800 pl-4 hover:bg-black/[0.03] dark:hover:bg-white/5 hover:border-zinc-900 dark:hover:border-white"
+              className="group block py-4 px-3 transition-all cursor-pointer border-l-2 border-zinc-200 dark:border-zinc-800 pl-4 hover:bg-black/[0.03] dark:hover:bg-white/5 hover:border-zinc-900 dark:hover:border-white rounded-lg"
             >
               <div className="flex gap-3">
                 {/* Avatar */}
@@ -336,7 +336,7 @@ export function SenatorFeed() {
                   <Avatar
                     name={post.author}
                     profileImage={post.profileImage}
-                    className="w-10 h-10 rounded-none border border-white/20"
+                    className="w-10 h-10 rounded-full border border-white/20"
                   />
                 </div>
 
@@ -374,7 +374,7 @@ export function SenatorFeed() {
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={(e) => e.stopPropagation()}
-                          className="relative aspect-[16/9] max-h-32 bg-zinc-100 dark:bg-zinc-900 overflow-hidden border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 transition-colors"
+                          className="relative aspect-[16/9] max-h-32 bg-zinc-100 dark:bg-zinc-900 overflow-hidden border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 transition-colors rounded-lg"
                         >
                           <Image
                             src={img || "/placeholder.svg"}
@@ -392,7 +392,7 @@ export function SenatorFeed() {
 
                   {/* Quoted Tweet */}
                   {post.quotedTweet && (
-                    <div className="mt-2 p-3 border border-black/[0.06] dark:border-white/10 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm">
+                    <div className="mt-2 p-3 border border-black/[0.06] dark:border-white/10 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm rounded-lg">
                       <div className="flex items-center gap-2 mb-1">
                         <Quote className="h-3 w-3 text-zinc-400 dark:text-zinc-600" />
                         <span className="text-[10px] font-mono text-zinc-600 dark:text-zinc-400">{post.quotedTweet.author}</span>
@@ -437,7 +437,7 @@ export function SenatorFeed() {
           <button
             onClick={handleLoadMore}
             disabled={isLoadingMore}
-            className="flex items-center gap-2 text-[10px] font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 px-6 py-2 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:bg-black/[0.05] dark:hover:bg-white/10 disabled:opacity-50 tracking-wider"
+            className="flex items-center gap-2 text-[10px] font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 px-6 py-2 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:bg-black/[0.05] dark:hover:bg-white/10 disabled:opacity-50 tracking-wider rounded-full"
           >
             {isLoadingMore ? (
               <>
