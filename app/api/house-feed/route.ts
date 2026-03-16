@@ -2,13 +2,15 @@ import { HOUSE_MEMBERS, type HouseMember } from "@/lib/house-members"
 import { scoreTweetsRelevance, RELEVANCE_THRESHOLD } from "@/lib/semantic-relevance"
 import { getTweets, upsertTweets, updateFeedMetadata, type TweetRecord } from "@/lib/db/tweets"
 
-export const maxDuration = 60
+export const maxDuration = 300
 
 const X_API_BEARER_TOKEN = process.env.X_API_BEARER_TOKEN
 
 // Rate limit config for X API free tier
-const BATCH_SIZE = 50 // 50 handles per batch
-const BATCH_DELAY_MS = 500 // 500ms between batches
+// BATCH_SIZE=12 keeps query under ~250 chars (X API 512 char limit for free tier)
+// 435 house members / 12 per batch = 37 batches × 500ms = ~19s fetch + request time
+const BATCH_SIZE = 12
+const BATCH_DELAY_MS = 500
 const DEFAULT_LOOKBACK_HOURS = 2 // Default to 2 hours
 
 interface XTweet {
