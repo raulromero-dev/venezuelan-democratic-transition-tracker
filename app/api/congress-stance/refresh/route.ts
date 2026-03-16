@@ -6,6 +6,7 @@ import {
   getLastStanceRefresh,
   type CongressionalStanceRecord,
 } from "@/lib/db/congressional-stances"
+import { callOpenAI } from "@/lib/openai-fetch"
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY
 const CRON_SECRET = process.env.CRON_SECRET
@@ -53,28 +54,13 @@ Return ONLY this JSON format:
 [{"name":"Full Name","stance":"ally|neutral|normalizer","confidence":0.8,"evidence":[{"url":"https://...","title":"Title","snippet":"Brief quote"}],"analysisNotes":"Brief summary"}]`
 
   try {
-    const response = await fetch("https://api.openai.com/v1/responses", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${OPENAI_API_KEY}`,
-      },
-      body: JSON.stringify({
-        model: "gpt-5.1",
-        instructions: "You are a JSON API that only outputs valid JSON arrays.",
-        input: prompt,
-        tools: [{ type: "web_search", user_location: DC_LOCATION }],
-        tool_choice: "auto",
-        temperature: 0,
-      }),
+    const { responseText } = await callOpenAI(OPENAI_API_KEY!, {
+      instructions: "You are a JSON API that only outputs valid JSON arrays.",
+      input: prompt,
+      tools: [{ type: "web_search", user_location: DC_LOCATION }],
+      tool_choice: "auto",
+      temperature: 0,
     })
-
-    const responseText = await response.text()
-
-    if (!response.ok) {
-      console.error(`[CRON] ${batchLabel}: OpenAI API error: ${response.status}`)
-      throw new Error(`OpenAI API error: ${response.status}`)
-    }
 
     const data = JSON.parse(responseText)
     let content = ""

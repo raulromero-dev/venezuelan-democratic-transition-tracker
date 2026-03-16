@@ -1,6 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { getGlobalIntel, upsertGlobalIntel, type GlobalIntelRecord } from "@/lib/db/global-intel"
 import { updateFeedMetadata } from "@/lib/db/tweets"
+import { callOpenAI } from "@/lib/openai-fetch"
 
 export const maxDuration = 60
 
@@ -87,28 +88,18 @@ RESPOND WITH ONLY THIS JSON FORMAT - NOTHING ELSE:
 
 If no items found, respond with exactly: []`
 
-  const response = await fetch("https://api.openai.com/v1/responses", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "gpt-5.1",
+  let responseText: string
+  try {
+    ;({ responseText } = await callOpenAI(process.env.OPENAI_API_KEY!, {
       instructions:
         "You are a JSON API that only outputs valid JSON arrays. Never include any text, markdown, or explanation. Only output the JSON array.",
       input: prompt,
       tools: [{ type: "web_search", user_location: MIAMI_LOCATION }],
       tool_choice: "auto",
       temperature: 0,
-    }),
-  })
-
-  const responseText = await response.text()
-  console.log(`[v0] Global Intel ${region} API status:`, response.status)
-
-  if (!response.ok) {
-    console.error(`[v0] Global Intel ${region} API error:`, responseText.substring(0, 500))
+    }))
+  } catch (err) {
+    console.error(`[v0] Global Intel ${region} API error:`, err)
     return []
   }
 

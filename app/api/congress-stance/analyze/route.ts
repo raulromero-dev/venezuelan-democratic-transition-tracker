@@ -6,6 +6,7 @@ import {
   updateStanceRefreshTime,
   type CongressionalStanceRecord,
 } from "@/lib/db/congressional-stances"
+import { callOpenAI } from "@/lib/openai-fetch"
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY
 
@@ -55,41 +56,19 @@ Return ONLY this JSON format:
 [{"name":"Full Name","stance":"ally|neutral|normalizer","confidence":0.8,"evidence":[{"url":"https://...","title":"Title","snippet":"Brief quote or description"}],"analysisNotes":"Brief summary of their position"}]`
 
   try {
-    console.log(`[v0] ${batchLabel}: Calling GPT-5.1 for congressional analysis...`)
+    console.log(`[v0] ${batchLabel}: Calling OpenAI for congressional analysis...`)
 
-    const response = await fetch("https://api.openai.com/v1/responses", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${OPENAI_API_KEY}`,
-      },
-      body: JSON.stringify({
-        model: "gpt-5.1",
-        instructions:
-          "You are a JSON API that only outputs valid JSON arrays. Never include any text, markdown, or explanation. Only output the JSON array.",
-        input: prompt,
-        tools: [
-          {
-            type: "web_search",
-            user_location: DC_LOCATION,
-          },
-        ],
-        tool_choice: "auto",
-        temperature: 0,
-      }),
+    const { responseText, model } = await callOpenAI(OPENAI_API_KEY!, {
+      instructions:
+        "You are a JSON API that only outputs valid JSON arrays. Never include any text, markdown, or explanation. Only output the JSON array.",
+      input: prompt,
+      tools: [{ type: "web_search", user_location: DC_LOCATION }],
+      tool_choice: "auto",
+      temperature: 0,
     })
 
-    const responseText = await response.text()
-    console.log(`[v0] ${batchLabel}: OpenAI response status: ${response.status}`)
-
-    if (!response.ok) {
-      console.error(`[v0] ${batchLabel}: OpenAI API error: ${response.status}`)
-      console.error(`[v0] Error body: ${responseText}`)
-      throw new Error(`OpenAI API error: ${response.status} - ${responseText}`)
-    }
-
     const data = JSON.parse(responseText)
-    console.log(`[v0] ${batchLabel}: GPT-5.1 response received`)
+    console.log(`[v0] ${batchLabel}: ${model} response received`)
 
     // Extract text from response
     let content = ""
