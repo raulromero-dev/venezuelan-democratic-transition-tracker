@@ -244,10 +244,10 @@ export function SenatorFeed() {
               <button
                 key={party}
                 onClick={() => setActiveParty(party)}
-                className={`text-[10px] font-mono px-3 py-1.5 transition-all whitespace-nowrap ${
+                className={`text-[10px] font-mono px-3 py-1.5 transition-all whitespace-nowrap rounded-full ${
                   activeParty === party
                     ? "bg-zinc-900 dark:bg-white text-white dark:text-black skew-x-[-6deg] dark:shadow-[0_0_12px_rgba(255,255,255,0.2)]"
-                    : "text-zinc-500 hover:text-zinc-900 dark:hover:text-white bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 hover:bg-black/[0.05] dark:hover:bg-white/10 rounded-full"
+                    : "text-zinc-500 hover:text-zinc-900 dark:hover:text-white bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 hover:bg-black/[0.05] dark:hover:bg-white/10"
                 }`}
               >
                 <span
@@ -263,10 +263,10 @@ export function SenatorFeed() {
           <div className="flex items-center justify-between pt-2 border-t border-black/[0.06] dark:border-white/10">
             <button
               onClick={() => setShowOnlyRelevant(!showOnlyRelevant)}
-              className={`flex items-center gap-2 text-[10px] font-mono transition-all px-3 py-1.5 ${
+              className={`flex items-center gap-2 text-[10px] font-mono transition-all px-3 py-1.5 rounded-full ${
                 showOnlyRelevant
                   ? "bg-zinc-900 dark:bg-white text-white dark:text-black skew-x-[-6deg] dark:shadow-[0_0_8px_rgba(255,255,255,0.2)]"
-                  : "text-zinc-500 border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:text-zinc-900 dark:hover:text-white rounded-full"
+                  : "text-zinc-500 border border-black/[0.06] dark:border-white/10 hover:border-black/20 dark:hover:border-white/30 bg-black/[0.03] dark:bg-white/5 backdrop-blur-sm hover:text-zinc-900 dark:hover:text-white"
               }`}
             >
               <Filter className="h-3 w-3" />

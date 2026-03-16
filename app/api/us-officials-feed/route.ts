@@ -252,28 +252,40 @@ export async function POST(request: Request) {
 
       const url = `https://api.x.com/2/tweets/search/recent?${params.toString()}`
 
-      const response = await fetch(url, {
-        method: "GET",
-        headers: {
-          Authorization: `Bearer ${X_API_BEARER_TOKEN}`,
-        },
-      })
+      try {
+        console.log(`[v0] US Officials batch ${batchIndex + 1}: GET ${url.substring(0, 120)}...`)
+        const response = await fetch(url, {
+          method: "GET",
+          headers: {
+            Authorization: `Bearer ${X_API_BEARER_TOKEN}`,
+          },
+        })
 
-      if (!response.ok) {
-        const errorText = await response.text()
-        console.error(`[v0] X API error (batch ${batchIndex + 1}):`, errorText)
-        if (response.status === 429) break
+        const responseText = await response.text()
+        console.log(`[v0] US Officials batch ${batchIndex + 1}: status=${response.status} body_preview=${responseText.substring(0, 200)}`)
+
+        if (!response.ok) {
+          console.error(`[v0] US Officials batch ${batchIndex + 1} X API error ${response.status}:`, responseText)
+          if (response.status === 429) {
+            console.log("[v0] Rate limited, stopping batch processing")
+            break
+          }
+          continue
+        }
+
+        const data: XApiResponse = JSON.parse(responseText)
+
+        console.log(`[v0] US Officials batch ${batchIndex + 1}: tweets=${data.data?.length ?? 0} errors=${JSON.stringify(data.errors ?? [])}`)
+        if (data.data) allTweets.push(...data.data)
+        if (data.includes?.users) allUsers.push(...data.includes.users)
+        if (data.includes?.media) allMedia.push(...data.includes.media)
+        if (data.includes?.tweets) allIncludedTweets.push(...data.includes.tweets)
+        if (data.meta?.newest_id && (!newestId || data.meta.newest_id > newestId)) {
+          newestId = data.meta.newest_id
+        }
+      } catch (fetchError) {
+        console.error(`[v0] US Officials batch ${batchIndex + 1} fetch error:`, fetchError)
         continue
-      }
-
-      const data: XApiResponse = await response.json()
-
-      if (data.data) allTweets.push(...data.data)
-      if (data.includes?.users) allUsers.push(...data.includes.users)
-      if (data.includes?.media) allMedia.push(...data.includes.media)
-      if (data.includes?.tweets) allIncludedTweets.push(...data.includes.tweets)
-      if (data.meta?.newest_id && (!newestId || data.meta.newest_id > newestId)) {
-        newestId = data.meta.newest_id
       }
 
       if (batchIndex < batchesToProcess.length - 1) {

@@ -256,6 +256,7 @@ export async function POST(request: Request) {
       const url = `https://api.x.com/2/tweets/search/recent?${params.toString()}`
 
       try {
+        console.log(`[v0] House batch ${batchIndex + 1}: GET ${url.substring(0, 120)}...`)
         const response = await fetch(url, {
           method: "GET",
           headers: {
@@ -263,9 +264,11 @@ export async function POST(request: Request) {
           },
         })
 
+        const responseText = await response.text()
+        console.log(`[v0] House batch ${batchIndex + 1}: status=${response.status} body_preview=${responseText.substring(0, 200)}`)
+
         if (!response.ok) {
-          const errorText = await response.text()
-          console.error(`[v0] X API error (batch ${batchIndex + 1}):`, errorText)
+          console.error(`[v0] House batch ${batchIndex + 1} X API error ${response.status}:`, responseText)
           if (response.status === 429) {
             console.log("[v0] Rate limited, stopping batch processing")
             break
@@ -273,8 +276,9 @@ export async function POST(request: Request) {
           continue
         }
 
-        const data: XApiResponse = await response.json()
+        const data: XApiResponse = JSON.parse(responseText)
 
+        console.log(`[v0] House batch ${batchIndex + 1}: tweets=${data.data?.length ?? 0} errors=${JSON.stringify(data.errors ?? [])}`)
         if (data.data) allTweets.push(...data.data)
         if (data.includes?.users) allUsers.push(...data.includes.users)
         if (data.includes?.media) allMedia.push(...data.includes.media)
@@ -283,7 +287,7 @@ export async function POST(request: Request) {
           newestId = data.meta.newest_id
         }
       } catch (fetchError) {
-        console.error(`[v0] Fetch error (batch ${batchIndex + 1}):`, fetchError)
+        console.error(`[v0] House fetch error (batch ${batchIndex + 1}):`, fetchError)
         continue
       }
 
