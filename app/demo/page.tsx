@@ -2,6 +2,7 @@ import Link from "next/link"
 import { ArrowLeft, Newspaper, Users, TrendingUp } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { SentimentChart, MentionsChart, UsRelationsChart } from "@/components/pillar1-charts"
+import { FadeIn, Stagger, StaggerItem, NavReveal } from "@/components/animate-in"
 
 const pillars = [
   {
@@ -27,17 +28,19 @@ export default function DemoPage() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 px-6 py-5">
         <div className="max-w-7xl mx-auto">
-          <div className="glass rounded-full px-5 py-2.5 flex items-center justify-between">
-            <Link
-              href="/"
-              style={{ fontFamily: "'Google Sans', sans-serif" }}
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-[10px] tracking-[0.15em] uppercase"
-            >
-              <ArrowLeft className="w-3 h-3" />
-              Back
-            </Link>
-            <ThemeToggle />
-          </div>
+          <NavReveal>
+            <div className="glass rounded-full px-5 py-2.5 flex items-center justify-between">
+              <Link
+                href="/"
+                style={{ fontFamily: "'Google Sans', sans-serif" }}
+                className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-[10px] tracking-[0.15em] uppercase"
+              >
+                <ArrowLeft className="w-3 h-3" />
+                Back
+              </Link>
+              <ThemeToggle />
+            </div>
+          </NavReveal>
         </div>
       </header>
 
@@ -45,146 +48,167 @@ export default function DemoPage() {
         {/* Header Section */}
         <div className="max-w-7xl mx-auto mb-24">
           <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
-            <p className="text-sm text-muted-foreground">
-              Demo
-            </p>
-            <div className="max-w-2xl">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light font-sans leading-[1.15] mb-6">
-                Three-pillar measurement system.
-              </h1>
-              <p className="text-base md:text-lg text-muted-foreground font-light leading-relaxed">
-                Eyes on Venezuela independently measures the country&apos;s democratic and economic trajectory across three dimensions. This demo focuses on a subsection of Pillar 1 (Freedom of the Press), examining news segments from Venevisi&oacute;n&mdash;a major private television network&mdash;to assess the scope and independence of their political coverage.
+            <FadeIn>
+              <p className="text-sm text-muted-foreground">
+                Demo
               </p>
-            </div>
+            </FadeIn>
+            <FadeIn delay={0.1}>
+              <div className="max-w-2xl">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-light font-sans leading-[1.15] mb-6">
+                  Three-pillar measurement system.
+                </h1>
+                <p className="text-base md:text-lg text-muted-foreground font-light leading-relaxed">
+                  Eyes on Venezuela independently measures the country&apos;s democratic and economic trajectory across three dimensions. This demo focuses on a subsection of Pillar 1 (Freedom of the Press), examining news segments from Venevisi&oacute;n&mdash;a major private television network&mdash;to assess the scope and independence of their political coverage.
+                </p>
+              </div>
+            </FadeIn>
           </div>
         </div>
 
         {/* Pillar Cards */}
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
-            <p className="text-sm text-muted-foreground">
-              Pillars
-            </p>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <FadeIn>
+              <p className="text-sm text-muted-foreground">
+                Pillars
+              </p>
+            </FadeIn>
+
+            <Stagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" initialDelay={0.05}>
               {pillars.map((pillar) => (
-                <div
-                  key={pillar.label}
-                  className="bg-muted/30 p-8 rounded-2xl border border-border relative"
-                >
-                  <pillar.icon className="w-6 h-6 text-muted-foreground mb-12" strokeWidth={1.5} />
-                  <h3 className="text-xl md:text-2xl font-light font-sans mb-3">
-                    {pillar.label}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {pillar.description}
-                  </p>
-                  <span className="absolute top-6 right-6 text-[9px] font-display tracking-[0.15em] uppercase text-muted-foreground/50 border border-border px-2 py-1 rounded-full">
-                    In Progress
-                  </span>
-                </div>
+                <StaggerItem key={pillar.label}>
+                  <div className="bg-muted/30 p-8 rounded-2xl border border-border relative">
+                    <pillar.icon className="w-6 h-6 text-muted-foreground mb-12" strokeWidth={1.5} />
+                    <h3 className="text-xl md:text-2xl font-light font-sans mb-3">
+                      {pillar.label}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {pillar.description}
+                    </p>
+                    <span className="absolute top-6 right-6 text-[9px] font-display tracking-[0.15em] uppercase text-muted-foreground/50 border border-border px-2 py-1 rounded-full">
+                      In Progress
+                    </span>
+                  </div>
+                </StaggerItem>
               ))}
-            </div>
+            </Stagger>
           </div>
         </div>
 
         {/* Pillar 1: Freedom of the Press */}
         <div className="max-w-7xl mx-auto mt-32 mb-24">
           <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
-            <p className="text-sm text-muted-foreground">
-              Pillar 1
-            </p>
-            <div className="max-w-2xl">
-              <h2 className="text-2xl md:text-3xl font-light font-sans leading-[1.15] mb-4">
-                Freedom of the Press
-              </h2>
-              <p className="text-base text-muted-foreground font-light leading-relaxed mb-8">
-                Analysis of 28 Venevisi&oacute;n broadcasts (Feb 25&ndash;Mar 10, 2026) processed through automated transcript classification. 530 news segments scored for political sentiment, entity coverage, and narrative framing.
+            <FadeIn>
+              <p className="text-sm text-muted-foreground">
+                Pillar 1
               </p>
+            </FadeIn>
+            <FadeIn delay={0.1}>
+              <div className="max-w-2xl">
+                <h2 className="text-2xl md:text-3xl font-light font-sans leading-[1.15] mb-4">
+                  Freedom of the Press
+                </h2>
+                <p className="text-base text-muted-foreground font-light leading-relaxed mb-8">
+                  Analysis of 28 Venevisi&oacute;n broadcasts (Feb 25&ndash;Mar 10, 2026) processed through automated transcript classification. 530 news segments scored for political sentiment, entity coverage, and narrative framing.
+                </p>
 
-              {/* Sample broadcast */}
-              <div className="rounded-xl overflow-hidden border border-border aspect-video">
-                <iframe
-                  src="https://www.youtube.com/embed/1Q2Oda4pmWo"
-                  title="Venevisi&oacute;n broadcast sample"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full"
-                />
+                {/* Sample broadcast */}
+                <div className="rounded-xl overflow-hidden border border-border aspect-video">
+                  <iframe
+                    src="https://www.youtube.com/embed/1Q2Oda4pmWo"
+                    title="Venevisi&oacute;n broadcast sample"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
+                </div>
+                <p className="text-xs text-muted-foreground mt-3">
+                  Sample broadcast: Venevisi&oacute;n Noticias, one of the 28 segments analyzed in this study.
+                </p>
               </div>
-              <p className="text-xs text-muted-foreground mt-3">
-                Sample broadcast: Venevisi&oacute;n Noticias, one of the 28 segments analyzed in this study.
-              </p>
-            </div>
+            </FadeIn>
           </div>
         </div>
 
         {/* Sentiment Analysis */}
         <div className="max-w-7xl mx-auto mb-24">
           <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
-            <div>
-              <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
-                01
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Sentiment
-              </p>
-            </div>
-            <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
-              <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
-                Government vs. Opposition Coverage Tone
-              </h3>
-              <p className="text-sm text-muted-foreground mb-8">
-                Daily average sentiment scores across all broadcasts. Government coverage consistently trends positive while opposition coverage remains near neutral.
-              </p>
-              <SentimentChart />
-            </div>
+            <FadeIn>
+              <div>
+                <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
+                  01
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Sentiment
+                </p>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.1}>
+              <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
+                <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
+                  Government vs. Opposition Coverage Tone
+                </h3>
+                <p className="text-sm text-muted-foreground mb-8">
+                  Daily average sentiment scores across all broadcasts. Government coverage consistently trends positive while opposition coverage remains near neutral.
+                </p>
+                <SentimentChart />
+              </div>
+            </FadeIn>
           </div>
         </div>
 
         {/* Mentions Tracker */}
         <div className="max-w-7xl mx-auto mb-24">
           <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
-            <div>
-              <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
-                02
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Mentions
-              </p>
-            </div>
-            <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
-              <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
-                Political Figure Mention Frequency
-              </h3>
-              <p className="text-sm text-muted-foreground mb-8">
-                Tracking how often key political figures appear across Venevisi&oacute;n&apos;s daily programming.
-              </p>
-              <MentionsChart />
-            </div>
+            <FadeIn>
+              <div>
+                <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
+                  02
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Mentions
+                </p>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.1}>
+              <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
+                <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
+                  Political Figure Mention Frequency
+                </h3>
+                <p className="text-sm text-muted-foreground mb-8">
+                  Tracking how often key political figures appear across Venevisi&oacute;n&apos;s daily programming.
+                </p>
+                <MentionsChart />
+              </div>
+            </FadeIn>
           </div>
         </div>
 
         {/* US Relations */}
         <div className="max-w-7xl mx-auto mb-24">
           <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr] gap-8 md:gap-16">
-            <div>
-              <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
-                03
-              </p>
-              <p className="text-sm text-muted-foreground">
-                US Relations
-              </p>
-            </div>
-            <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
-              <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
-                US-Venezuela Coverage Narrative
-              </h3>
-              <p className="text-sm text-muted-foreground mb-8">
-                Tone analysis of US-Venezuela relations coverage, with key narrative segments highlighted.
-              </p>
-              <UsRelationsChart />
-            </div>
+            <FadeIn>
+              <div>
+                <p className="text-[10px] font-display tracking-[0.15em] uppercase text-muted-foreground mb-2">
+                  03
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  US Relations
+                </p>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.1}>
+              <div className="bg-muted/30 p-8 md:p-10 rounded-2xl border border-border">
+                <h3 className="text-xl md:text-2xl font-light font-sans mb-2">
+                  US-Venezuela Coverage Narrative
+                </h3>
+                <p className="text-sm text-muted-foreground mb-8">
+                  Tone analysis of US-Venezuela relations coverage, with key narrative segments highlighted.
+                </p>
+                <UsRelationsChart />
+              </div>
+            </FadeIn>
           </div>
         </div>
       </main>
